@@ -17,6 +17,14 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
+});
+
+Route::get('/kakastro', function () {
+    return view('kakastro/kakastro');
+});
+
+Route::get('/glosarium', function () {
+    return view('glosarium/glosarium');
 });

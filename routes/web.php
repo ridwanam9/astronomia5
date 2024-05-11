@@ -25,6 +25,19 @@ Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });
 
+
+
+
+// Glosarium
+
 Route::get('/glosarium', function () {
     return view('glosarium/glosarium');
+});
+
+Route::get('/glosarium/bintang', function () {
+    return view('glosarium/bintang');
+});
+
+Route::get('/glosarium/asteroid', function () {
+    return view('glosarium/asteroid');
 });

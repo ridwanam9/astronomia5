@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Astronomia</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -17,6 +17,7 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="assets/css/home.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -65,7 +66,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Matahari</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -73,14 +74,34 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/assets/img/portfolio/cabin.png"
+                                <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                                    neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Perspiciatis illum dolor exercitationem,
+                                    impedit aperiam officiis fugiat excepturi quibusdam ducimus nesciunt,
+                                    id corrupti suscipit quia repellat commodi eum? Asperiores, impedit cum! Lorem,
+                                    ipsum dolor sit amet consectetur adipisicing elit. Ex corrupti et delectus at
+                                    sit qui iusto, impedit sint illum vero. Voluptatem minus iure, quibusdam ea a
+                                    velit eius earum blanditiis. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Ipsum quasi dolor suscipit aliquid consequuntur,
+                                    recusandae velit temporibus consectetur, quidem ipsa voluptates numquam
+                                    distinctio fugiat nesciunt. Dolorem, asperiores? Doloremque,
+                                    necessitatibus unde! Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit. Corrupti dolorem quas
+                                    quos exercitationem, iusto ratione laudantium pariatur
+                                    ullam architecto et deserunt sunt facere mollitia ut
+                                    officiis amet? Praesentium, odio ad? Lorem ipsum dolor,
+                                    sit amet consectetur adipisicing elit. Obcaecati quas est
+                                    mollitia impedit dolores iusto repudiandae a unde voluptatibus,
+                                    sed qui vero atque voluptas consequuntur quos fugiat amet quasi
+                                    repellendus? Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Voluptatum doloribus sunt temporibus iste quisquam saepe modi,
+                                    aliquid nulla facilis nemo, deserunt, omnis ut minima tenetur sequi
+                                    eum ipsam fugiat sint? Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Hic excepturi deserunt, quaerat dolor ipsam vel
+                                    beatae ullam doloribus expedita doloremque recusandae, odio perferendis?
+                                    Velit pariatur voluptas harum, rerum iure cum.</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window

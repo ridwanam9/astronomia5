@@ -18,13 +18,14 @@
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
-            </div>
-
+            </div> --}}
+            <br>
+            <br>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p> --}}
+            <p class="masthead-subheading font-weight-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi reiciendis assumenda, excepturi, recusandae quibusdam natus voluptatum nemo necessitatibus fugiat dicta ratione quas illum soluta. Quae, eligendi cupiditate consequatur ipsam unde ducimus iusto tempore cum sint perferendis! Cupiditate, quam dolores? Omnis accusamus et error. Est eaque assumenda porro cupiditate et! Eligendi voluptas nihil omnis ab? Blanditiis velit perspiciatis assumenda dolorem voluptatem! In adipisci nostrum possimus laudantium totam tenetur provident veniam minus officia. Iste iusto in voluptatibus dolor? Quae nam fuga ipsum nesciunt tenetur reiciendis, eum incidunt voluptas earum praesentium, hic perferendis quasi pariatur odio repellat exercitationem aperiam sit. Aliquam, iusto mollitia.</p>
         </div>
     </header>
-    <header class="masthead bg-primary text-white text-center bg-black">
+    <header class="masthead bg-primary text-white text-center bg-dark">
         <div class="container d-flex align-items-center flex-column">
 
             {{-- <!-- Masthead Avatar Image-->
@@ -57,16 +58,19 @@
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+
+
+
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
                 <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i>Matahari</i></div>
                         </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/cabin.png" alt="..." />
+                        <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
@@ -76,7 +80,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/cake.png" alt="..." />
+                        <img class="img-fluid" src="assets/assets/img/bulan.jpeg" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
@@ -86,11 +90,11 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/circus.png" alt="..." />
+                        <img class="img-fluid" src="assets/assets/img/uranus.jpeg" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -100,7 +104,7 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -110,13 +114,24 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 6-->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
                         <img class="img-fluid" src="assets/assets/img/portfolio/submarine.png" alt="..." />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <img src="assets/assets/img/matahari.jpeg" alt="Image" class="card-image">
+                        <div class="card-content">
+                            <h2 class="card-title">Card Title</h2>
+
+                        </div>
+
                     </div>
                 </div>
 
@@ -313,10 +328,10 @@
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <h4 class="text-uppercase mb-4">About Astronomia</h4>
                     <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        {{-- Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a> --}}
                         .
                     </p>
                 </div>
@@ -327,6 +342,4 @@
     <div class="copyright py-4 text-center text-white">
         <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
     </div>
-
-
 @endsection

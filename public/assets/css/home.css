@@ -487,6 +487,21 @@ progress {
   display: none !important;
 }
 
+
+
+.background-section1 {
+    background-image: url('assets/assets/img/iss.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* Menambahkan gradient hitam semi-transparan untuk meningkatkan kontras teks */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('path/ke/gambar.jpg');
+    /* Atur properti CSS lain sesuai kebutuhan */
+    color: white; /* Contoh untuk mengatur warna teks */
+    padding: 100px 0; /* Contoh untuk menambahkan ruang di dalam section */
+}
+
+
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -723,6 +738,76 @@ progress {
   flex: 0 0 auto;
   width: 16.6666666667%;
 }
+
+
+/* Card */
+
+
+/* .card {
+    background-color: #FFE793;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.more-content {
+    display: none;
+    margin-top: 10px;
+    color: #666;
+}
+
+.card-footer {
+    padding: 15px;
+    text-align: right;
+    background-color: #FFE793;
+}
+
+.card-button, .read-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover, .read-more-button:hover {
+    background-color: #0056b3;
+} */
+
+/* End Card */
+
 
 .col-auto {
   flex: 0 0 auto;
@@ -8130,6 +8215,17 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-primary-1 {
+    background-image: url('assets/assets/img/matahari.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* Menambahkan gradient hitam semi-transparan untuk meningkatkan kontras teks */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/assets/img/matahari.jpeg') !important;
+    /* Atur properti lain sesuai kebutuhan */
+    height: 500px;
+    color: white;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11009,7 +11105,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(255, 231, 147, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;

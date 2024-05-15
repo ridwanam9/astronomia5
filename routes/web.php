@@ -21,6 +21,22 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+// Tata Surya
+Route::get('/tatasurya', function () {
+    return view('tatasurya');
+});
+
+Route::get('/tatasurya2', function () {
+    return view('tatasurya2');
+});
+
+
+
+
+
+// Kak Astro
+
 Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });

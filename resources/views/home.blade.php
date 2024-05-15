@@ -2,7 +2,8 @@
 
 @section('container')
     <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead text-white text-center" style="background-image: url('assets/assets/img/iss.jpeg');
+    height: 100vh">
         <div class="container d-flex align-items-center flex-column">
 
 
@@ -25,7 +26,8 @@
             <p class="masthead-subheading font-weight-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi reiciendis assumenda, excepturi, recusandae quibusdam natus voluptatum nemo necessitatibus fugiat dicta ratione quas illum soluta. Quae, eligendi cupiditate consequatur ipsam unde ducimus iusto tempore cum sint perferendis! Cupiditate, quam dolores? Omnis accusamus et error. Est eaque assumenda porro cupiditate et! Eligendi voluptas nihil omnis ab? Blanditiis velit perspiciatis assumenda dolorem voluptatem! In adipisci nostrum possimus laudantium totam tenetur provident veniam minus officia. Iste iusto in voluptatibus dolor? Quae nam fuga ipsum nesciunt tenetur reiciendis, eum incidunt voluptas earum praesentium, hic perferendis quasi pariatur odio repellat exercitationem aperiam sit. Aliquam, iusto mollitia.</p>
         </div>
     </header>
-    <header class="masthead bg-primary text-white text-center bg-dark">
+    <header class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/ulangalik.jpeg');
+    height: cover">
         <div class="container d-flex align-items-center flex-column">
 
             {{-- <!-- Masthead Avatar Image-->
@@ -34,24 +36,20 @@
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">Tentang Kami</h1>
 
-            {{-- <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div> --}}
-
-            {{-- <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p> --}}
+            <br>
+            <br>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla explicabo deserunt distinctio! Expedita perferendis praesentium a aliquid veniam labore esse officiis unde corrupti recusandae nobis tempore cupiditate incidunt nemo temporibus quae eius eos aspernatur facilis modi, enim quisquam accusamus culpa? Reprehenderit libero vel fugit, voluptates tempore debitis harum. Iusto labore iste magni esse sunt aliquam inventore, suscipit sint repellendus neque nemo totam, vel pariatur quia facilis beatae corporis soluta doloremque recusandae ipsum? Dolore commodi exercitationem sint sit natus temporibus unde, ea cumque nulla soluta ab fuga! Atque quasi reprehenderit nam accusantium, fuga a cumque dignissimos facere corrupti nostrum eligendi illum.</p>
         </div>
     </header>
 
 
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/tatasurya.jpeg');
+    size: cover">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Glosarium</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Glosarium</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -143,7 +141,8 @@
 
 
     <!-- About Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/teropong.jpeg');
+    height: cover">
         <div class="container">
             <!-- About Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Kak Astro</h2>

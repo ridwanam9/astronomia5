@@ -33,12 +33,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Pengenalan</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/pengertian">Pengertian Astronomi</a></li>
+                            <li><a class="dropdown-item" href="#!">Sejarah Astronomi</a></li>
+                            <li><a class="dropdown-item" href="#!">Ruang Lingkup Astronomi</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/glosarium">Glosarium</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/kakastro">Kak
                             Astro</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#contact">Hubungi Kami</a></li>
+
                 </ul>
             </div>
         </div>
@@ -74,8 +84,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg"
-                                    alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                     Perspiciatis illum dolor exercitationem,
@@ -133,8 +142,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png"
-                                    alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
                                     neque
@@ -172,8 +180,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png"
-                                    alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
                                     neque
@@ -211,8 +218,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png"
-                                    alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
                                     neque
@@ -250,8 +256,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png"
-                                    alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
                                     neque

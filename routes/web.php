@@ -22,14 +22,17 @@ Route::get('/', function () {
 });
 
 
+// Dropdown Menu
+Route::get('/pengertian', function () {
+    return view('dropdown/pengertian');
+});
+
 // Tata Surya
 Route::get('/tatasurya', function () {
     return view('tatasurya');
 });
 
-Route::get('/tatasurya2', function () {
-    return view('tatasurya2');
-});
+
 
 
 

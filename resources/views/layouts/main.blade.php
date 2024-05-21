@@ -58,11 +58,19 @@
         @yield('container')
     </div>
 
-    <!-- <div style="background-image: url('assets/assets/img/nebula4.jpg');
+    <div style="background-image: url('assets/assets/img/universe.jpg');
     height: cover;  background-repeat: no-repeat;
   background-attachment: fixed;">
         @yield('container1')
-</div> -->
+</div>
+
+
+
+<div style="background-image: url('assets/assets/img/universe.jpg');
+    height: cover;  background-repeat: no-repeat;
+  background-attachment: fixed;">
+        @yield('container2')
+</div>
 
 
 

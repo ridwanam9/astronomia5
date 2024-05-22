@@ -21,6 +21,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/tanya', function () {
+    return view('tanya');
+});
 
 // Dropdown Menu
 Route::get('/pengertian', function () {
@@ -36,16 +39,10 @@ Route::get('/ruanglingkup', function () {
 });
 
 
-
 // Tata Surya
 Route::get('/tatasurya', function () {
     return view('tatasurya');
 });
-
-
-
-
-
 
 
 // Kak Astro
@@ -53,8 +50,6 @@ Route::get('/tatasurya', function () {
 Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });
-
-
 
 
 // Glosarium

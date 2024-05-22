@@ -27,6 +27,16 @@ Route::get('/pengertian', function () {
     return view('dropdown/pengertian');
 });
 
+Route::get('/sejarah', function () {
+    return view('dropdown/sejarah');
+});
+
+Route::get('/ruanglingkup', function () {
+    return view('dropdown/ruanglingkup');
+});
+
+
+
 // Tata Surya
 Route::get('/tatasurya', function () {
     return view('tatasurya');

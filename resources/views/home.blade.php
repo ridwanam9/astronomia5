@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('container')
+@section('container1')
     <!-- Masthead-->
-    <header class="masthead text-white text-center" style="background-image: url('assets/assets/img/iss.jpeg');
+    <header class="masthead text-white text-center" style="
     height: 90vh;  overflow: auto">
         <div class="container d-flex align-items-center flex-column">
 
@@ -27,7 +27,13 @@
         </div>
     </header>
 
-    <header class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/nebula.jpg');
+    <div class="divider-custom divider-light">
+    <div class="divider-custom-line"></div>
+    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div> -->
+</div>
+
+    <header class="masthead text-white text-center" style="
     height: 90vh;  overflow: auto;">
         <div class="container d-flex align-items-center flex-column">
 
@@ -44,9 +50,14 @@
         </div>
     </header>
 
+    <div class="divider-custom divider-light">
+    <div class="divider-custom-line"></div>
+    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div> -->
+</div>
 
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula2.jpg');
+    <section class="page-section portfolio" id="portfolio" style="
     height: 90vh; overflow: auto">
         <div class="container">
             <!-- Portfolio Section Heading-->
@@ -140,9 +151,14 @@
     </section>
 
 
+    <div class="divider-custom divider-light">
+    <div class="divider-custom-line"></div>
+    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div> -->
+</div>
 
     <!-- Kak Astro Section-->
-    <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula3.jpg');
+    <section class="page-section portfolio" id="portfolio" style="
     height: 90vh; overflow: auto;">
         <div class="container">
             <!-- About Section Heading-->
@@ -224,8 +240,15 @@
     </section>
 
 
+    <div class="divider-custom divider-light">
+    <div class="divider-custom-line"></div>
+    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div> -->
+</div>
+
     <!-- Contact Section-->
-    <section class="page-section bg-secondary text-white" id="contact">
+    <section class="page-section text-white" id="contact" style="
+    height: 90vh; overflow: auto;">
         <div class="container">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Hubungi Kami</h2>

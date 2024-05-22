@@ -61,7 +61,7 @@
     </div>
 
     <div style="background-image: url('assets/assets/img/universe.jpg');
-    height: cover;  background-repeat: no-repeat;
+      background-repeat: no-repeat;
   background-attachment: fixed;">
         @yield('container1')
 </div>

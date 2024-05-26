@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TanyaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,8 @@ Route::get('/', function () {
 Route::get('/tanya', function () {
     return view('tanya');
 });
+
+Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store');
 
 // Dropdown Menu
 Route::get('/pengertian', function () {

@@ -27,14 +27,27 @@
     </div>
 </header>
 
-@foreach($tanyas as $tanya)
-                    <tr>
-                        <td>{{ $tanya->id }}</td>
-                        <td>{{ $tanya->nama }}</td>
-                        <td>{{ $tanya->email }}</td>
-                        <td>{{ $tanya->handphone }}</td>
-                        <td>{{ $tanya->judul }}</td>
-                    </tr>
-                @endforeach
 
-@endsection
+<div>
+<h1>Daftar Tanyas</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Handphone</th>
+                <th>Judul</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach($tanyas as $tanya)
+                <tr>
+                    <td>{{ $tanya->nama }}</td>
+                    <td>{{ $tanya->email }}</td>
+                    <td>{{ $tanya->handphone }}</td>
+                    <td>{{ $tanya->judul }}</td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
+</div>

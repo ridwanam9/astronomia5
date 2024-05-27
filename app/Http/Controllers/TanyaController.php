@@ -22,4 +22,6 @@ class TanyaController extends Controller
 
         return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
     }
+
+    
 }

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TanyaController;
-
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +27,9 @@ Route::get('/tanya', function () {
 });
 
 Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store');
+
+//menampilkan data dari tabel tanya ke dalam post.blade.php
+Route::get('/posts', [PostController::class, 'index']);
 
 // Dropdown Menu
 Route::get('/pengertian', function () {

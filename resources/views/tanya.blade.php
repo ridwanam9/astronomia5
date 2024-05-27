@@ -34,7 +34,7 @@
 
 <!-- Contact Section-->
 <section class="page-section text-white" id="contact" style="
-    height: 90vh; overflow: auto;">
+    height: 90vh;">
     <div class="container">
         <!-- Contact Section Form-->
         <div class="row justify-content-center">

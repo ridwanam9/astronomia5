@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TanyaController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\LoginController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +24,15 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+//login
+Route::get('/login', [LoginController::class, 'index']);
+
+
+
+
+//Tanya
+
 Route::get('/tanya', function () {
     return view('tanya');
 });
@@ -30,6 +41,13 @@ Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store'
 
 //menampilkan data dari tabel tanya ke dalam post.blade.php
 Route::get('/posts', [PostController::class, 'index']);
+
+
+
+
+
+
+
 
 // Dropdown Menu
 Route::get('/pengertian', function () {
@@ -45,10 +63,14 @@ Route::get('/ruanglingkup', function () {
 });
 
 
+
+
 // Tata Surya
 Route::get('/tatasurya', function () {
     return view('tatasurya');
 });
+
+
 
 
 // Kak Astro
@@ -56,6 +78,8 @@ Route::get('/tatasurya', function () {
 Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });
+
+
 
 
 // Glosarium

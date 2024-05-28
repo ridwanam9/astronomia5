@@ -18,6 +18,8 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="assets/css/home.css" rel="stylesheet" />
 
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -55,7 +57,7 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/login">Login</a></li>
+                            href="/login"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
                 </ul>
             </div>
         </div>

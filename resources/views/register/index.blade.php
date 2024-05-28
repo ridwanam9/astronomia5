@@ -23,16 +23,16 @@
 
                     <!-- <h1 class="h3 mb-3 fw-normal">Please Register</h1> -->
 
-                    <div class="form-floating">
-                        <input type="text" class="form-control rounded-top" id="name" placeholder="name">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded" id="name" placeholder="name">
                         <label for="name">Nama</label>
                     </div>
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="email" placeholder="email">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded" id="email" placeholder="email">
                         <label for="email">Email address</label>
                     </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control rounded-bottom" id="password" placeholder="password">
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded" id="password" placeholder="password">
                         <label for="password">Password</label>
                     </div>
 

@@ -51,14 +51,14 @@
                     <!-- Name input-->
                     @csrf
                     <div class="form-floating mb-3">
-                        <input class="form-control" type="text" name="nama" placeholder="Nama"
+                        <input class="form-control rounded" type="text" name="nama" placeholder="Nama"
                             data-sb-validations="required" />
                         <label for="name">Full name</label>
                         <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" type="text" name="email" placeholder="Email"
+                        <input class="form-control rounded" type="text" name="email" placeholder="Email"
                             data-sb-validations="required,email" />
                         <label for="email">Email address</label>
                         <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
@@ -66,7 +66,7 @@
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" type="text" name="handphone" placeholder="Handphone"
+                        <input class="form-control rounded" type="text" name="handphone" placeholder="Handphone"
                             data-sb-validations="required" />
                         <label for="phone">Phone number</label>
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
@@ -74,7 +74,7 @@
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" type="text" name="judul" placeholder="Judul"
+                        <textarea class="form-control rounded" type="text" name="judul" placeholder="Judul"
                             style="height: 10rem" data-sb-validations="required"></textarea>
                         <label for="message">Message</label>
                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>

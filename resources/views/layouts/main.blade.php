@@ -35,7 +35,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Pengenalan</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,7 +43,7 @@
                             <li><a class="dropdown-item" href="/sejarah">Sejarah Astronomi</a></li>
                             <li><a class="dropdown-item" href="/ruanglingkup">Ruang Lingkup Astronomi</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/glosarium">Glosarium</a></li>
@@ -51,13 +51,35 @@
                             Astro</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/tanya">Hubungi Kami</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/posts">Post</a></li>
+                    
 
                 </ul>
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                    @auth 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Hi {{auth()->user()->name}}</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/posts"><i class="bi bi-layout-text-sidebar-reverse"></i> Post</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form action="/logout" method="post">
+                                    @csrf
+                                    <button type="submit" class="dropdown-item">
+                                        <i class="bi bi-box-arrow-left"></i> logout
+                                    </button>
+                                </form>
+                        
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    @else
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/login"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
+                    @endauth
+                
+
                 </ul>
             </div>
         </div>

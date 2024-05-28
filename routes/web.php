@@ -27,8 +27,11 @@ Route::get('/', function () {
 
 
 //login
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
+
+//logout
+Route::post('/logout', [LoginController::class, 'logout']);
 
 //register
 Route::get('/register', [RegisterController::class, 'index']);

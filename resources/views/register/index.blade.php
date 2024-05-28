@@ -19,21 +19,36 @@
     <div class="row justify-content-center">
         <div class="col-md-5">
             <main class="form-register w-100 m-auto">
-                <form>
-
+                <form action="/register" method="post">
+                    @csrf
                     <!-- <h1 class="h3 mb-3 fw-normal">Please Register</h1> -->
 
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control rounded" id="name" placeholder="name">
+                    <div class="form-floating mb-3 text-black">
+                        <input type="text" name="name" class="form-control rounded @error('name') is-invalid @enderror" id="name" placeholder="name" required>
                         <label for="name">Nama</label>
+                        @error('name')
+                            <div class="invalid-feedback">
+                                {{$message}}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control rounded" id="email" placeholder="email">
+                        <input type="email"  name="email" class="form-control rounded @error('email') is-invalid @enderror" id="email" placeholder="email" required>
                         <label for="email">Email address</label>
+                        @error('email')
+                            <div class="invalid-feedback">
+                                {{$message}}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control rounded" id="password" placeholder="password">
+                        <input type="password"  name="password" class="form-control rounded @error('password') is-invalid @enderror" id="password" placeholder="password" required>
                         <label for="password">Password</label>
+                        @error('password')
+                            <div class="invalid-feedback">
+                                {{$message}}
+                            </div>
+                        @enderror
                     </div>
 
 

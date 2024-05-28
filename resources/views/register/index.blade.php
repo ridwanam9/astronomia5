@@ -15,12 +15,13 @@
     </div>
 
     <br>
+    <br>
     <div class="row justify-content-center">
         <div class="col-md-5">
             <main class="form-register w-100 m-auto">
                 <form>
 
-                    <h1 class="h3 mb-3 fw-normal">Please Register</h1>
+                    <!-- <h1 class="h3 mb-3 fw-normal">Please Register</h1> -->
 
                     <div class="form-floating">
                         <input type="text" class="form-control rounded-top" id="name" placeholder="name">

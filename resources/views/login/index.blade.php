@@ -10,7 +10,7 @@
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
 
-        <h1 class="masthead-heading text-uppercase mb-0">Login</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">Login Admin</h1>
 
     </div>
 
@@ -57,16 +57,17 @@
                         <label for="password">Password</label>
                     </div>
 
-                    <div class="form-check text-start my-3">
+                    <!-- <div class="form-check text-start my-3">
                         <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Remember me
                         </label>
-                    </div>
-                    <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+                    </div> -->
+                    
+                    <button class="btn btn-primary w-100 py-2 mt-3" type="submit">Sign in</button>
 
                 </form>
-                <small class="d-block text-center mt-3">Not Registered? <a href="/register">Register Now!</a></small>
+                <!-- <small class="d-block text-center mt-3">Not Registered? <a href="/register">Register Now!</a></small> -->
             </main>
         </div>
     </div>

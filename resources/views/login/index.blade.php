@@ -23,24 +23,38 @@
     </div>
     @endif
 
+    @if(session()->has('loginError'))
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        {{session('loginError')}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    @endif
+
     <br>
     <br>
     <div class="row justify-content-center">
         <div class="col-md-5">
             <main class="form-signin w-100 m-auto">
-                <form>
-
+                <form action="/login" method="post">
+                    @csrf
                     <!-- <h1 class="h3 mb-3 fw-normal">Please sign in</h1> -->
 
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control rounded" id="floatingInput"
-                            placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <input type="email" name="email" class="form-control rounded @error('email') is-invalid @enderror" id="email"
+                            placeholder="name@example.com" autofocus required>
+                        <label for="email">Email address</label>
+                        @error('email')
+                            <div class="invalid-feedback">
+                                {{$message}}
+                            </div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control rounded" id="floatingPassword"
+                        <input type="password" name="password" class="form-control rounded" id="password"
                             placeholder="Password">
-                        <label for="floatingPassword">Password</label>
+                        <label for="password">Password</label>
                     </div>
 
                     <div class="form-check text-start my-3">

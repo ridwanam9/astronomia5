@@ -42,7 +42,10 @@
             <br>
             <br>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla explicabo deserunt distinctio! Expedita perferendis praesentium a aliquid veniam labore esse officiis unde corrupti recusandae nobis tempore cupiditate incidunt nemo temporibus quae eius eos aspernatur facilis modi, enim quisquam accusamus culpa? Reprehenderit libero vel fugit, voluptates tempore debitis harum. Iusto labore iste magni esse sunt aliquam inventore, suscipit sint repellendus neque nemo totam, vel pariatur quia facilis beatae corporis soluta doloremque recusandae ipsum? Dolore commodi exercitationem sint sit natus temporibus unde, ea cumque nulla soluta ab fuga! Atque quasi reprehenderit nam accusantium, fuga a cumque dignissimos facere corrupti nostrum eligendi illum.</p>
+            <p class="masthead-subheading font-weight-light mb-0" style="text-align:justify;">Selamat datang di Astronomia, aplikasi yang dirancang khusus untuk para pecinta astronomi dan mereka yang ingin menjelajahi keindahan alam semesta! Kami adalah tim yang terdiri dari mahasiswa pecinta ilmu pengetahuan dan tentu saja menyukai mempelajari luar angkasa, sangat bersemangat untuk membawa pengetahuan astronomi ke ujung jari Anda.
+            </p>
+            <p class="masthead-subheading font-weight-light mb-0" style="text-align:justify;">Di Astronomia, misi kami adalah mempermudah setiap orang untuk belajar tentang ruang angkasa dan fenomena astronomi. Kami percaya bahwa pengetahuan tentang alam semesta seharusnya bisa diakses oleh semua orang, tidak peduli latar belakang atau usia.
+            </p>
         </div>
     </header>
 

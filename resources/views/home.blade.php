@@ -153,7 +153,7 @@
             </div>
             <!-- Kak Astro Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro2">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -164,7 +164,7 @@
             </div>
             <!-- Kak Astro Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro3">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Venus Tidak Memiliki Satelit Alami Seperti Bumi?</i>

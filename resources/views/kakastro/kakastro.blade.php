@@ -32,10 +32,10 @@
 </div>
 
 
-<!-- Portfolio Section-->
+<!-- Kak Astro Section-->
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
-        <!-- Portfolio Section Heading-->
+        <!-- Kak Astro Section Heading-->
         <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Glosarium</h2> -->
 
         <!-- Icon Divider-->
@@ -45,12 +45,12 @@
                 <div class="divider-custom-line"></div>
             </div> -->
 
-        <!-- Portfolio Grid Items-->
+        <!-- Kak Astro Grid Items-->
         <div class="row justify-content-center">
-            <!-- Portfolio Item 1-->
+            
+            <!-- Kak Astro Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>
@@ -59,9 +59,9 @@
                     <img class="img-fluid" src="assets/assets/img/gerhanaM.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 2-->
+            <!-- Kak Astro Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -70,11 +70,11 @@
                     <img class="img-fluid" src="assets/assets/img/orbitbumi2.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 3-->
+            <!-- Kak Astro Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
+                    <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Venus Tidak Memiliki Satelit Alami Seperti Bumi?</i>
                         </div>
                     </div>

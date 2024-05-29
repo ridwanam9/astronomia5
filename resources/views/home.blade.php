@@ -57,11 +57,11 @@
 
 
 
-<!-- Portfolio Section-->
+<!-- Glosarium Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula2.jpg');
     height: 90vh; overflow: auto">
     <div class="container">
-        <!-- Portfolio Section Heading-->
+        <!-- Glosarium Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Glosarium</h2>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
@@ -72,11 +72,11 @@
 
 
 
-        <!-- Portfolio Grid Items-->
+        <!-- Glosarium Grid Items-->
         <div class="row justify-content-center">
-            <!-- Portfolio Item 1-->
+            <!-- Glosarium Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal" data-bs-target="#glosarium1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Matahari</i>
@@ -85,9 +85,9 @@
                     <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 2-->
+            <!-- Glosarium Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Bulan</i>
@@ -96,46 +96,18 @@
                     <img class="img-fluid" src="assets/assets/img/bulan.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 3-->
+            <!-- Glosarium Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i>uranus</i>
+                        </div>
                     </div>
                     <img class="img-fluid" src="assets/assets/img/uranus.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 4-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/antares.jpeg" alt="..." />
-                </div>
-            </div>
-            <!-- Portfolio Item 5-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/mars.jpeg" alt="..." />
-                </div>
-            </div>
-            <!-- Portfolio Item 6-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/bimasakti.jpeg" alt="..." />
-                </div>
-            </div>
+            
 
             <!-- <div class="col-md-6 col-lg-4 mb-5">
                     <div class="card" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
@@ -147,8 +119,6 @@
 
                     </div>
                 </div> -->
-
-
         </div>
     </div>
 </section>
@@ -160,7 +130,7 @@
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula3.jpg');
     height: 90vh; overflow: auto;">
     <div class="container">
-        <!-- About Section Heading-->
+        <!-- Kak Astro Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Kak Astro</h2>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
@@ -170,9 +140,9 @@
         </div>
 
         <div class="row justify-content-center">
-            <!-- Portfolio Item 1-->
+            <!-- Kak Astro Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>
@@ -181,9 +151,9 @@
                     <img class="img-fluid" src="assets/assets/img/gerhanaM.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 2-->
+            <!-- Kak Astro Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -192,51 +162,19 @@
                     <img class="img-fluid" src="assets/assets/img/orbitbumi2.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 3-->
+            <!-- Kak Astro Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#kakastro3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
+                    <div class="portfolio-item-caption-content text-center text-white">
+                            <i>Mengapa Venus Tidak Memiliki Satelit Alami Seperti Bumi?</i>
+                        </div>
                     </div>
-                    <img class="img-fluid" src="assets/assets/img/portfolio/circus.png" alt="..." />
+                    <img class="img-fluid" src="assets/assets/img/venus2.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Portfolio Item 4-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/portfolio/game.png" alt="..." />
-                </div>
-            </div>
-            <!-- Portfolio Item 5-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/portfolio/safe.png" alt="..." />
-                </div>
-            </div>
-            <!-- Portfolio Item 6-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/portfolio/submarine.png" alt="..." />
-                </div>
-            </div>
-
-
+            
         </div>
-
-
     </div>
 </section>
 

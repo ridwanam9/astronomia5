@@ -117,7 +117,7 @@
 
     <!-- Portfolio Modals-->
     <!-- Portfolio Modal 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+    <div class="portfolio-modal modal fade" id="glosarium1" tabindex="-1" aria-labelledby="glosarium1"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -176,7 +176,7 @@
     </div>
 
     <!-- Portfolio Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+    <div class="portfolio-modal modal fade" id="glosarium2" tabindex="-1" aria-labelledby="portfolioModal2"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -187,7 +187,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Bulan</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -214,7 +214,8 @@
         </div>
     </div>
     <!-- Portfolio Modal 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+    
+    <div class="portfolio-modal modal fade" id="glosarium3" tabindex="-1" aria-labelledby="portfolioModal3"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -225,7 +226,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Uranus
                                 </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
@@ -252,8 +253,9 @@
             </div>
         </div>
     </div>
+
     <!-- Portfolio Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+    <div class="portfolio-modal modal fade" id="kakastro1" tabindex="-1" aria-labelledby="portfolioModal4"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -264,7 +266,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -291,7 +293,7 @@
         </div>
     </div>
     <!-- Portfolio Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+    <div class="portfolio-modal modal fade" id="kakastro2" tabindex="-1" aria-labelledby="portfolioModal5"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -302,7 +304,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Bumi Bisa Mengalami musim?
                                 </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
@@ -330,7 +332,7 @@
         </div>
     </div>
     <!-- Portfolio Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+    <div class="portfolio-modal modal fade" id="kakastro3" tabindex="-1" aria-labelledby="portfolioModal6"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -341,7 +343,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Venus Tidak Memiliki Satelit Alami Seperti Bumi?</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>

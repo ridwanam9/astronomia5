@@ -11,7 +11,7 @@
         <!-- Masthead Heading-->
         <h1 class="masthead-heading text-uppercase mb-0">Glosarium</h1>
 
-        
+
         <!-- Icon Divider-->
 
 
@@ -24,13 +24,23 @@
 </section>
 
 
-<div class="container input-group">
-<button type="button" class="btn btn-primary" data-mdb-ripple-init>
-    <i class="fas fa-search"></i>
-  </button>
-  <input type="search" class="form-inline rounded my-2 my-lg-0" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-  
+<!-- 
+<div class="container">
+    <div class="row justify-content-center mb-3">
+        <div class="col-md-6">
+            <form action="/glosarium">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search.." name="search" aria-label=""
+                        aria-describedby="basic-addon1">
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+ -->
 
 <div class="divider-custom divider-light">
     <div class="divider-custom-line"></div>

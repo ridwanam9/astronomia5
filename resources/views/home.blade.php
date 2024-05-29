@@ -76,7 +76,7 @@
         <div class="row justify-content-center">
             <!-- Portfolio Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Matahari</i>
@@ -171,7 +171,7 @@
         <div class="row justify-content-center">
             <!-- Portfolio Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>

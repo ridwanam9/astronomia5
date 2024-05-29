@@ -489,7 +489,25 @@ progress {
   display: none !important;
 }
 
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+}
 
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: to add a background to the text */
+  padding: 10px; /* Optional: to add some padding around the text */
+}
 
 .background-section1 {
     background-image: url('assets/assets/img/iss.jpeg');
@@ -11106,8 +11124,8 @@ html {
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(255, 231, 147, 0.9);
+  /* opacity: 0; */
+  /* background-color: rgba(255, 231, 147, 0.9); */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;

@@ -166,10 +166,10 @@
                 <div class="col-md-5 col-lg-3 mb-4">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i>Matahari</i></div>
                         </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/cabin.png" alt="..." />
+                        <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->

@@ -11,21 +11,21 @@
 
 <body class="opening hide-UI view-2D zoom-large data-close controls-close">
     <div id="navbar">
-        {{-- <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
-        <h1>3D Solar System<br><span>by <a href="https://twitter.com/JulianGarnier"
+        <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
+        <h1>Animasi 3D Tata Surya<br><span>Oleh <a href="https://twitter.com/JulianGarnier"
                     target="_blank">@JulianGarnier</a></span></h1>
-        <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a> --}}
+        <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
     </div>
     <div id="data">
-        <a class="sun" title="sun" href="#sunspeed">Sun</a>
-        <a class="mercury" title="mercury" href="#mercuryspeed">Mercury</a>
+        <a class="sun" title="sun" href="#sunspeed">Matahari</a>
+        <a class="mercury" title="mercury" href="#mercuryspeed">Merkurius</a>
         <a class="venus" title="venus" href="#venusspeed">Venus</a>
-        <a class="earth active" title="earth" href="#earthspeed">Earth</a>
+        <a class="earth active" title="earth" href="#earthspeed">Bumi</a>
         <a class="mars" title="mars" href="#marsspeed">Mars</a>
         <a class="jupiter" title="jupiter" href="#jupiterspeed">Jupiter</a>
-        <a class="saturn" title="saturn" href="#saturnspeed">Saturn</a>
+        <a class="saturn" title="saturn" href="#saturnspeed">Saturnus</a>
         <a class="uranus" title="uranus" href="#uranusspeed">Uranus</a>
-        <a class="neptune" title="neptune" href="#neptunespeed">Neptune</a>
+        <a class="neptune" title="neptune" href="#neptunespeed">Neptunus</a>
     </div>
     <div id="controls">
         <label class="set-view">
@@ -36,15 +36,15 @@
         </label>
         <label>
             <input type="radio" class="set-speed" name="scale" checked>
-            <span>Speed</span>
+            <span>Kecepatan</span>
         </label>
         <label>
             <input type="radio" class="set-size" name="scale">
-            <span>Size</span>
+            <span>Ukuran</span>
         </label>
         <label>
             <input type="radio" class="set-distance" name="scale">
-            <span>Distance</span>
+            <span>Jarak</span>
         </label>
     </div>
     <div id="universe" class="scale-stretched">
@@ -54,7 +54,7 @@
                     <div class="pos">
                         <div class="planet">
                             <dl class="infos">
-                                <dt>Mercury</dt>
+                                <dt>Merkurius</dt>
                                 <dd><span></span></dd>
                             </dl>
                         </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="planet">
                             <dl class="infos">
-                                <dt>Earth</dt>
+                                <dt>Bumi</dt>
                                 <dd><span></span></dd>
                             </dl>
                         </div>
@@ -110,7 +110,7 @@
                         <div class="planet">
                             <div class="ring"></div>
                             <dl class="infos">
-                                <dt>Saturn</dt>
+                                <dt>Saturnus</dt>
                                 <dd><span></span></dd>
                             </dl>
                         </div>
@@ -130,7 +130,7 @@
                     <div class="pos">
                         <div class="planet">
                             <dl class="infos">
-                                <dt>Neptune</dt>
+                                <dt>Neptunus</dt>
                                 <dd><span></span></dd>
                             </dl>
                         </div>
@@ -138,7 +138,7 @@
                 </div>
                 <div id="sun">
                     <dl class="infos">
-                        <dt>Sun</dt>
+                        <dt>Matahari</dt>
                         <dd><span></span></dd>
                     </dl>
                 </div>

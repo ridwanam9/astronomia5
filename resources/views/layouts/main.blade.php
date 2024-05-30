@@ -281,6 +281,7 @@
                                     kadang tampak lebih besar dan mampu menutupi matahari (menyebabkan gerhana total)
                                     atau kadang lebih kecil dan hanya dapat menyebabkan gerhana matahari cincin.</p>
 
+                                    
                                 <div class="row">
                                     <img class="rounded mb-4" style="max-width:40%;"
                                         src="assets/assets/img/gerhanaB.jpeg" alt="..." />

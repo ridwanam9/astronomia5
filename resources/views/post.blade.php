@@ -28,26 +28,23 @@
 </header>
 
 
-<div>
-<h1>Daftar Tanyas</h1>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nama</th>
-                <th>Email</th>
-                <th>Handphone</th>
-                <th>Judul</th>
-            </tr>
-        </thead>
-        <tbody>
+<section class="page-section" style="background-image: url('assets/assets/img/universe.jpg');
+    height: 90vh; ">
+<div class="container mt-5">
+        <div class="row">
             @foreach($tanyas as $tanya)
-                <tr>
-                    <td>{{ $tanya->nama }}</td>
-                    <td>{{ $tanya->email }}</td>
-                    <td>{{ $tanya->handphone }}</td>
-                    <td>{{ $tanya->judul }}</td>
-                </tr>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $tanya->judul }}</h5>
+                            <p class="card-text">Penanya : {{ $tanya->nama }}</p>
+                            <p class="card-text">Email : {{ $tanya->email }}</p>
+                            <p class="card-text">No Handphone : {{ $tanya->handphone }}</p>
+                        </div>
+                    </div>
+                </div>
             @endforeach
-        </tbody>
-    </table>
-</div>
+        </div>
+    </div>
+</section>
+

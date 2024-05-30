@@ -138,7 +138,10 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
+                                <p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat
+                                    tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id
+                                    quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque
+                                    maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window
@@ -163,7 +166,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Bulan</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Bintang</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -171,13 +174,15 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/assets/img/bintang.jpeg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                                    neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                                    quo facilis illo voluptatibus sunt.</p>
+                                <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                                    quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
+                                    eaque soluta rem? Consequuntur!</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window
@@ -190,7 +195,7 @@
         </div>
     </div>
     <!-- Portfolio Modal 3-->
-    
+
     <div class="portfolio-modal modal fade" id="glosarium3" tabindex="-1" aria-labelledby="portfolioModal3"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -202,7 +207,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Uranus
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Alam Semesta
                                 </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
@@ -211,13 +216,15 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                <img class="img-fluid rounded mb-5" src="assets/assets/img/nebula-2.jpg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                                    neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-4">Alam Semesta adalah benda langit yang bisa mengeluarkan cahaya Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum
+                                    eligendi quo facilis illo voluptatibus sunt.</p>
+                                <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                                    quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
+                                    eaque soluta rem? Consequuntur!</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window
@@ -230,7 +237,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 4-->
+    <!-- kakastro Modal 1-->
     <div class="portfolio-modal modal fade" id="kakastro1" tabindex="-1" aria-labelledby="portfolioModal4"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -242,7 +249,8 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Gerhana
+                                    Matahari dan Bulan Bisa Terjadi?</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -250,13 +258,43 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                                    neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-4" style="text-align:justify;">Gerhana matahari terjadi ketika posisi bulan terletak di antara bumi dan
+                                    matahari sehingga terlihat menutup sebagian atau seluruh cahaya matahari di langit
+                                    bumi.</p>
+                                <div class="row text-content-center">
+                                    <img class="rounded mb-4" style="max-width:40%;"
+                                        src="assets/assets/img/gerhanaM.jpeg" alt="..." />
+                                    <img class="rounded mb-4" style="max-width:40%;"
+                                        src="assets/assets/img/observasi.jpeg" alt="..." />
+                                </div>
+                                <div class="row">
+                                    <h6 class="mb-4">Peristiwa Gerhana Matahari di Meksiko, 8 April 2024</h6>
+                                </div>
+                                <p class="mb-4" style="text-align:justify;">Berdasarkan cara tertutupnya matahari, terdapat empat jenis
+                                    gerhana matahari: gerhana matahari total, gerhana matahari cincin, gerhana matahari
+                                    sebagian, dan gerhana matahari hibrida/campuran. Walaupun bulan berukuran sekitar
+                                    400 kali lebih kecil daripada matahari, bulan terletak sekitar 400 kali lebih dekat
+                                    ke bumi sehingga kedua benda langit ini tampak hampir sama besar di langit bumi.
+                                    Karena orbit bulan berbentuk elips, jaraknya dari bumi sedikit berubah-ubah sehingga
+                                    kadang tampak lebih besar dan mampu menutupi matahari (menyebabkan gerhana total)
+                                    atau kadang lebih kecil dan hanya dapat menyebabkan gerhana matahari cincin.</p>
+
+                                <div class="row">
+                                    <img class="rounded mb-4" style="max-width:40%;"
+                                        src="assets/assets/img/gerhanaB.jpeg" alt="..." />
+                                    <img class="rounded mb-4" style="max-width:40%;"
+                                        src="assets/assets/img/fasegerhanaB.jpeg" alt="..." />
+                                </div>
+                                <div class="row">
+                                    <h6 class="mb-4 text-bold">Peristiwa Gerhana Bulan di Yogyakarta, 15 April 2014</h6>
+                                </div>
+                                <p class="mb-4" style="text-align:justify;">Gerhana Bulan terjadi ketika Bulan terutup oleh bayangan Bumi. Peristiwa
+                                    ini hanya dapat terjadi ketika posisi Matahari, Bumi, dan Bulan tepat atau hampir
+                                    membentuk garis lurus dan Bulan berada dalam fase Bulan purnama. Jenis dan durasi
+                                    gerhana Bulan bergantung pada jarak Bulan terhadap simpulnya di orbit.</p>
+
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window
@@ -268,7 +306,7 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 5-->
+    <!-- kakastro Modal 2-->
     <div class="portfolio-modal modal fade" id="kakastro2" tabindex="-1" aria-labelledby="portfolioModal5"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -280,7 +318,8 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Bumi Bisa Mengalami musim?
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Bumi Bisa
+                                    Mengalami musim?
                                 </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
@@ -307,7 +346,7 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 6-->
+    <!-- kakastro Modal 3-->
     <div class="portfolio-modal modal fade" id="kakastro3" tabindex="-1" aria-labelledby="portfolioModal6"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -319,7 +358,8 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Venus Tidak Memiliki Satelit Alami Seperti Bumi?</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Venus Tidak
+                                    Memiliki Satelit Alami Seperti Bumi?</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>

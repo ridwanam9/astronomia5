@@ -80,10 +80,10 @@
                 <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
-                            <i>Bulan</i>
+                            <i>Bintang</i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="assets/assets/img/bulan.jpeg" alt="..." />
+                    <img class="img-fluid" src="assets/assets/img/bintang.jpeg" alt="..." />
                 </div>
             </div>
             <!-- Glosarium Item 3-->
@@ -91,10 +91,10 @@
                 <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
-                            <i>uranus</i>
+                            <i>Alam Semesta</i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="assets/assets/img/uranus.jpeg" alt="..." />
+                    <img class="img-fluid" src="assets/assets/img/nebula-2.jpg" alt="..." />
                 </div>
             </div>
 

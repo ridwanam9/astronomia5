@@ -138,31 +138,7 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Perspiciatis illum dolor exercitationem,
-                                    impedit aperiam officiis fugiat excepturi quibusdam ducimus nesciunt,
-                                    id corrupti suscipit quia repellat commodi eum? Asperiores, impedit cum! Lorem,
-                                    ipsum dolor sit amet consectetur adipisicing elit. Ex corrupti et delectus at
-                                    sit qui iusto, impedit sint illum vero. Voluptatem minus iure, quibusdam ea a
-                                    velit eius earum blanditiis. Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ipsum quasi dolor suscipit aliquid consequuntur,
-                                    recusandae velit temporibus consectetur, quidem ipsa voluptates numquam
-                                    distinctio fugiat nesciunt. Dolorem, asperiores? Doloremque,
-                                    necessitatibus unde! Lorem, ipsum dolor sit amet
-                                    consectetur adipisicing elit. Corrupti dolorem quas
-                                    quos exercitationem, iusto ratione laudantium pariatur
-                                    ullam architecto et deserunt sunt facere mollitia ut
-                                    officiis amet? Praesentium, odio ad? Lorem ipsum dolor,
-                                    sit amet consectetur adipisicing elit. Obcaecati quas est
-                                    mollitia impedit dolores iusto repudiandae a unde voluptatibus,
-                                    sed qui vero atque voluptas consequuntur quos fugiat amet quasi
-                                    repellendus? Lorem, ipsum dolor sit amet consectetur adipisicing
-                                    elit. Voluptatum doloribus sunt temporibus iste quisquam saepe modi,
-                                    aliquid nulla facilis nemo, deserunt, omnis ut minima tenetur sequi
-                                    eum ipsam fugiat sint? Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Hic excepturi deserunt, quaerat dolor ipsam vel
-                                    beatae ullam doloribus expedita doloremque recusandae, odio perferendis?
-                                    Velit pariatur voluptas harum, rerum iure cum.</p>
+                                <p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window

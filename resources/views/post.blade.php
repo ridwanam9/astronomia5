@@ -34,7 +34,7 @@
         <div class="row">
             @foreach($tanyas as $tanya)
                 <div class="col-md-4">
-                    <div class="card mb-4">
+                    <div class="card mb-4 bg-primary text-white">
                         <div class="card-body">
                             <h5 class="card-title">{{ $tanya->judul }}</h5>
                             <p class="card-text">Penanya : {{ $tanya->nama }}</p>

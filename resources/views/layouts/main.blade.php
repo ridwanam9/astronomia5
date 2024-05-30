@@ -265,7 +265,7 @@
                                     matahari sehingga terlihat menutup sebagian atau seluruh cahaya matahari di langit
                                     bumi.</p>
                                 <div class="text-center">
-                                    <img class="rounded mb-4" style="max-width:40%;"
+                                    <img class="rounded mb-4" style="max-width:30%;"
                                         src="assets/assets/img/gerhanaM.jpeg" alt="..." />
                                     <img class="rounded mb-4" style="max-width:40%;"
                                         src="assets/assets/img/observasi.jpeg" alt="..." />
@@ -382,8 +382,8 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mengapa Venus Tidak
-                                    Memiliki Satelit Alami Seperti Bumi?</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">“APAKAH VENUS
+                                    MEMILIKI SATELIT ALAMI SEPERTI DI BUMI?</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -391,14 +391,39 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png"
-                                    alt="..." />
+
+
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                                    neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-4" style="text-align:justify;">Planet di tata surya memiliki satelit yang
+                                    mengelilinginya. Seperti bulan yang merupakan satelit alami bumi. Namun di tata
+                                    surya kita, ada dua planet yang tidak memiliki satelit alami yakni Merkurius dan
+                                    Venus. Mengapa begitu? Dikutip dari situs National Aeronautics and Space
+                                    Administration (NASA), ada alasan khusus yang mendasari mengapa dua planet ini tidak
+                                    memiliki satelit alami. Planet Merkurius merupakan planet yang paling dekat dengan
+                                    matahari. Kira-kira jaraknya 57,9 juta km dari matahari. Karena jaraknya yang sangat
+                                    dekat dengan matahari, hal ini membuat gaya gravitasi matahari lebih tinggi
+                                    dibanding gaya gravitasi planet Merkurius
+                                </p>
+                                <div class="text-center">
+                                    <img class="rounded mb-4" style="max-width:30%;" src="assets/assets/img/venus2.jpeg"
+                                        alt="..." />
+                                    <img class="rounded mb-4" style="max-width:50%;"
+                                        src="assets/assets/img/venusnomoon.jpg" alt="..." />
+                                </div>
+                                <div class="row">
+                                    <h6 class="mb-4">Tidak ditemukannya satelit alami di planet Venus</h6>
+                                </div>
+                                <p class="mb-4" style="text-align:justify;">Gaya gravitasi matahari yang lebih besar
+                                    dibanding planet Merkurius ini menyebabkan tidak adanya satelit alami yang bisa
+                                    mengorbit dan stabil selama bertahun-tahun di sekitar planet Merkurius. Sedangkan
+                                    untuk planet Venus yang tidak memiliki satelit alami, salah satu alasannya juga
+                                    dikarenakan jarak yang cukup dekat dengan matahari. Selain itu, adanya perubahan
+                                    rotasi dari planet Venus juga berpengaruh pada hal ini. Menurut teori yang beredar,
+                                    dahulu ada sebuah satelit alami yang bergerak memutari planet Venus. Namun, karena
+                                    adanya benturan satelit tersebut pecah menjadi beberapa bagian. Kemudian terjadi
+                                    benturan lagi yang menyebabkan arah rotasi planet Venus berubah. Hal inilah yang
+                                    menyebabkan mengapa planet Venus tidak memiliki satelit alami.
+                                </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window

@@ -5,7 +5,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\TanyaController;
 use App\Http\Controllers\RegisterController;
-
+use App\Http\Controllers\GlosariumController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -52,23 +52,18 @@ Route::get('/posts', [PostController::class, 'index']);
 
 
 
+// // Dropdown Menu
+// Route::get('/pengertian', function () {
+//     return view('dropdown/pengertian');
+// });
 
+// Route::get('/sejarah', function () {
+//     return view('dropdown/sejarah');
+// });
 
-
-
-
-// Dropdown Menu
-Route::get('/pengertian', function () {
-    return view('dropdown/pengertian');
-});
-
-Route::get('/sejarah', function () {
-    return view('dropdown/sejarah');
-});
-
-Route::get('/ruanglingkup', function () {
-    return view('dropdown/ruanglingkup');
-});
+// Route::get('/ruanglingkup', function () {
+//     return view('dropdown/ruanglingkup');
+// });
 
 
 
@@ -95,6 +90,9 @@ Route::get('/kakastro', function () {
 Route::get('/glosarium', function () {
     return view('glosarium/glosarium');
 });
+
+Route::get('/glosarium', [GlosariumController::class, 'index']);
+
 
 Route::get('/glosarium/bintang', function () {
     return view('glosarium/bintang');

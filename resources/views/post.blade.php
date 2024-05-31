@@ -48,3 +48,23 @@
     </div>
 </section>
 
+<section class="page-section" style="background-image: url('assets/assets/img/universe.jpg');
+    height: 90vh; ">
+<div class="container mt-5">
+        <div class="row">
+            @foreach($glosariums as $glosarium)
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-primary text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $glosarium->title }}</h5>
+                            <p class="card-text">Dipublikasikan pada : {{ $glosarium->published_at }}</p>
+                            <!-- <p class="card-text">Email : {{ $tanya->email }}</p>
+                            <p class="card-text">No Handphone : {{ $tanya->handphone }}</p> -->
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+

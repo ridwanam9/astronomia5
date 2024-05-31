@@ -13,7 +13,8 @@ class Glosarium extends Model
 
     protected $fillable = [
         'title',
-        'Body',
+        'gambar'
+        'body',
         'published_at',
         
     ];

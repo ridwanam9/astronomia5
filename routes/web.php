@@ -93,11 +93,12 @@ Route::get('/glosarium', function () {
 
 Route::get('/glosarium', [GlosariumController::class, 'index']);
 
+Route::post('/glosarium', [GlosariumController::class, 'store'])->name('glosarium.store');
 
-Route::get('/glosarium/bintang', function () {
-    return view('glosarium/bintang');
+Route::get('/glosarium/addglosarium', function () {
+    return view('glosarium/addglosarium');
 });
 
-Route::get('/glosarium/asteroid', function () {
-    return view('glosarium/asteroid');
-});
+// Route::get('/glosarium/asteroid', function () {
+//     return view('glosarium/asteroid');
+// });

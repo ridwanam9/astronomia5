@@ -48,23 +48,79 @@
     </div>
 </section>
 
-<section class="page-section" style="background-image: url('assets/assets/img/universe.jpg');
-    height: 90vh; ">
-<div class="container mt-5">
-        <div class="row">
-            @foreach($glosariums as $glosarium)
-                <div class="col-md-4">
-                    <div class="card mb-4 bg-primary text-white">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ $glosarium->title }}</h5>
-                            <p class="card-text">Dipublikasikan pada : {{ $glosarium->published_at }}</p>
-                            <!-- <p class="card-text">Email : {{ $tanya->email }}</p>
-                            <p class="card-text">No Handphone : {{ $tanya->handphone }}</p> -->
-                        </div>
+<section class="page-section text-white" id="contact" style="
+    height: 90vh;">
+    <div class="container">
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST"
+                    action="{{ route('glosarium.store') }}">
+                    <!-- Name input-->
+                    @csrf
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded" type="text" name="title" placeholder="title"
+                            data-sb-validations="required" />
+                        <label for="title">Judul</label>
+                        <!-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div> -->
                     </div>
-                </div>
-            @endforeach
+                    <!-- Email address input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded" type="file" name="gambar" placeholder="gambar"
+                            data-sb-validations="required,email" />
+                        <label for="gambar">Gambar</label>
+                        <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->
+                    </div>
+                    <!-- Phone number input-->
+                    <!-- <div class="form-floating mb-3">
+                        <input class="form-control rounded" type="text" name="handphone" placeholder="Handphone"
+                            data-sb-validations="required" />
+                        <label for="phone">Phone number</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                        </div>
+                    </div> -->
+                    <!-- Message input-->
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control rounded" type="text" name="body" placeholder="body"
+                            style="height: 10rem" data-sb-validations="required"></textarea>
+                        <label for="message">Body</label>
+                        <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <!-- <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a
+                                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div> -->
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <!-- <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                    </div> -->
+                    <!-- Submit Button-->
+                    <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </div>
 </section>
+
+@endsection
 

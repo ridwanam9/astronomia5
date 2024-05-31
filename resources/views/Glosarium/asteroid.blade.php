@@ -6,7 +6,7 @@
             <!-- Masthead Avatar Image-->
             {{-- <img class="masthead-avatar mb-5" src="assets/assets/img/avataaars.svg" alt="..." /> --}}
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Asteroid</h1>
+            <h1 class="masthead-heading text-uppercase mb-0">Tambah Glosarium</h1>
 
 
             <!-- Icon Divider-->

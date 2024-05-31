@@ -69,6 +69,8 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/posts"><i class="bi bi-layout-text-sidebar-reverse"></i>
                                     Post</a></li>
+                                    <li><a class="dropdown-item" href="/glosarium/addglosarium"><i class="bi bi-layout-text-sidebar-reverse"></i>
+                                    Tambah Glosarium</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>

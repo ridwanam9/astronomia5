@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('glosariums', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            // $table->blob('gambar');
+            $table->string('gambar');
             $table->string('body');
             $table->timestamp('published_at')->nullable();
             $table->timestamps();

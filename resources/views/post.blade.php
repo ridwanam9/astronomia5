@@ -12,7 +12,7 @@
 
 
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0"> Post</h1>
+        <h1 class="masthead-heading text-uppercase mb-0"> Pertanyaan</h1>
 
         {{-- <!-- Icon Divider-->
             <div class="divider-custom divider-light">

@@ -122,7 +122,7 @@
 
     <!-- Portfolio Modals-->
     <!-- Portfolio Modal 1-->
-    <div class="portfolio-modal modal fade" id="glosarium1" tabindex="-1" aria-labelledby="glosarium1"
+    <div class="portfolio-modal modal fade" id="glosarium12" tabindex="-1" aria-labelledby="glosarium12"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -160,7 +160,7 @@
     </div>
 
     <!-- Portfolio Modal 2-->
-    <div class="portfolio-modal modal fade" id="glosarium2" tabindex="-1" aria-labelledby="portfolioModal2"
+    <div class="portfolio-modal modal fade" id="glosarium22" tabindex="-1" aria-labelledby="portfolioModal2"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -201,7 +201,7 @@
     </div>
     <!-- Portfolio Modal 3-->
 
-    <div class="portfolio-modal modal fade" id="glosarium3" tabindex="-1" aria-labelledby="portfolioModal3"
+    <div class="portfolio-modal modal fade" id="glosarium32" tabindex="-1" aria-labelledby="portfolioModal3"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -243,7 +243,7 @@
     </div>
 
     <!-- kakastro Modal 1-->
-    <div class="portfolio-modal modal fade" id="kakastro1" tabindex="-1" aria-labelledby="portfolioModal4"
+    <div class="portfolio-modal modal fade" id="kakastro12" tabindex="-1" aria-labelledby="portfolioModal4"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -316,7 +316,7 @@
         </div>
     </div>
     <!-- kakastro Modal 2-->
-    <div class="portfolio-modal modal fade" id="kakastro2" tabindex="-1" aria-labelledby="portfolioModal5"
+    <div class="portfolio-modal modal fade" id="kakastro22" tabindex="-1" aria-labelledby="portfolioModal5"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -376,7 +376,7 @@
         </div>
     </div>
     <!-- kakastro Modal 3-->
-    <div class="portfolio-modal modal fade" id="kakastro3" tabindex="-1" aria-labelledby="portfolioModal6"
+    <div class="portfolio-modal modal fade" id="kakastro32" tabindex="-1" aria-labelledby="portfolioModal6"
         aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -444,6 +444,11 @@
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+
+
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->

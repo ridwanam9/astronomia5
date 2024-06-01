@@ -47,10 +47,10 @@
 
         <!-- Kak Astro Grid Items-->
         <div class="row justify-content-center">
-            
+
             <!-- Kak Astro Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro1">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>
@@ -61,7 +61,7 @@
             </div>
             <!-- Kak Astro Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro2">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro22">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -72,7 +72,7 @@
             </div>
             <!-- Kak Astro Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro3">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro32">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
                             <i>Apakah Venus Memiliki Satelit Alami Seperti Bumi?</i>
@@ -84,24 +84,24 @@
 
             @foreach($kakastros as $kakastro)
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="kakastro{{ $kakastro->id }}">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
+                    data-bs-target="#kakastro{{ $kakastro->id }}">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>{{ $kakastro->title }}</i>
                         </div>
                     </div>
                     <img class="img-fluid" src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}" alt="..." />
-                    
                 </div>
             </div>
-            
 
             <div class="portfolio-modal modal fade" id="kakastro{{ $kakastro->id }}" tabindex="-1"
-                aria-labelledby="" aria-hidden="true">
+                aria-labelledby="kakastroLabel{{ $kakastro->id }}" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
-                        <div class="modal-header border-0"><button class="btn-close" type="button"
-                                data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-header border-0">
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
                         <div class="modal-body text-center pb-5">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -116,10 +116,10 @@
                                             <div class="divider-custom-line"></div>
                                         </div>
                                         <!-- Portfolio Modal - Image-->
-                                        <img class="img-fluid rounded mb-5" src="assets/assets/img/.$kakastro->gambar"
-                                            alt="..." />
+                                        <img class="img-fluid rounded mb-5"
+                                            src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}" alt="..." />
                                         <!-- Portfolio Modal - Text-->
-                                        <p class="mb-4" syle="text-align=justify;">{{ $kakastro->body }}</p>
+                                        <p class="mb-4" style="text-align: justify;">{{ $kakastro->body }}</p>
                                         <button class="btn btn-primary" data-bs-dismiss="modal">
                                             <i class="fas fa-xmark fa-fw"></i>
                                             Close Window
@@ -132,6 +132,7 @@
                 </div>
             </div>
             @endforeach
+
 
         </div>
     </div>

@@ -74,9 +74,10 @@
 
         <!-- Glosarium Grid Items-->
         <div class="row justify-content-center">
-            <!-- Glosarium Item 1-->
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal" data-bs-target="#glosarium1">
+
+        <div class="col-md-5 col-lg-3 mb-4">
+                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal"
+                    data-bs-target="#glosarium12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Matahari</i>
@@ -85,9 +86,9 @@
                     <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Glosarium Item 2-->
+
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium2">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium22">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Bintang</i>
@@ -96,15 +97,15 @@
                     <img class="img-fluid" src="assets/assets/img/bintang.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Glosarium Item 3-->
+
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium3">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium32">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Alam Semesta</i>
                         </div>
                     </div>
-                    <img class="img-fluid" style="size: 5px;" src="assets/assets/img/nebula-2.jpg" alt="..." />
+                    <img class="img-fluid" src="assets/assets/img/nebula-2.jpg" alt="..." />
                 </div>
             </div>
             
@@ -142,7 +143,7 @@
         <div class="row justify-content-center">
             <!-- Kak Astro Item 1-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro1">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>
@@ -153,7 +154,7 @@
             </div>
             <!-- Kak Astro Item 2-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro2">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro22">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -164,7 +165,7 @@
             </div>
             <!-- Kak Astro Item 3-->
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro3">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro32">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
                             <i>Apakah Venus Memiliki Satelit Alami Seperti Bumi?</i>

@@ -59,8 +59,10 @@ class GlosariumController extends Controller
 
     public function index()
     {
+        
+
         // Ambil semua data dari tabel 
-        $glosariums = glosarium::all();
+        $glosariums = Glosarium::all();
         
         // Kirim data ke view 
         return view('glosarium/glosarium', compact('glosariums'));

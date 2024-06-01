@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             ]
         );
         
-        Glosarium::factory(5)->create();
+        // Glosarium::factory(5)->create();
     }
     
 }

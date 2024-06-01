@@ -53,8 +53,8 @@
                             href="/tatasurya">Explor</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/glosarium">Glosarium</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/kakastro">Kak
-                            Astro</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" 
+                            href="/kakastro">Kak Astro</a></li>
                     @guest
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="/tanya">Hubungi Kami</a></li>
@@ -68,9 +68,11 @@
                             data-bs-toggle="dropdown" aria-expanded="false">Hi {{auth()->user()->name}}</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/posts"><i class="bi bi-layout-text-sidebar-reverse"></i>
-                                    Post</a></li>
-                                    <li><a class="dropdown-item" href="/glosarium/addglosarium"><i class="bi bi-layout-text-sidebar-reverse"></i>
+                                    Pertanyaan</a></li>
+                            <li><a class="dropdown-item" href="/addglosarium"><i class="bi bi-layout-text-sidebar-reverse"></i>
                                     Tambah Glosarium</a></li>
+                            <li><a class="dropdown-item" href="/addkakastro"><i class="bi bi-layout-text-sidebar-reverse"></i>
+                                    Tambah Kakastro</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>

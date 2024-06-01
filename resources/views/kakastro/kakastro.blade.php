@@ -36,7 +36,7 @@
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
         <!-- Kak Astro Section Heading-->
-        <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Glosarium</h2> -->
+        <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">kakastro</h2> -->
 
         <!-- Icon Divider-->
         <!-- <div class="divider-custom divider-light">
@@ -82,6 +82,56 @@
                 </div>
             </div>
 
+            @foreach($kakastros as $kakastro)
+            <div class="col-md-5 col-lg-3 mb-4">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="kakastro{{ $kakastro->id }}">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i>{{ $kakastro->title }}</i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}" alt="..." />
+                    
+                </div>
+            </div>
+            
+
+            <div class="portfolio-modal modal fade" id="kakastro{{ $kakastro->id }}" tabindex="-1"
+                aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0"><button class="btn-close" type="button"
+                                data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+                                            {{ $kakastro->title }}</h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="assets/assets/img/.$kakastro->gambar"
+                                            alt="..." />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4" syle="text-align=justify;">{{ $kakastro->body }}</p>
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endforeach
 
         </div>
     </div>

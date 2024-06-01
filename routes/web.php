@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\TanyaController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\GlosariumController;
+use App\Http\Controllers\KakastroController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -82,6 +83,14 @@ Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });
 
+Route::get('/kakastro', [KakastroController::class, 'index']);
+
+Route::get('/addkakastro', function () {
+    return view('addkakastro');
+});
+
+Route::post('/sendkakastro', [KakastroController::class, 'store'])->name('kakastro.store');
+
 
 
 
@@ -93,10 +102,10 @@ Route::get('/glosarium', function () {
 
 Route::get('/glosarium', [GlosariumController::class, 'index']);
 
-Route::post('/glosarium', [GlosariumController::class, 'store'])->name('glosarium.store');
+Route::post('/sendglosarium', [GlosariumController::class, 'store'])->name('glosarium.store');
 
-Route::get('/glosarium/addglosarium', function () {
-    return view('glosarium/addglosarium');
+Route::get('/addglosarium', function () {
+    return view('addglosarium');
 });
 
 // Route::get('/glosarium/asteroid', function () {

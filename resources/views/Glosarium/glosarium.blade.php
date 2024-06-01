@@ -101,19 +101,19 @@
 
             @foreach($glosariums as $glosarium)
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="{{ $glosarium->id }}">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="glosarium{{ $glosarium->id }}">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>{{ $glosarium->title }}</i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="assets/assets/img/nebula-2.jpg" alt="..." />
+                    <img class="img-fluid" src="{{ asset('assets/assets/img/' . $glosarium->gambar) }}" alt="..." />
                 </div>
             </div>
 
 
-            <div class="portfolio-modal modal fade" id="{{ $glosarium->id }}" tabindex="-1"
-                aria-labelledby="{{ $glosarium->id }}" aria-hidden="true">
+            <div class="portfolio-modal modal fade" id="glosarium{{ $glosarium->id }}" tabindex="-1"
+                aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header border-0"><button class="btn-close" type="button"
@@ -132,7 +132,7 @@
                                             <div class="divider-custom-line"></div>
                                         </div>
                                         <!-- Portfolio Modal - Image-->
-                                        <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg"
+                                        <img class="img-fluid rounded mb-5" src="{{ asset('assets/assets/img/' . $glosarium->gambar) }}"
                                             alt="..." />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4" syle="text-align=justify;">{{ $glosarium->body }}</p>

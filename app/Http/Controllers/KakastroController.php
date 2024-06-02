@@ -31,4 +31,10 @@ class KakastroController extends Controller
         // Kirim data ke view 
         return view('kakastro/kakastro', compact('kakastros'));
     }
+
+    public function destroy(Kakastro $kakastro)
+{
+    $kakastro->delete();
+    return redirect()->route('kakastros.index')->with('success', 'Kakastro berhasil dihapus.');
+}
 }

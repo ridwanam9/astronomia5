@@ -127,6 +127,17 @@
                                     </div>
                                 </div>
                             </div>
+                            @auth
+                            <form action="{{ route('kakastros.destroy', $kakastro->id) }}" method="POST"
+                                style="display: inline-block;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger btn-sm mt-3"
+                                    onclick="return confirm('Are you sure you want to delete this item?')">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </form>
+                            @endauth
                         </div>
                     </div>
                 </div>

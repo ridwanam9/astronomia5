@@ -83,7 +83,7 @@ Route::get('/kakastro', function () {
     return view('kakastro/kakastro');
 });
 
-Route::get('/kakastro', [KakastroController::class, 'index']);
+Route::get('/kakastro', [KakastroController::class, 'index'])->name('kakastros.index');
 
 Route::get('/addkakastro', function () {
     return view('addkakastro');
@@ -91,7 +91,7 @@ Route::get('/addkakastro', function () {
 
 Route::post('/sendkakastro', [KakastroController::class, 'store'])->name('kakastro.store');
 
-
+Route::delete('/kakastros/{kakastro}', [KakastroController::class, 'destroy'])->name('kakastros.destroy');
 
 
 // Glosarium

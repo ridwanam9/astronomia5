@@ -108,6 +108,11 @@ Route::get('/addglosarium', function () {
     return view('addglosarium');
 });
 
+
+
+Route::get('/glosarium/{glosarium}/edit', [GlosariumController::class, 'edit'])->name('glosariums.edit');
+Route::patch('/glosarium/{glosarium}', [GlosariumController::class, 'update'])->name('glosariums.update');
+
 // Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
 // Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
 // Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy']);

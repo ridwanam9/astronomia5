@@ -7,42 +7,6 @@ use App\Models\Glosarium;
 
 class GlosariumController extends Controller
 {
-    //
-    // public function index()
-    // {
-    //     // Ambil semua data dari tabel tanyas
-    //     $glosariums = Glosarium::all();
-        
-    //     // Kirim data ke view post.blade.php
-    //     return view('Glosarium/glosarium', compact('glosariums'));
-    // }
-
-    // public function store(Request $request)
-    // {
-    //     $validatedData = $request->validate([
-    //         'title' => 'required',
-    //         'gambar' => 'required',
-    //         'body' => 'required',
-    //         'published_at' => 'required',
-    //     ]);
-
-    //     $image = $request->file('gambar');
-    //     $imgName = time() . rand() . '.' . $image->extension();
-    //     $destinationPath = public_path('/images');
-    //     $image->move($destinationPath, $imgName);
-    //     $uploaded = $imgName;
-
-    //     Glosarium::create([
-    //         'title'=> $request->title,
-    //         'gambar'=> $uploaded,
-    //         'body'=> $request->body,
-    //         'published_at'=> $request->published_at,
-    //     ]);
-
-    //     return redirect('/glosarium')->with('success', 'Data Glosarium berhasil disimpan!');
-    // }
-
-
     public function store(Request $request)
     {
         $validatedData = $request->validate([
@@ -68,30 +32,39 @@ class GlosariumController extends Controller
         return view('glosarium/glosarium', compact('glosariums'));
     }
 
-    // public function destroy(Glosarium $glosarium)
-    // {
-    //     Glosarium::destroy($glosarium->id);
-    //     // $glosarium->delete();
+    public function edit(Glosarium $glosarium)
+    {
+        
+        return view('glosarium.updateglosarium', compact('glosarium'));
+       
+    }
 
-    //     return redirect('glosarium/glosarium');
-    // }
+    public function update(Request $request, Glosarium $glosarium)
+    {
+        $request->validate([
+            'title' => 'required|max:255',
+            'gambar' => 'required',
+            'body' => 'required',
+        ]);
 
-//     public function destroy($id)
-// {
-//     $glosarium = Glosarium::find($id);
+        // Practical
+        // $todo->title = $request->title;
+        // $todo->save();
 
-//     if ($glosarium) {
-//         $glosarium->delete();
-//         return response()->json(['success' => true]);
-//     }
+        // Eloquent Way - Readable
+        $glosarium->update([
+            'title' => ucfirst($request->title),
+            'gambar' => $request->gambar,
+            'body' => $request->body,
+            
+        ]);
+        return redirect()->route('glosariums.index')->with('success', 'Glosarium updated successfully!');
+    }
 
-//     return response()->json(['success' => false], 404);
-// }
-
-public function destroy(Glosarium $glosarium)
-{
-    $glosarium->delete();
-    return redirect()->route('glosariums.index')->with('success', 'Glosarium berhasil dihapus.');
-}
+    public function destroy(Glosarium $glosarium)
+    {
+        $glosarium->delete();
+        return redirect()->route('glosariums.index')->with('success', 'Glosarium berhasil dihapus.');
+    }
 
 }

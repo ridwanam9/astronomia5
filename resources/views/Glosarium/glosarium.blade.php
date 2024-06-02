@@ -151,6 +151,9 @@
                                     <i class="fas fa-trash"></i> Delete
                                 </button>
                             </form>
+                            <a href="{{ route('glosariums.edit', $glosarium->id) }}" class="btn btn-warning btn-sm mt-3">
+                                <i class="fas fa-edit"></i> Update
+                            </a>
                             @endauth
                         </div>
                     </div>

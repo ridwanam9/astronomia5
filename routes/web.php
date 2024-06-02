@@ -89,6 +89,10 @@ Route::get('/addkakastro', function () {
     return view('addkakastro');
 });
 
+
+Route::get('/kakastro/{kakastro}/edit', [kakastroController::class, 'edit'])->name('kakastros.edit');
+Route::patch('/kakastro/{kakastro}', [kakastroController::class, 'update'])->name('kakastros.update');
+
 Route::post('/sendkakastro', [KakastroController::class, 'store'])->name('kakastro.store');
 
 Route::delete('/kakastros/{kakastro}', [KakastroController::class, 'destroy'])->name('kakastros.destroy');

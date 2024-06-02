@@ -100,13 +100,20 @@ Route::get('/glosarium', function () {
     return view('glosarium/glosarium');
 });
 
-Route::get('/glosarium', [GlosariumController::class, 'index']);
+Route::get('/glosarium', [GlosariumController::class, 'index'])->name('glosariums.index');
 
 Route::post('/sendglosarium', [GlosariumController::class, 'store'])->name('glosarium.store');
 
 Route::get('/addglosarium', function () {
     return view('addglosarium');
 });
+
+// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
+// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
+// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy']);
+
+Route::delete('/glosariums/{glosarium}', [GlosariumController::class, 'destroy'])->name('glosariums.destroy');
+
 
 // Route::get('/glosarium/asteroid', function () {
 //     return view('glosarium/asteroid');

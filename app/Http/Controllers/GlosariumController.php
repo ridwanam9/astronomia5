@@ -67,4 +67,31 @@ class GlosariumController extends Controller
         // Kirim data ke view 
         return view('glosarium/glosarium', compact('glosariums'));
     }
+
+    // public function destroy(Glosarium $glosarium)
+    // {
+    //     Glosarium::destroy($glosarium->id);
+    //     // $glosarium->delete();
+
+    //     return redirect('glosarium/glosarium');
+    // }
+
+//     public function destroy($id)
+// {
+//     $glosarium = Glosarium::find($id);
+
+//     if ($glosarium) {
+//         $glosarium->delete();
+//         return response()->json(['success' => true]);
+//     }
+
+//     return response()->json(['success' => false], 404);
+// }
+
+public function destroy(Glosarium $glosarium)
+{
+    $glosarium->delete();
+    return redirect()->route('glosariums.index')->with('success', 'Glosarium berhasil dihapus.');
+}
+
 }

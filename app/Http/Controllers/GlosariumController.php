@@ -18,7 +18,7 @@ class GlosariumController extends Controller
 
         glosarium::create($validatedData);
 
-        return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
+        return redirect('/')->with('success', 'Glosarium berhasil disimpan!');
     }
 
     public function index(Request $request)

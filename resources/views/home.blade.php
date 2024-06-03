@@ -6,6 +6,14 @@
     height: cover;  overflow: auto">
     <div class="container d-flex align-items-center flex-column">
 
+        @if(session()->has('success'))
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            {{session('success')}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @endif
 
         {{-- <!-- Masthead Avatar Image-->
             <img class="masthead-avatar mb-5" src="assets/assets/img/avataaars.svg" alt="..." /> --}}

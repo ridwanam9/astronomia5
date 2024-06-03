@@ -20,7 +20,7 @@ class KakastroController extends Controller
 
         Kakastro::create($validatedData);
 
-        return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
+        return redirect('/')->with('success', 'Kakastro berhasil disimpan!');
     }
 
     public function index(Request $request)

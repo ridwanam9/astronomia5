@@ -20,7 +20,7 @@ class TanyaController extends Controller
 
         Tanya::create($validatedData);
 
-        return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
+        return redirect('/')->with('success', 'Pertanyaan Anda berhasil disimpan. Untuk daftar pertanyaannya hanya bisa dilihat oleh Admin.');
     }
 
     

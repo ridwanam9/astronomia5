@@ -46,7 +46,7 @@
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
                         <input class="form-control rounded" type="file" name="gambar" placeholder="gambar"
-                            data-sb-validations="required,email" />
+                            data-sb-validations="required" />
                         <label for="gambar">Gambar</label>
                         <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->

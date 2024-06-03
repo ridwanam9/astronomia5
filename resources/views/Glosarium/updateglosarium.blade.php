@@ -52,7 +52,7 @@
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
                         <input class="form-control rounded" type="file" name="gambar" placeholder="gambar"
-                            data-sb-validations="required,email" value="{{ $glosarium->gambar }}" />
+                            data-sb-validations="required" value="{{ asset('assets/assets/img/' . $glosarium->gambar) }}" />
                         <label for="gambar">Gambar</label>
                         <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->

@@ -18,8 +18,18 @@
 
 
 
-        {{-- <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p> --}}
+        <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Pada Halaman ini,
+            berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
+
+            @auth
+                Hubungi Kami.
+            @else
+            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+            @endauth
+
+            Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
+            saja, melainkan dari semua User yang mengajukan pertanyaannya.</p>
     </div>
 </section>
 

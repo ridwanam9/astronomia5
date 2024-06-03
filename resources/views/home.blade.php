@@ -15,19 +15,13 @@
         </div>
         @endif
 
-        {{-- <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/assets/img/avataaars.svg" alt="..." /> --}}
+
 
 
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0"> Selamat Datang di Astronomia</h1>
+        <h2 class="masthead-heading text-uppercase mb-0"> Selamat Datang di Astronomia</h2>
 
-        {{-- <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div> --}}
+
         <br>
         <br>
         <!-- Masthead Subheading-->
@@ -41,11 +35,10 @@
     height: 90vh;  overflow: auto;">
     <div class="container d-flex align-items-center flex-column">
 
-        {{-- <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/assets/img/avataaars.svg" alt="..." /> --}}
+
 
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Tentang Kami</h1>
+        <h2 class="masthead-heading text-uppercase mb-0">Tentang Kami</h2>
 
         <br>
         <br>
@@ -81,9 +74,9 @@
 
 
         <!-- Glosarium Grid Items-->
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
 
-        <div class="col-md-5 col-lg-3 mb-4">
+            <div class="col-md-5 col-lg-3 mb-4">
                 <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal"
                     data-bs-target="#glosarium12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -116,19 +109,17 @@
                     <img class="img-fluid" src="assets/assets/img/nebula-2.jpg" alt="..." />
                 </div>
             </div>
-            
 
-            <!-- <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <img src="assets/assets/img/matahari.jpeg" alt="Image" class="card-image">
-                        <div class="card-content">
-                            <h2 class="card-title">Card Title</h2>
+        </div> -->
 
-                        </div>
 
-                    </div>
-                </div> -->
-        </div>
+        <p class="text-light font-weight-light mb-0" style="text-align:center; font-size: 1.25rem;">Pada
+            halaman ini,
+            anda akan disuguhi beberapa informasi mengenai objek-objek di alam semesta. informasi yang kami berikan
+            dapat mudah dipahami oleh anda yang ingin mempelajari lebih jauh tentang alam semesta.
+        </p>
+        <big class="d-block text-center text-light mt-4">Lihat Ke Halaman <a class="text-warning"
+                href="/glosarium">Glosarium</a></big>
     </div>
 </section>
 
@@ -148,10 +139,11 @@
             <div class="divider-custom-line"></div>
         </div>
 
-        <div class="row justify-content-center">
-            <!-- Kak Astro Item 1-->
+        <!-- <div class="row justify-content-center">
+            
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro12">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
+                    data-bs-target="#kakastro12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?</i>
@@ -160,9 +152,10 @@
                     <img class="img-fluid" src="assets/assets/img/gerhanaM.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Kak Astro Item 2-->
+            
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro22">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
+                    data-bs-target="#kakastro22">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i>Mengapa Bumi Bisa Mengalami musim?</i>
@@ -171,19 +164,36 @@
                     <img class="img-fluid" src="assets/assets/img/orbitbumi2.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Kak Astro Item 3-->
+            
             <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro32">
+                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
+                    data-bs-target="#kakastro32">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white">
+                        <div class="portfolio-item-caption-content text-center text-white">
                             <i>Apakah Venus Memiliki Satelit Alami Seperti Bumi?</i>
                         </div>
                     </div>
                     <img class="img-fluid" src="assets/assets/img/venus2.jpeg" alt="..." />
                 </div>
             </div>
-            
-        </div>
+
+        </div> -->
+
+        <p class="text-light font-weight-light mb-0" style="text-align:center; font-size: 1.25rem;">Pada Halaman ini,
+            berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
+
+            @auth
+                Hubungi Kami.
+            @else
+            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+            @endauth
+
+            Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
+            saja, melainkan dari semua User yang mengajukan pertanyaannya.
+        </p>
+        <big class="d-block text-center text-light mt-4">Lihat Ke Halaman <a class="text-warning" href="/kakastro">Kak
+                Astro</a></big>
+
     </div>
 </section>
 

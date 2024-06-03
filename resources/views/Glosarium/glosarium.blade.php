@@ -18,8 +18,10 @@
 
 
 
-        {{-- <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p> --}}
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mt-4">Pada halaman ini,
+            anda akan disuguhi beberapa informasi mengenai objek-objek di alam semesta. informasi yang kami berikan
+            dapat mudah dipahami oleh anda yang ingin mempelajari lebih jauh tentang alam semesta.</p>
     </div>
 </section>
 

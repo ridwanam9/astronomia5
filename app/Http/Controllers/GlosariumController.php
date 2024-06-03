@@ -21,14 +21,27 @@ class GlosariumController extends Controller
         return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
     }
 
-    public function index()
+    public function index(Request $request)
     {
         
+        // dd(request('search'));
 
         // Ambil semua data dari tabel 
-        $glosariums = Glosarium::all();
+        // $glosariums = Glosarium::all();
         
         // Kirim data ke view 
+        // return view('glosarium/glosarium', compact('glosariums'));
+
+        $search = $request->input('search');
+
+        // Simpan nilai pencarian terakhir di sesi
+        session(['last_search' => $search]);
+
+        // Ambil data glosarium berdasarkan pencarian
+        $glosariums = Glosarium::where('title', 'like', '%'.$search.'%')
+                                ->orWhere('body', 'like', '%'.$search.'%')
+                                ->get();
+
         return view('glosarium/glosarium', compact('glosariums'));
     }
 

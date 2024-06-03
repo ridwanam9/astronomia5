@@ -23,12 +23,27 @@ class KakastroController extends Controller
         return redirect('/')->with('success', 'Data Tanya berhasil disimpan!');
     }
 
-    public function index()
+    public function index(Request $request)
     {
+        
+        // dd(request('search'));
+
         // Ambil semua data dari tabel 
-        $kakastros = Kakastro::all();
+        // $kakastros = kakastro::all();
         
         // Kirim data ke view 
+        // return view('kakastro/kakastro', compact('kakastros'));
+
+        $search = $request->input('search');
+
+        // Simpan nilai pencarian terakhir di sesi
+        session(['last_search' => $search]);
+
+        // Ambil data kakastro berdasarkan pencarian
+        $kakastros = Kakastro::where('title', 'like', '%'.$search.'%')
+                                ->orWhere('body', 'like', '%'.$search.'%')
+                                ->get();
+
         return view('kakastro/kakastro', compact('kakastros'));
     }
 

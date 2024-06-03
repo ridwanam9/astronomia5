@@ -23,7 +23,20 @@
     </div>
 </section>
 
-
+<div class="container">
+    <div class="row justify-content-center mb-3">
+        <div class="col-md-6">
+            <form action="{{ route('kakastros.index') }}" method="GET">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                    <input type="text" name="search" placeholder="Cari..." class="form-control" aria-label=""
+                        aria-describedby="basic-addon1" value="{{ session('last_search') }}">
+                </div>
+            </form>
+        </div>
+    </div>
 
 <div class="divider-custom divider-light">
     <div class="divider-custom-line"></div>
@@ -48,8 +61,8 @@
         <!-- Kak Astro Grid Items-->
         <div class="row justify-content-center">
 
-            <!-- Kak Astro Item 1-->
-            <div class="col-md-5 col-lg-3 mb-4">
+            
+            <!-- <div class="col-md-5 col-lg-3 mb-4">
                 <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro12">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
@@ -59,7 +72,7 @@
                     <img class="img-fluid" src="assets/assets/img/gerhanaM.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Kak Astro Item 2-->
+            
             <div class="col-md-5 col-lg-3 mb-4">
                 <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro22">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -70,7 +83,7 @@
                     <img class="img-fluid" src="assets/assets/img/orbitbumi2.jpeg" alt="..." />
                 </div>
             </div>
-            <!-- Kak Astro Item 3-->
+            
             <div class="col-md-5 col-lg-3 mb-4">
                 <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal" data-bs-target="#kakastro32">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -80,7 +93,7 @@
                     </div>
                     <img class="img-fluid" src="assets/assets/img/venus2.jpeg" alt="..." />
                 </div>
-            </div>
+            </div> -->
 
             @foreach($kakastros as $kakastro)
             <div class="col-md-5 col-lg-3 mb-4">

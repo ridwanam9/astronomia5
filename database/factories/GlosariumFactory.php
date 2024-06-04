@@ -24,6 +24,7 @@ class GlosariumFactory extends Factory
             // 'body' => fake()->unique()->safeEmail(),
             'title' => $this->faker->sentence,
             'body' => $this->faker->paragraph,
+            'gambar' => $this->faker->imageUrl(150, 150), // URL gambar acak
             'published_at' => now(),
             
         ];

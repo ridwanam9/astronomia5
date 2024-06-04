@@ -135,7 +135,7 @@
                                         </div>
                                         <img class="img-fluid rounded mb-5"
                                             src="{{ asset('assets/assets/img/' . $glosarium->gambar) }}" alt="..." />
-                                        <p class="mb-4" style="text-align: justify;">{{ $glosarium->body }}</p>
+                                        <p class="mb-4" style="text-align: justify;">{!! $glosarium->body !!}</p>
                                         <button class="btn btn-primary" data-bs-dismiss="modal">
                                             <i class="fas fa-xmark fa-fw"></i>
                                             Close Window

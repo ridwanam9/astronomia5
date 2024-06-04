@@ -34,6 +34,52 @@ class DatabaseSeeder extends Seeder
                 'is_admin' => true
             ]
         );
+
+        Glosarium::create(
+
+            [
+                'title' => 'Bintang',
+                'gambar' => 'bintang.jpeg', // URL gambar dummy
+                'body' => '<p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                quo facilis illo voluptatibus sunt.</p>
+                <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
+                eaque soluta rem? Consequuntur!</p>',
+                'published_at' => now(),
+
+            ]
+        );
+        Glosarium::create(
+           
+            [
+                'title' => 'Matahari',
+                'gambar' => 'matahari.jpeg', // URL gambar dummy
+                'body' => '<p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat
+                tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id
+                quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque
+                maxime. Porro itaque eaque soluta rem? Consequuntur!</p>',
+                'published_at' => now(),
+
+            ]
+        );
+        Glosarium::create(
+           
+            [
+                'title' => 'Alam Semesta',
+                'gambar' => 'nebula-2.jpg', // URL gambar dummy
+                'body' => '<p class="mb-4">Alam Semesta adalah benda langit yang bisa mengeluarkan cahaya Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum
+                eligendi quo facilis illo voluptatibus sunt.</p>
+            <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+                quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
+                eaque soluta rem? Consequuntur!</p>',
+                'published_at' => now(),
+
+            ]
+        );
         
         // Glosarium::factory(5)->create();
     }

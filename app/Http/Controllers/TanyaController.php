@@ -23,5 +23,11 @@ class TanyaController extends Controller
         return redirect('/')->with('success', 'Pertanyaan Anda berhasil disimpan. Untuk daftar pertanyaannya hanya bisa dilihat oleh Admin.');
     }
 
+    public function destroy(Tanya $tanya)
+    {
+        $tanya->delete();
+        return redirect()->back()->with('success', 'Tanya berhasil dihapus.');
+    }
+
     
 }

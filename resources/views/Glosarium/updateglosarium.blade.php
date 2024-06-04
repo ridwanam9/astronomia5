@@ -61,7 +61,7 @@
                     <!-- Message input-->
                     <div class="form-floating mb-3">
                         <textarea class="form-control rounded" type="text" name="body" placeholder="body"
-                            style="height: 10rem" data-sb-validations="required" value="{{ $glosarium->body }}"></textarea>
+                            style="height: 20rem" data-sb-validations="required" value="{{ $glosarium->body }}"></textarea>
                         <label for="body">Body</label>
                         <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
                     </div>

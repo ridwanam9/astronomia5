@@ -51,6 +51,7 @@ Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store'
 //menampilkan data dari tabel tanya ke dalam post.blade.php
 Route::get('/posts', [PostController::class, 'index']);
 
+Route::delete('/tanyas/{tanya}', [TanyaController::class, 'destroy'])->name('tanyas.destroy');
 
 
 // // Dropdown Menu

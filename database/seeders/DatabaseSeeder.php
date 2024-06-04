@@ -47,6 +47,24 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
+        Tanya::create(
+            [
+                'nama' => 'Noah Hanis',
+                'email' => 'noah@email.com',
+                'handphone' => '082359993841',
+                'judul' => 'Mengapa Bumi bisa Mengalami Musim',
+            ]
+        );
+
+        Tanya::create(
+            [
+                'nama' => 'Alif Azani',
+                'email' => 'alif@email.com',
+                'handphone' => '082353139941',
+                'judul' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi',
+            ]
+        );
+
         Glosarium::create(
 
             [

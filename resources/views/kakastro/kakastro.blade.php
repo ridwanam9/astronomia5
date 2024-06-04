@@ -139,10 +139,10 @@
                                             <div class="divider-custom-line"></div>
                                         </div>
                                         <!-- Portfolio Modal - Image-->
-                                        <img class="img-fluid rounded mb-5"
+                                        <img class="rounded mb-4" style="max-width:30%;"
                                             src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}" alt="..." />
                                         <!-- Portfolio Modal - Text-->
-                                        <p class="mb-4" style="text-align: justify;">{{ $kakastro->body }}</p>
+                                        <p class="mb-4" style="text-align: justify;">{!! $kakastro->body !!}</p>
                                         <button class="btn btn-primary" data-bs-dismiss="modal">
                                             <i class="fas fa-xmark fa-fw"></i>
                                             Close Window

@@ -106,7 +106,7 @@
             </div> -->
 
             @foreach($kakastros as $kakastro)
-            <div class="col-md-5 col-lg-3 mb-4">
+            <!-- <div class="col-md-5 col-lg-3 mb-4">
                 <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
                     data-bs-target="#kakastro{{ $kakastro->id }}">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -115,6 +115,27 @@
                         </div>
                     </div>
                     <img class="img-fluid" src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}" alt="..." />
+                </div>
+            </div> -->
+
+            <div class="card mb-4" style="width: 18rem; background-color: #FFE793; cursor: pointer; text-align: center; overflow:hidden; margin-left: 20px;
+  margin-right: 20px;"
+                data-bs-toggle="modal" data-bs-target="#kakastro{{ $kakastro->id }}">
+                <div class="d-inline mt-3" style="max-height:200px; max-width:200px; overflow:hidden; margin-left: auto;
+  margin-right: auto;">
+                    <img class="card-img-top" src="{{ asset('assets/assets/img/' . $kakastro->gambar) }}"
+                        alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ $kakastro->title }}</h5>
+                    <div class="mx-auto" style="max-height:100px; overflow:hidden;  --bs-border-opacity: 1;
+                        border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;">
+                        <p class="card-text">{!! $kakastro->body !!}</p>
+                    </div>
+                </div>
+                <div class="mb-3" style="--bs-border-opacity: 1;
+                        border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;">
+                    <a href="#" class="btn btn-primary btn-sm d-inline">Read More</a>
                 </div>
             </div>
 

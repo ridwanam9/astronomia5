@@ -89,7 +89,11 @@ class DatabaseSeeder extends Seeder
                 'body' => '<p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat
                 tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id
                 quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque
-                maxime. Porro itaque eaque soluta rem? Consequuntur!</p>',
+                maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
+                
+                <iframe src="https://solarsystem.nasa.gov/gltf_embed/2352/?height=450&amp;amp;rotate=true&amp;amp;cc=true&amp;amp;fs=true&amp;amp;target=&amp;amp;orbit=" title="" class="smd-iframe-iframe margin-left-auto margin-right-auto border-0" allow="fullscreen">Unable to render the provided source</iframe>',
+                
+                
                 'published_at' => now(),
 
             ]

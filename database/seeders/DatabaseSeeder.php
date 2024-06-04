@@ -8,6 +8,8 @@ use Illuminate\Database\Seeder;
 use App\Models\User;
 use App\Models\Glosarium;
 use App\Models\Kakastro;
+use App\Models\Tanya;
+
 
 
 class DatabaseSeeder extends Seeder
@@ -33,6 +35,15 @@ class DatabaseSeeder extends Seeder
                 'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
                 'remember_token' => Str::random(10),
                 'is_admin' => true
+            ]
+        );
+
+        Tanya::create(
+            [
+                'nama' => 'Yusuf Johan Kelana',
+                'email' => 'yusufjk@email.com',
+                'handphone' => '082353133841',
+                'judul' => 'Mengapa Gerhana Matahari dan Bulan Bisa Terjadi',
             ]
         );
 

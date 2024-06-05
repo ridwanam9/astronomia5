@@ -24,7 +24,16 @@
 
             Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
             saja, melainkan dari semua User yang mengajukan pertanyaannya.
+
+            
         </p>
+
+        @if(session()->has('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{session('success')}}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
     </div>
 </section>
 

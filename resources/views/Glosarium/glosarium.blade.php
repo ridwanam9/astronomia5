@@ -14,6 +14,25 @@
         <p class="masthead-subheading font-weight-light mt-4">Pada halaman ini,
             anda akan disuguhi beberapa informasi mengenai objek-objek di alam semesta. informasi yang kami berikan
             dapat mudah dipahami oleh anda yang ingin mempelajari lebih jauh tentang alam semesta.</p>
+
+        @if(session()->has('success'))
+        <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            {{session('success')}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> {{session('success')}}
+        </div> -->
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{session('success')}}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
     </div>
 </section>
 

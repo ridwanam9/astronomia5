@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Glosarium;
+use App\Models\Kakastro;
 
 class GlosariumController extends Controller
 {
@@ -48,8 +49,9 @@ class GlosariumController extends Controller
 
     public function glosarium()
     {
-        $glosariums = Glosarium::latest()->get();
-        return view('home', compact('glosariums'));
+        $glosariums = Glosarium::latest()->get(); // Jika Anda menggunakan controller yang sama
+        $kakastros = Kakastro::latest()->get();
+    return view('home', compact('glosariums', 'kakastros'));
     }
 
     public function edit(Glosarium $glosarium)

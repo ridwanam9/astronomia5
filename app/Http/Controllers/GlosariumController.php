@@ -45,6 +45,13 @@ class GlosariumController extends Controller
         return view('glosarium/glosarium', compact('glosariums'));
     }
 
+
+    public function glosarium()
+    {
+        $glosariums = Glosarium::latest()->get();
+        return view('home', compact('glosariums'));
+    }
+
     public function edit(Glosarium $glosarium)
     {
         

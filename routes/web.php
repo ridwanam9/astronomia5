@@ -105,6 +105,8 @@ Route::get('/glosarium', function () {
     return view('glosarium/glosarium');
 });
 
+Route::get('/', [GlosariumController::class, 'glosarium'])->name('home');
+
 Route::get('/glosarium', [GlosariumController::class, 'index'])->name('glosariums.index');
 
 Route::post('/sendglosarium', [GlosariumController::class, 'store'])->name('glosarium.store');

@@ -26,7 +26,7 @@
 
 <!-- Contact Section-->
 <section class="page-section text-white" id="contact" style="
-    height: 90vh;">
+    height: cover;">
     <div class="container">
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
@@ -81,3 +81,5 @@
         </div>
     </div>
 </section>
+
+@endsection

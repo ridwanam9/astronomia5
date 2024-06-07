@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
+ -->
+ @extends('layouts.main')
 
+ @section('container')
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +13,14 @@
 </head>
 
 <body class="opening hide-UI view-2D zoom-large data-close controls-close">
-    <div id="navbar">
+ 
+    <!-- <div id="navbar">
+        <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
+        <h1>Animasi 3D Tata Surya<br><span>Oleh <a href="https://twitter.com/JulianGarnier"
+                    target="_blank">@JulianGarnier</a></span></h1>
+        <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
+    </div> -->
+    <div>
         <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
         <h1>Animasi 3D Tata Surya<br><span>Oleh <a href="https://twitter.com/JulianGarnier"
                     target="_blank">@JulianGarnier</a></span></h1>
@@ -145,6 +155,21 @@
             </div>
         </div>
     </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- menampilkan sumber source code -->
+    <div>
+        <!-- <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a> -->
+        <h1>Animasi 3D Tata Surya<br><span>Oleh <a href="https://twitter.com/JulianGarnier"
+                    target="_blank">@JulianGarnier</a></span></h1>
+        
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script type="text/javascript">
         if (typeof jQuery == 'undefined') {
@@ -156,4 +181,6 @@
     <script src="js/scripts.min.js"></script>
 </body>
 
-</html>
+@endsection
+
+<!-- </html> -->

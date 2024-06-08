@@ -9,6 +9,15 @@ use App\Models\Tanya;
 class TanyaController extends Controller
 {
     //
+    public function index()
+    {
+        // Ambil semua data dari tabel tanyas
+        $tanyas = Tanya::all();
+        
+        // Kirim data ke view post.blade.php
+        return view('listpertanyaan', compact('tanyas'));
+    }
+
     public function store(Request $request)
     {
         $validatedData = $request->validate([

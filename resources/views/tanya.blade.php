@@ -53,14 +53,14 @@
                     <div class="form-floating mb-3">
                         <input class="form-control rounded" type="text" name="nama" placeholder="Nama"
                             data-sb-validations="required" />
-                        <label for="name">Full name</label>
+                        <label for="name">Nama Lengkap</label>
                         <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
                         <input class="form-control rounded" type="text" name="email" placeholder="Email"
                             data-sb-validations="required,email" />
-                        <label for="email">Email address</label>
+                        <label for="email">Alamat Email</label>
                         <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                     </div>
@@ -68,7 +68,7 @@
                     <div class="form-floating mb-3">
                         <input class="form-control rounded" type="text" name="handphone" placeholder="Handphone"
                             data-sb-validations="required" />
-                        <label for="phone">Phone number</label>
+                        <label for="phone">Nomor Handphone</label>
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                     <div class="form-floating mb-3">
                         <textarea class="form-control rounded" type="text" name="judul" placeholder="Judul"
                             style="height: 10rem" data-sb-validations="required"></textarea>
-                        <label for="message">Message</label>
+                        <label for="message">Tuliskan Pertanyaan Anda</label>
                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                     </div>
                     <!-- Submit success message-->

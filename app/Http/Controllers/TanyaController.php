@@ -22,7 +22,7 @@ class TanyaController extends Controller
     {
         $validatedData = $request->validate([
             'nama' => 'required',
-            'email' => 'required|email|unique:tanyas',
+            'email' => 'required|email',
             'handphone' => 'required',
             'judul' => 'required',
         ]);

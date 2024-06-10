@@ -20,8 +20,8 @@ class TanyaFactory extends Factory
             //
             'nama' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
-            'handphone' => $faker->phoneNumber,
-            'judul' => $this->faker->sentence,
+            'handphone' => fake()->phoneNumber,
+            'judul' => fake()->sentence,
         ];
     }
 }

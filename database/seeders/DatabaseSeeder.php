@@ -120,6 +120,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?',
                 'gambar' => 'gerhanaM.jpeg', // URL gambar dummy
+                'tanya_id' => 1,
                 'body' => '<p class="mb-4" style="text-align:justify;">Gerhana matahari terjadi ketika
                 posisi bulan terletak di antara bumi dan
                 matahari sehingga terlihat menutup sebagian atau seluruh cahaya matahari di langit
@@ -169,6 +170,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Mengapa Bumi Bisa Mengalami musim?',
                 'gambar' => 'orbitbumi2.jpeg', // URL gambar dummy
+                'tanya_id' => 2,
                 'body' => '<p class="mb-4" style="text-align:justify;">Musim adalah pembagian berdasarkan
                                     perubahan cuaca, ekologi, dan banyaknya waktu cahaya matahari di suatu wilayah. Di
                                     Bumi, musim adalah hasil dari paralelisme aksial orbit Bumi yang miring mengelilingi
@@ -205,6 +207,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi?',
                 'gambar' => 'venus2.jpeg', // URL gambar dummy
+                'tanya_id' => 3,
                 'body' => '<p class="mb-4" style="text-align:justify;">Planet di tata surya memiliki satelit yang
                 mengelilinginya. Seperti bulan yang merupakan satelit alami bumi. Namun di tata
                 surya kita, ada dua planet yang tidak memiliki satelit alami yakni Merkurius dan
@@ -240,7 +243,8 @@ class DatabaseSeeder extends Seeder
             ]
         );
         
-        // Glosarium::factory(5)->create();
+        Tanya::factory(3)->create();
+        Kakastro::factory(3)->create();
     }
     
 }

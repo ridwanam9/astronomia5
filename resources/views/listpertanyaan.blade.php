@@ -38,7 +38,7 @@
 
 
 <section class="page-section" style="background-image: url('assets/assets/img/universe.jpg');
-    height: 90vh; ">
+    height: cover; overflow: auto">
 <div class="container mt-5">
         <div class="row">
             @foreach($tanyas as $tanya)

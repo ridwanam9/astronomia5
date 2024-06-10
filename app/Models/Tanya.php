@@ -17,4 +17,9 @@ class Tanya extends Model
         'handphone',
         'judul',
     ];
+
+    public function kakastro()
+    {
+        return $this->hasOne(Kakastro::class);
+    }
 }

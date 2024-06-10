@@ -18,4 +18,9 @@ class Kakastro extends Model
         'published_at',
         
     ];
+
+    public function tanya()
+    {
+        return $this->belongsTo(Kakastro::class);
+    }
 }

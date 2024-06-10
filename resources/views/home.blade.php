@@ -121,6 +121,61 @@
 
 
         <div class="row justify-content-center">
+
+            <!-- <div class="col-md-5 col-lg-3 mb-4">
+                <div class="portfolio-item mx-auto border border-warning" data-bs-toggle="modal"
+                    data-bs-target="#glosarium12">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <i>Matahari</i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
+                </div>
+            </div>
+
+            <div class="portfolio-modal modal fade" id="glosarium12" tabindex="-1" aria-labelledby="glosarium12"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0"><button class="btn-close" type="button"
+                                data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Matahari
+                                        </h2>
+                                        
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        
+                                        <img class="img-fluid rounded mb-5" src="assets/assets/img/matahari.jpeg"
+                                            alt="..." />
+                                        
+                                        <p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada
+                                            di pusat
+                                            tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a
+                                            fugiat id
+                                            quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur
+                                            cumque
+                                            maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
             @foreach($glosariums as $glosarium)
             <div class="card mb-4" style="width: 18rem; background-color: #FFE793; cursor: pointer; text-align: center; overflow:hidden; margin-left: 20px;
     margin-right: 20px;" data-bs-toggle="modal" data-bs-target="#glosarium{{ $glosarium->id }}">
@@ -210,6 +265,22 @@
             <div class="divider-custom-line"></div>
         </div>
 
+        <p class="text-light font-weight-light mb-0" style="text-align:center; font-size: 1.25rem;">Pada Halaman ini,
+            berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
+
+            @auth
+            Hubungi Kami.
+            @else
+            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+            @endauth
+
+            Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
+            saja, melainkan dari semua User yang mengajukan pertanyaannya.
+        </p>
+        <big class="d-block text-center text-light mt-4 mb-4">Lihat Ke Halaman <a class="text-warning"
+                href="/kakastro">Kak
+                Astro</a></big>
+
         <!-- <div class="row justify-content-center">
             
             <div class="col-md-5 col-lg-3 mb-4">
@@ -249,22 +320,6 @@
             </div>
 
         </div> -->
-
-        <p class="text-light font-weight-light mb-0" style="text-align:center; font-size: 1.25rem;">Pada Halaman ini,
-            berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
-
-            @auth
-            Hubungi Kami.
-            @else
-            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
-            @endauth
-
-            Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
-            saja, melainkan dari semua User yang mengajukan pertanyaannya.
-        </p>
-        <big class="d-block text-center text-light mt-4 mb-4">Lihat Ke Halaman <a class="text-warning" href="/kakastro">Kak
-                Astro</a></big>
-
 
 
         <div class="row justify-content-center">

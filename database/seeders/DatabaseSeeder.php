@@ -86,10 +86,138 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Matahari',
                 'gambar' => 'matahari.jpeg', // URL gambar dummy
-                'body' => '<p class="mb-4" syle="text-align=justify;">Matahari telah disebut dengan banyak nama. Kata Latin untuk Matahari adalah “sol,” yang merupakan kata sifat utama untuk semua hal yang berhubungan dengan Matahari: Surya. Helios, dewa Matahari dalam mitologi Yunani kuno, juga meminjamkan namanya ke banyak istilah yang berhubungan dengan Matahari, seperti heliosfer dan helioseismologi.</p>
-                <p class="mb-4" syle="text-align=justify;">Lalu dari mana kata MATAHARI dalam bahasa Indonesia berasal? Secara Harfiah, kata “matahari” berasal dari gabungan dua kata, yaitu “mata” yang berarti indra pengelihatan manusia, dan “hari” yang merupakan satuan waktu yang terdiri dari siang dan malam. Menurut KBBI (Kamus Besar Bahasa Indonesia), MATAHARI adalah bintang yang merupakan pusat tata surya, memancarkan panas dan cahaya ke Bumi dan planet-palnet lain yang mengedarinya, sebagian besar kandungannya berupa hidrogen dan helium.</p>
+                'body' => '<table style="width:100%; text-align: left;">
+                                            <tr>
+                                                <th rowspan="8"><img class="img-fluid rounded mb-5"
+                                                        style="max-width:70%;" src="assets/assets/img/matahari.jpeg"
+                                                        alt="..." /></th>
+                                            </tr>
+                                            <tr>
+                                                <td>Benda langit</td>
+                                                <td>: Bintang</td>
 
-                <iframe src="https://solarsystem.nasa.gov/gltf_embed/2352/?height=450&amp;amp;rotate=true&amp;amp;cc=true&amp;amp;fs=true&amp;amp;target=&amp;amp;orbit=" title="" class="smd-iframe-iframe margin-left-auto margin-right-auto border-0" allow="fullscreen">Unable to render the provided source</iframe>',
+                                            </tr>
+                                            <tr>
+                                                <td>Jarak Dari Bumi</td>
+                                                <td>: 149.600.000 Km</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Diameter</td>
+                                                <td>: 1.000.000 Km</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Suhu</td>
+                                                <td>: 5.500 derajat C</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Massa(Bumi=1)</td>
+                                                <td>: 333.060 Bumi</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Volume(Bumi=1)</td>
+                                                <td>: 1.300.000 Bumi</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Gravitasi(Bumi=1)</td>
+                                                <td>: 27,94 Bumi</td>
+
+                                            </tr>
+                                        </table>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-3 text-bold">Asal Nama</h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Matahari telah disebut dengan banyak
+                                            nama. Kata Latin untuk Matahari adalah “sol,” yang merupakan kata sifat
+                                            utama untuk semua hal yang berhubungan dengan Matahari: Surya. Helios, dewa
+                                            Matahari dalam mitologi Yunani kuno, juga meminjamkan namanya ke banyak
+                                            istilah yang berhubungan dengan Matahari, seperti heliosfer dan
+                                            helioseismologi.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Lalu dari mana kata MATAHARI dalam
+                                            bahasa Indonesia berasal? Secara Harfiah, kata “matahari” berasal dari
+                                            gabungan dua kata, yaitu “mata” yang berarti indra pengelihatan manusia, dan
+                                            “hari” yang merupakan satuan waktu yang terdiri dari siang dan malam.
+                                            Menurut KBBI (Kamus Besar Bahasa Indonesia), MATAHARI adalah bintang yang
+                                            merupakan pusat tata surya, memancarkan panas dan cahaya ke Bumi dan
+                                            planet-palnet lain yang mengedarinya, sebagian besar kandungannya berupa
+                                            hidrogen dan helium.</p>
+                                        <iframe width="560" height="315"
+                                            src="https://solarsystem.nasa.gov/gltf_embed/2352/?height=450&amp;amp;rotate=true&amp;amp;cc=true&amp;amp;fs=true&amp;amp;target=&amp;amp;orbit="
+                                            title=""
+                                            class="smd-iframe-iframe margin-left-auto margin-right-auto border-0"
+                                            allow="fullscreen">Unable to render the provided source</iframe>
+                                        <div class="row">
+                                            <h6 class="mb-1 text-bold">Model 3D Dimensi Matahari</h6>
+                                        </div>
+                                        <div class="row">
+                                            <h6 class="mb-4 text-bold">Sumber: NASA Visualization Technology
+                                                Applications and Development (VTAD)</h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Matahari kita adalah bintang katai
+                                            kuning berusia 4,5 miliar tahun – sebuah bola hidrogen dan helium yang
+                                            bersinar panas – di pusat tata surya kita. Jaraknya sekitar 93 juta mil (150
+                                            juta kilometer) dari Bumi dan merupakan satu-satunya bintang di tata surya
+                                            kita. Tanpa energi Matahari, kehidupan yang kita kenal tidak akan ada di
+                                            planet asal kita.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Matahari terbentuk dalam awan gas dan
+                                            debu raksasa yang berputar yang disebut Nebula Matahari. Saat nebula itu
+                                            runtuh karena gravitasinya sendiri, ia berputar lebih cepat dan menjadi rata
+                                            menjadi piringan. Sebagian besar materi nebula ditarik ke arah pusat untuk
+                                            membentuk Matahari kita, yang menyumbang 99,8% massa tata surya kita.</p>
+
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Posisi Matahari</h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Matahari terbentuk dalam awan gas dan
+                                            debu raksasa yang berputar yang disebut Nebula Matahari. Saat nebula itu
+                                            runtuh karena gravitasinya sendiri, ia berputar lebih cepat dan menjadi rata
+                                            menjadi piringan. Sebagian besar materi nebula ditarik ke arah pusat untuk
+                                            membentuk Matahari kita, yang menyumbang 99,8% massa tata surya kita.</p>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Struktur Matahari</h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Matahari adalah bola besar hidrogen
+                                            dan helium yang disatukan oleh gravitasinya sendiri. Bagian terpanas
+                                            Matahari adalah inti matahari (nomor 1), yang suhunya mencapai 27 juta °F
+                                            (15 juta °C). Bagian Matahari yang kita sebut permukaannya – Fotosfer (nomor
+                                            2) – bersuhu relatif dingin 10.000 °F (5.500 °C). Kromosfer (nomor 3)
+                                            memancarkan cahaya kemerahan saat hidrogen yang sangat panas terbakar. Namun
+                                            lingkaran merah tersebut hanya bisa dilihat saat terjadi gerhana matahari
+                                            total. Di lain waktu, cahaya dari Kromosfer biasanya terlalu lemah untuk
+                                            dilihat di Fotosfer yang lebih terang. Korona (nomor 4) membentuk mahkota
+                                            putih yang indah ("corona" berarti mahkota dalam bahasa Latin dan Spanyol)
+                                            dengan pita plasma menyempit ke luar, membentuk bentuk seperti kelopak
+                                            bunga. Salah satu misteri terbesar Matahari adalah atmosfer terluar
+                                            Matahari, yaitu Korona, yang semakin panas semakin jauh jaraknya dari
+                                            permukaan. Korona mencapai suhu hingga 3,5 juta °F (2 juta °C) – jauh lebih
+                                            panas daripada Fotosfer. Sumber panas Korona merupakan teka-teki besar yang
+                                            belum terpecahkan dalam studi Matahari.</p>
+
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/lbfQW3lQc7o?si=nzIMTCb9n9eaoA1N"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Referensi</h6>
+                                        </div>
+
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="text-bold">1. European Space Agency (ESA)</h6>
+                                            <h6 class="text-bold">2. National Aeronautics and Space Administrations
+                                                (NASA)</h6>
+                                            <h6 class="text-bold">3. UniverseToday</h6>
+                                            <h6 class="text-bold">4. roboguru.ruangguru.com</h6>
+                                            <h6 class="text-bold">5. DW Indonesia</h6>
+                                        </div>',
                 
                 
                 'published_at' => now(),

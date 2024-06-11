@@ -75,6 +75,14 @@ Route::get('/tatasurya', function () {
     return view('tatasurya');
 });
 
+Route::get('/tatasuryadua', function () {
+    return view('tatasuryadua');
+});
+
+Route::get('/tatasuryaori', function () {
+    return view('tatasuryaori');
+});
+
 
 
 

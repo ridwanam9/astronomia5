@@ -1,3 +1,7 @@
+@extends('layouts.main')
+
+@section('container')
+
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
         <!-- <a class="navbar-brand" href="/">Astronomia</a> -->
@@ -65,3 +69,12 @@
         </div>
     </div>
 </nav>
+<br>
+<br>
+<br>
+<br>
+
+
+<iframe src="{{ url('/tatasuryaori') }}" height="800" width="1400" title="Iframe Example"></iframe>
+
+@endsection

@@ -2,6 +2,29 @@
 
 @section('container')
 
+<head>
+    <title>Tata Surya Dua</title>
+    <style>
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 60%;
+        /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    </style>
+</head>
+
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
         <!-- <a class="navbar-brand" href="/">Astronomia</a> -->
@@ -74,7 +97,7 @@
 <br>
 <br>
 
-
-<iframe src="{{ url('/tatasuryaori') }}" height="800" width="1400" title="Iframe Example"></iframe>
-
+<!-- <div class="iframe-container"> -->
+    <iframe src="{{ url('/tatasuryaori') }}" height="800" width="1400" title="Iframe Example"></iframe>
+<!-- </div> -->
 @endsection

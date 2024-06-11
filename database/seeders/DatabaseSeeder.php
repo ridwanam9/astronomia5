@@ -86,11 +86,9 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Matahari',
                 'gambar' => 'matahari.jpeg', // URL gambar dummy
-                'body' => '<p class="mb-4" syle="text-align=justify;">Matahari adalah bintang yang berada di pusat
-                tata suryaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id
-                quos harum eligendi quo facilis illo voluptatibus sunt dolores, aspernatur cumque
-                maxime. Porro itaque eaque soluta rem? Consequuntur!</p>
-                
+                'body' => '<p class="mb-4" syle="text-align=justify;">Matahari telah disebut dengan banyak nama. Kata Latin untuk Matahari adalah “sol,” yang merupakan kata sifat utama untuk semua hal yang berhubungan dengan Matahari: Surya. Helios, dewa Matahari dalam mitologi Yunani kuno, juga meminjamkan namanya ke banyak istilah yang berhubungan dengan Matahari, seperti heliosfer dan helioseismologi.</p>
+                <p class="mb-4" syle="text-align=justify;">Lalu dari mana kata MATAHARI dalam bahasa Indonesia berasal? Secara Harfiah, kata “matahari” berasal dari gabungan dua kata, yaitu “mata” yang berarti indra pengelihatan manusia, dan “hari” yang merupakan satuan waktu yang terdiri dari siang dan malam. Menurut KBBI (Kamus Besar Bahasa Indonesia), MATAHARI adalah bintang yang merupakan pusat tata surya, memancarkan panas dan cahaya ke Bumi dan planet-palnet lain yang mengedarinya, sebagian besar kandungannya berupa hidrogen dan helium.</p>
+
                 <iframe src="https://solarsystem.nasa.gov/gltf_embed/2352/?height=450&amp;amp;rotate=true&amp;amp;cc=true&amp;amp;fs=true&amp;amp;target=&amp;amp;orbit=" title="" class="smd-iframe-iframe margin-left-auto margin-right-auto border-0" allow="fullscreen">Unable to render the provided source</iframe>',
                 
                 

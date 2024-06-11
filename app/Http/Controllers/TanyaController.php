@@ -23,7 +23,8 @@ class TanyaController extends Controller
         $validatedData = $request->validate([
             'nama' => 'required',
             'email' => 'required|email',
-            'handphone' => 'required',
+            // 'handphone' => 'required',
+            'handphone' => ['required', 'regex:/^(\+62|62|0)8[0-9][0-9]{6,10}$/'],
             'judul' => 'required',
         ]);
 

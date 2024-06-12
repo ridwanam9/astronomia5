@@ -64,6 +64,22 @@ class DatabaseSeeder extends Seeder
                 'judul' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi',
             ]
         );
+        Tanya::create(
+            [
+                'nama' => 'Arif',
+                'email' => 'arif@email.com',
+                'handphone' => '082353135551',
+                'judul' => 'Mengapa Pluto tidak disebut planet?',
+            ]
+        );
+        Tanya::create(
+            [
+                'nama' => 'Mulla',
+                'email' => 'mulla@email.com',
+                'handphone' => '082366135551',
+                'judul' => 'Apa Itu Galaksi?',
+            ]
+        );
 
         // Glosarium::create(
 

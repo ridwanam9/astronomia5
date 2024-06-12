@@ -65,22 +65,22 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        Glosarium::create(
+        // Glosarium::create(
 
-            [
-                'title' => 'Bintang',
-                'gambar' => 'bintang.jpeg', // URL gambar dummy
-                'body' => '<p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
-                quo facilis illo voluptatibus sunt.</p>
-                <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
-                quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
-                eaque soluta rem? Consequuntur!</p>',
-                'published_at' => now(),
+        //     [
+        //         'title' => 'Bintang',
+        //         'gambar' => 'bintang.jpeg', // URL gambar dummy
+        //         'body' => '<p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+        //         dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+        //         quo facilis illo voluptatibus sunt.</p>
+        //         <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
+        //         dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
+        //         quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
+        //         eaque soluta rem? Consequuntur!</p>',
+        //         'published_at' => now(),
 
-            ]
-        );
+        //     ]
+        // );
         //matahari
         Glosarium::create(
            
@@ -942,8 +942,8 @@ class DatabaseSeeder extends Seeder
             ]
         );
         
-        Tanya::factory(3)->create();
-        Kakastro::factory(3)->create();
+        // Tanya::factory(3)->create();
+        // Kakastro::factory(3)->create();
     }
     
 }

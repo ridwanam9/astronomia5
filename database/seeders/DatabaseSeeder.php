@@ -618,18 +618,197 @@ class DatabaseSeeder extends Seeder
 
             ]
         );
+        //bumi
         Glosarium::create(
            
             [
-                'title' => 'Alam Semesta',
-                'gambar' => 'nebula-2.jpg', // URL gambar dummy
-                'body' => '<p class="mb-4">Alam Semesta adalah benda langit yang bisa mengeluarkan cahaya Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum
-                eligendi quo facilis illo voluptatibus sunt.</p>
-            <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
-                quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
-                eaque soluta rem? Consequuntur!</p>',
+                'title' => 'Bumi',
+                'gambar' => 'bumi.jpeg', // URL gambar dummy
+                'body' => '<table style="width:100%; text-align: left;">
+                                            <tr>
+                                                <th rowspan="10"><img class="img-fluid rounded mb-5"
+                                                        style="max-width:60%;" src="assets/assets/img/bumi.jpeg"
+                                                        alt="..." /></th>
+                                            </tr>
+                                            <tr>
+                                                <td width="180">Benda langit</td>
+                                                <td width="200">: Planet</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Jarak Dari Matahari</td>
+                                                <td>: 150 Juta Kilometer</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Diameter</td>
+                                                <td>: 12.756 Kilometer</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Suhu Permukaan</td>
+                                                <td>: 15 °C</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Massa</td>
+                                                <td>: 5,98 x 10^24 kg</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Hari</td>
+                                                <td>: 23 jam 56 menit</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Tahun</td>
+                                                <td>: 365,25 hari</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Gravitasi</td>
+                                                <td>: 9,8 m/s2</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Satlit Alami</td>
+                                                <td>: Bulan</td>
+
+                                            </tr>
+                                        </table>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-3 text-bold">Asal Nama</h6>
+                                        </div>
+
+                                        <p class="mb-4" syle="text-align=justify;">Bumi adalah satu-satunya planet di
+                                            tata surya yang nama bahasa Inggris maupun Indonesianya tidak berasal dari
+                                            mitologi Yunani atau Romawi. Earth bahasa Inggris dari planet Bumi
+                                            tersebut diambil dari bahasa Inggris Kuno dan Jermanik, yakni Ertha atau
+                                            Eorthe yang berarti "tanah". Tentu saja ada banyak nama untuk planet kita
+                                            dalam ribuan bahasa yang digunakan oleh penduduk planet ketiga dari Matahari
+                                            tersebut.
+                                        </p>
+                                        <p class="mb-4" syle="text-align=justify;">Lalu dari mana kata BUMI dalam
+                                            bahasa Indonesia berasal? Penyebutan Bumi dalam bahasa Indonesia berasal
+                                            dari bahasa Sanskerta yaitu Bhumi yang artinya tanah. Untuk nama yang satu
+                                            ini tentu tidak jadi masalah dan mungkin cukup mudah bagi kita untuk
+                                            memahaminya. Menurut Kamus Besar Bahasa Indonesia (KBBI), BUMI adalah planet
+                                            ke-3 dari Matahari, tempat manusia hidup; dunia; jagat; permukaan dunia;
+                                            tanah.
+                                        </p>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-3 text-bold">Mengenal Bumi</h6>
+                                        </div>
+                                        <iframe width="590" height="345"
+                                            src="https://eyes.nasa.gov/apps/earth/?embed=true#/"
+                                            title=""
+                                            class="smd-iframe-iframe margin-left-auto margin-right-auto border-0"
+                                            allow="fullscreen">Unable to render the provided source</iframe>
+                                        <div class="row">
+                                            <h6 class="mb-1 text-bold">Observasi Peristiwa di Bumi dari Luar Angkasa melalui satelit-satelit NASA</h6>
+                                        </div>
+                                        <div class="row">
+                                            <h6 class="mb-4 text-bold">Sumber: NASA</h6>
+                                        </div>
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="mb-4 text-bold">Bumi – planet rumah kita – adalah planet ketiga
+                                                dari Matahari, dan planet terbesar kelima. Planet ini satu-satunya
+                                                tempat yang kita tahu dihuni oleh makhluk hidup.
+                                            </h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Meskipun Bumi hanyalah planet
+                                            terbesar kelima di tata surya, bumi adalah satu-satunya dunia di tata surya
+                                            kita yang memiliki air cair di permukaannya. Hanya sedikit lebih besar dari
+                                            Venus di dekatnya, Bumi adalah planet terbesar dari empat planet yang paling
+                                            dekat dengan Matahari, yang semuanya terbuat dari batu dan logam.
+                                        </p>
+                                        <p class="mb-4" syle="text-align=justify;">Bumi memiliki suhu yang sangat
+                                            bersahabat dan campuran bahan kimia yang membuat kehidupan berlimpah di
+                                            sini. Yang paling menonjol, Bumi memiliki keunikan karena sebagian besar
+                                            planet kita tertutup air cair, karena suhunya memungkinkan air cair ada
+                                            dalam jangka waktu yang lama. Diperkirakan, 71% permukaan Bumi adalah lautan
+                                            sedangkan daratan hanya 29%. Dari seluruh air yang ada di Bumi, 97% adalah
+                                            air asin dan hanya ada 3% air tawar. Lautan luas di bumi menyediakan tempat
+                                            yang nyaman untuk memulai kehidupan sekitar 3,8 miliar tahun yang lalu.</p>
+
+
+
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Struktur bumi</h6>
+                                        </div>
+                                        <img class="card-img-top mb-3" style="max-width:100%;"
+                                            src="assets/assets/img/struktur_bumi.webp" alt="Card image cap">
+                                        <div class="row">
+                                            <h6 class="mb-1 text-bold">Lapisan-lapisan dalam bumi</h6>
+                                        </div>
+                                        <div class="row">
+                                            <h6 class="mb-4 text-bold">Sumber: Langit Selatan</h6>
+                                        </div>
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="mb-4 text-bold">Bumi terdiri dari empat lapisan utama, dimulai
+                                                dengan inti dalam di pusat planet, diselimuti oleh inti luar, mantel,
+                                                dan kerak bumi.
+                                            </h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Inti bagian dalam adalah bola padat
+                                            yang terbuat dari logam besi dan nikel dengan radius sekitar 759 mil (1.221
+                                            kilometer). Di sana suhunya mencapai 9.800 derajat Fahrenheit (5.400 derajat
+                                            Celcius). Yang mengelilingi inti dalam adalah inti luar. Lapisan ini
+                                            tebalnya sekitar 1.400 mil (2.300 kilometer), terbuat dari cairan besi dan
+                                            nikel.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Di antara inti luar dan kerak bumi
+                                            terdapat mantel, lapisan paling tebal. Campuran batuan cair yang panas dan
+                                            kental ini memiliki ketebalan sekitar 1.800 mil (2.900 kilometer) dan
+                                            memiliki konsistensi karamel. Lapisan terluar, kerak bumi, rata-rata
+                                            memiliki kedalaman sekitar 19 mil (30 kilometer) di daratan. Di dasar
+                                            lautan, kerak bumi lebih tipis dan memanjang sekitar 3 mil (5 kilometer)
+                                            dari dasar laut hingga puncak mantel.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Bumi juga punya lapisan gas yang
+                                            cukup tebal yang kita kenal sebagai atmosfer. Lapisan atmosfer Bumi kaya
+                                            dengan gas nitrogen dan oksigen. Jika di Venus kehadiran atmosfer karbon
+                                            dioksida membuat planet tersebut jadi sangat panas, atmosfer Bumi justru
+                                            memegang peran penting untuk menjaga temperatur permukaan tetap hangat.
+                                            Selain itu, atmosfer juga berfungsi sebagai perisai yang melindungi Bumi
+                                            dari meteoroid.</p>
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="mb-4 text-bold">Tanpa atmosfer, laut membeku dan kehidupan pun
+                                                tak pernah bisa bertahan.
+                                            </h6>
+                                        </div>
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Fakta Unik</h6>
+                                        </div>
+
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="text-bold mb-3">Bumi merupakan satu-satunya planet di Tata Surya
+                                                (dan mungkin di Alam Semesta) yang menjadi rumah bagi makhluk hidup
+                                                dengan kondisi suhu dan air yang cukup untuk kehidupan bisa berkembang.
+                                            </h6>
+
+                                        </div>
+
+
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/eueHdEOoEB8?si=scpAQzgJW8W5jSZ2"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div class="row">
+                                            <h6 class="mb-4 mt-4 text-bold">Referensi</h6>
+                                        </div>
+
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="text-bold">1. European Space Agency (ESA)</h6>
+                                            <h6 class="text-bold">2. National Aeronautics and Space Administrations
+                                                (NASA)</h6>
+                                            <h6 class="text-bold">3. Sisi Terang</h6>
+                                            <h6 class="text-bold">4. DW Indonesia</h6>
+                                            <h6 class="text-bold">5. National Geographic Indonesia</h6>
+                                        </div>',
                 'published_at' => now(),
 
             ]

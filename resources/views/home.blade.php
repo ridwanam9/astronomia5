@@ -396,8 +396,8 @@
                                             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                             <div class="divider-custom-line"></div>
                                         </div>
-                                        <img class="img-fluid rounded mb-5" style="max-width:30%;"
-                                            src="{{ asset('assets/assets/img/' . $glosarium->gambar) }}" alt="..." />
+                                        <!-- <img class="img-fluid rounded mb-5" style="max-width:30%;"
+                                            src="{{ asset('assets/assets/img/' . $glosarium->gambar) }}" alt="..." /> -->
                                         <p class="mb-4" style="text-align: justify;">{!! $glosarium->body !!}</p>
                                         <button class="btn btn-primary" data-bs-dismiss="modal">
                                             <i class="fas fa-xmark fa-fw"></i>

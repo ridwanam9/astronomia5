@@ -127,16 +127,16 @@
     margin-right: 20px;" data-bs-toggle="modal" data-bs-target="#glosarium12">
                 <div class="d-inline mt-3" style="max-height:200px; max-width:200px; overflow:hidden; margin-left: auto;
     margin-right: auto;">
-                    <img class="card-img-top" src="assets/assets/img/merkurius.jpeg" alt="Card image cap">
+                    <img class="card-img-top" src="assets/assets/img/venus2.jpeg" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Merkurius</h5>
+                    <h5 class="card-title">Venus</h5>
                     <div class="" style="max-height:100px; overflow:hidden;  --bs-border-opacity: 1;
             border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;">
-                        <p class="card-text">Dewa Romawi Merkurius hampir seluruhnya sering disetarakan pada dewa
-                            pembawa pesan Yunani, Hermes. Merkurius digambarkan dengan sendal bersayap yang membuatnya
+                        <p class="card-text">Dewa Romawi Venus hampir seluruhnya sering disetarakan pada dewa
+                            pembawa pesan Yunani, Hermes. Venus digambarkan dengan sendal bersayap yang membuatnya
                             mampu mengelilingi bumi dengan cepat. Namun, bagi orang Romawi, peran terpentingnya bukanlah
-                            sebagai diplomat atau bahkan utusan para dewa. Merkurius adalah dewa perdagangan Romawi.
+                            sebagai diplomat atau bahkan utusan para dewa. Venus adalah dewa perdagangan Romawi.
                         </p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                                 <div class="row justify-content-center">
                                     <div class="col-lg-8">
 
-                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Merkurius
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Venus
                                         </h2>
 
                                         <div class="divider-custom">
@@ -169,7 +169,7 @@
                                         <table style="width:100%; text-align: left;">
                                             <tr>
                                                 <th rowspan="10"><img class="img-fluid rounded mb-5"
-                                                        style="max-width:60%;" src="assets/assets/img/merkurius.jpeg"
+                                                        style="max-width:60%;" src="assets/assets/img/venus2.jpeg"
                                                         alt="..." /></th>
                                             </tr>
                                             <tr>
@@ -179,37 +179,37 @@
                                             </tr>
                                             <tr>
                                                 <td>Jarak Dari Matahari</td>
-                                                <td>: 46.001.200 - 69.816.900 km</td>
+                                                <td>: 108 Juta Kilometer</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Diameter</td>
-                                                <td>: 4879 Kilometer</td>
+                                                <td>: 12.104 Kilometer</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Suhu Permukaan</td>
-                                                <td>: –180ºC hingga 450ºC</td>
+                                                <td>: 465 °C</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Massa(Bumi=1)</td>
-                                                <td>: 3,3 x 10^23 kg</td>
+                                                <td>: 4,87 x 10^24 kg</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Hari</td>
-                                                <td>: 58 Hari Bumi</td>
+                                                <td>: 243 Hari Bumi</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Tahun</td>
-                                                <td>: 88 Hari Bumi</td>
+                                                <td>: 224,7 Hari Bumi</td>
 
                                             </tr>
                                             <tr>
                                                 <td>Gravitasi(Bumi=1)</td>
-                                                <td>: 3,7 m/s2 (38% gravitasi Bumi)</td>
+                                                <td>: 8,87 m/s (91% Gravitasi Bumi)</td>
 
                                             </tr>
                                             <tr>
@@ -220,113 +220,126 @@
                                         </table>
 
                                         <div class="row">
-                                            <h6 class="mb-4 mt-3 text-bold">Asal Nama</h6>
+                                            <h6 class="mb-4 mt-5 text-bold">Asal Nama</h6>
                                         </div>
                                         <img class="card-img-top mb-3" style="max-width:60%;"
-                                            src="assets/assets/img/dewa_merkurius.jpeg" alt="Card image cap">
+                                            src="assets/assets/img/dewi_venus.jpg" alt="Card image cap">
                                         <div class="row">
-                                            <h6 class="mb-1 text-bold">Lukisan Dewa Merkurius</h6>
+                                            <h6 class="mb-1 text-bold">Lukisan Dewi Venus</h6>
                                         </div>
                                         <div class="row">
                                             <h6 class="mb-4 text-bold">Sumber: National Geographic Indonesia</h6>
                                         </div>
-                                        <p class="mb-4" syle="text-align=justify;">Dewa Romawi Merkurius hampir
-                                            seluruhnya sering disetarakan pada dewa pembawa pesan Yunani, Hermes.
-                                            Merkurius digambarkan dengan sendal bersayap yang membuatnya mampu
-                                            mengelilingi bumi dengan cepat. Namun, bagi orang Romawi, peran
-                                            terpentingnya bukanlah sebagai diplomat atau bahkan utusan para dewa.
-                                            Merkurius adalah dewa perdagangan Romawi.
+                                        <p class="mb-4" syle="text-align=justify;">Venus diambil dari nama dewi Romawi
+                                            dan merupakan satu-satunya planet yang menggunakan nama perempuan. Venus
+                                            adalah dewi cinta dan lambang kecantikan. Planet Venus mendapatkan nama ini
+                                            karena tampilannya yang sangat terang. Keindahan planet ini menjadikannya
+                                            pilihan yang wajar untuk dikaitkan dengan Venus, dewi yang dipuja karena
+                                            pesona dan daya tariknya. Venus adalah benda langit paling terang ketiga
+                                            setelah Matahari dan Bulan.
                                         </p>
-                                        <p class="mb-4" syle="text-align=justify;">Bahasa Latin memiliki banyak kata
-                                            yang terkait erat dengan dewa perdagangan. Beberapa dari kata-kata ini telah
-                                            diturunkan ke dalam penggunaan bahasa Inggris, melanjutkan pengaruh agama
-                                            dan budaya Romawi di zaman modern. Ini termasuk planet MERKURIUS, dinamakan
-                                            dari dewa yang tercepat karena kecepatannya mengorbit matahari.</p>
+
 
                                         <div class="row">
-                                            <h6 class="mb-4 mt-3 text-bold">Mengenal Merkurius</h6>
+                                            <h6 class="mb-4 mt-3 text-bold">Mengenal Venus</h6>
                                         </div>
                                         <iframe width="560" height="315"
-                                            src="https://solarsystem.nasa.gov/gltf_embed/2369/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit="
+                                            src="https://solarsystem.nasa.gov/gltf_embed/2343/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit="
                                             title=""
                                             class="smd-iframe-iframe margin-left-auto margin-right-auto border-0"
                                             allow="fullscreen">Unable to render the provided source</iframe>
                                         <div class="row">
-                                            <h6 class="mb-1 text-bold">Model 3D Dimensi Merkurius</h6>
+                                            <h6 class="mb-1 text-bold">Model 3D Dimensi Atmosfer planet Venus</h6>
                                         </div>
                                         <div class="row">
                                             <h6 class="mb-4 text-bold">Sumber: NASA Visualization Technology
                                                 Applications and Development (VTAD)</h6>
                                         </div>
-                                        <p class="mb-4" syle="text-align=justify;">Planet terkecil di tata surya kita
-                                            dan terdekat dengan matahari, Merkurius hanya sedikit lebih besar dari bulan
-                                            Bumi. Merkurius terbentuk sekitar 4,5 miliar tahun yang lalu ketika
-                                            gravitasi menarik gas berputar -putar dan debu untuk membentuk planet kecil
-                                            ini terdekat dengan Matahari. Dari permukaan Merkurius, Matahari akan muncul
-                                            lebih dari tiga kali lebih besar ketika dilihat dari Bumi, dan sinar
-                                            Matahari akan sebanyak tujuh kali lebih cerah.</p>
-                                        <p class="mb-4" syle="text-align=justify;">Suhu permukaan Merkurius sangat panas
-                                            dan dingin. Karena planet ini sangat dekat dengan matahari, suhu hari dapat
-                                            mencapai tertinggi 800 ° F (430 ° C). Tanpa atmosfer untuk mempertahankan
-                                            panas itu di malam hari, suhu dapat mencelupkan serendah -290 ° F (-180 °
-                                            C). Terlepas dari kedekatannya dengan matahari, Merkurius bukanlah planet
-                                            terpanas di tata surya kita - judul itu milik Venus di dekatnya, berkat
-                                            atmosfernya yang padat. Tapi Merkurius adalah planet tercepat, mengitari di
-                                            sekitar matahari setiap 88 hari Bumi sekali.</p>
-
+                                        <div class="row" style="text-align: left;">
+                                            <h6 class="mb-4 text-bold">Venus adalah planet kedua dari Matahari, dan
+                                                planet tetangga terdekat kita. Ini adalah planet terpanas di tata surya
+                                                kita, dan terkadang disebut sebagai kembaran Bumi.</h6>
+                                        </div>
+                                        <p class="mb-4" syle="text-align=justify;">Ukuran, massa, maupun materi yang
+                                            membentuk Venus dan Bumi hampir sama. Diameter atau garis tengah planet
+                                            Venus 12.104 km atau 650 km lebih kecil dari Bumi. Massa Venus juga hampir
+                                            sama yakni 82% massa Bumi atau 4.868.000.000.000.000.000.000.000 kg atau
+                                            dibaca 4,868 triliun triliun. Selain itu kedua planet sama-sama disusun oleh
+                                            batuan. Karena massanya lebih kecil dari Bumi, gravitasi di Venus juga lebih
+                                            kecil, yakni 8,87 m/s atau sekitar 91% gravitasi Bumi. Jika berat di Bumi
+                                            100 kg, maka di Venus, berat tersebut menjadi 91 kg.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Jika kita berada di permukaan Venus,
+                                            temperaturnya 465º C. Pada suhu sepanas itu, timah pun bisa meleleh.
+                                            Atmosfernya yang tebal memerangkap panas dalam efek rumah kaca yang tak
+                                            terkendali, menjadikannya planet terpanas di tata surya kita. Di bawah awan
+                                            tebal dan persisten, permukaannya terdapat gunung berapi dan pegunungan yang
+                                            berubah bentuk.
+                                        </p>
+                                        <p class="mb-4" syle="text-align=justify;">Akan tetapi, berada di Venus kita
+                                            akan melalui hari yang sangat panjang. Bahkan sebelum satu hari berakhir
+                                            satu tahun sudah terlewati. Waktu yang dibutuhkan Venus untuk mengelilingi
+                                            Matahari lebih cepat dibanding kecepatan rotasinya. Venus hanya butuh 224,7
+                                            hari untuk mengelilingi Matahari dan 243 hari untuk berputar pada sumbunya.
+                                            Arah rotasi Venus berlawanan dengan Bumi dan planet lainnya di Tata Surya,
+                                            karena diduga, Venus pernah ditabrak asteroid besar. Selain itu, Venus tidak
+                                            memiliki satelit yang mengelilinginya.</p>
 
 
 
                                         <div class="row">
-                                            <h6 class="mb-4 mt-4 text-bold">Struktur Merkurius</h6>
+                                            <h6 class="mb-4 mt-4 text-bold">Struktur Venus</h6>
                                         </div>
-                                        <img class="card-img-top mb-3" style="max-width:100%;"
-                                            src="assets/assets/img/struktur_merkurius.webp" alt="Card image cap">
+                                        <iframe width="560" height="315"
+                                            src="https://solarsystem.nasa.gov/gltf_embed/2342/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit="
+                                            title=""
+                                            class="smd-iframe-iframe margin-left-auto margin-right-auto border-0"
+                                            allow="fullscreen">Unable to render the provided source</iframe>
                                         <div class="row">
-                                            <h6 class="mb-1 text-bold">Lapisan-lapisan dalam Merkurius</h6>
+                                            <h6 class="mb-1 text-bold">Model 3D Dimensi Permukaan planet Venus</h6>
                                         </div>
                                         <div class="row">
-                                            <h6 class="mb-4 text-bold">Sumber: Langit Selatan</h6>
+                                            <h6 class="mb-4 text-bold">Sumber: NASA Visualization Technology
+                                                Applications and Development (VTAD)</h6>
                                         </div>
-                                        <p class="mb-4" syle="text-align=justify;">Merkurius adalah planet terpadat
-                                            kedua, setelah Bumi. Ini memiliki inti logam besar dengan radius sekitar
-                                            1.289 mil (2.074 kilometer), sekitar 85% dari radius planet ini. Ada bukti
-                                            bahwa sebagian cair atau cair. Cangkang luar Mercury, sebanding dengan
-                                            cangkang luar Bumi (disebut mantel dan kerak), hanya sekitar 400 kilometer
-                                            (250 mil).</p>
-                                        <p class="mb-4" syle="text-align=justify;">Permukaan Merkurius memiliki
-                                            kemiripan dengan Bulan. Ada banyak kawah yang menutupi permukaan planet
-                                            tersebut. Kawah terbentuk dari tabrakan meteorit ketika Merkurius masih
-                                            muda, sekitar 4 miliar tahun lalu. Ukuran kawah yang terbentuk juga beragam
-                                            dari kawah kecil seukuran mangkuk sampai kawah yang ukurannya setengah
-                                            diameter Merkurius.</p>
-                                        <p class="mb-4" syle="text-align=justify;">Inti besi ini terbagi dua yakni inti
-                                            dalam yang padat, dan inti luar yang cair. Di luar inti besi, terdapat
-                                            selubung silikat setebal 500–700 km. Menariknya, ketika Merkurius masih
-                                            muda, lapisan silikat tersebut berwujud cair dan merupakan sumber letusan
-                                            atau erupsi vulkanik. Akan tetapi, selubung silikat tersebut sudah mendingin
-                                            dan memadat, dan tentu saja aktivitas vulaknik juga sudah berakhir sejak 3,5
-                                            miliar tahun lalu. Di atas selubung silikat, ada permukaan batuan setebal 35
-                                            km. Di kutub-kutub Merkurius, terdapat air es abadi karena lokasi es ini
-                                            tidak pernah menerima cahaya Matahari.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Sama seperti Bumi, Venus adalah
+                                            planet batuan. Komposisinya juga mirip Bumi. Lapisan terluar Venus adalah
+                                            kerak silikat dan di dalamnya ada selubung batuan. Di bawah selubung batuan
+                                            terdapat inti padat yang disusun oleh besi dan nikel. Permukaan Venus juga
+                                            agak mirip Bumi. Ada gunung, lembah, dataran tinggi, juga gunung api. Di
+                                            venus ada sungai lava cair dan lebih dari 1600 gunung api.</p>
+                                        <p class="mb-4" syle="text-align=justify;">Jika kita bisa membagi Venus dan Bumi
+                                            menjadi dua, kutub ke kutub, dan menempatkannya berdampingan, keduanya akan
+                                            terlihat sangat mirip. Setiap planet mempunyai inti besi yang diselimuti
+                                            oleh mantel batuan panas; kulit yang paling tipis membentuk kerak bagian
+                                            luar yang berbatu. Di kedua planet tersebut, kulit tipis ini berubah bentuk
+                                            dan terkadang meletus menjadi gunung berapi sebagai respons terhadap pasang
+                                            surutnya panas dan tekanan jauh di bawah.</p>
+
 
                                         <div class="row">
                                             <h6 class="mb-4 mt-4 text-bold">Fakta Unik</h6>
                                         </div>
 
                                         <div class="row" style="text-align: left;">
-                                            <h6 class="text-bold mb-3">1. Planet Merkurius merupakan planet tercepat di Tata
-                                                Surya. Kecepatan Merkurius mengelilingi matahari setiap 88 hari Bumi,
-                                                meluncur dengan kecepatan hampir 29 mil (47 Km) per detik, lebih cepat
-                                                daripada planet lain di tata surya.</h6>
-                                            <h6 class="text-bold mb-3">2. Meski planet Merkurius merupakan planet terdekat
-                                                dengan Matahari, Namun planet terpanas di Tata Surya justru planet
-                                                Venus, planet kedua di Tata Surya setelah Mekurius.</h6>
+                                            <h6 class="text-bold mb-3">1. Planet Venus merupakan benda langit paling
+                                                terang di langit Bumi setelah Matahari dan Bulan.</h6>
+                                            <h6 class="text-bold mb-3">2. Meski planet Merkurius merupakan planet
+                                                terdekat dengan Matahari, Namun planet terpanas di Tata Surya justru
+                                                planet Venus, planet kedua di Tata Surya setelah Mekurius. Suhu di
+                                                permukaan planet Merkurius ketika siang hari mencapai 450ºC, sedangkan
+                                                planet Venus mencapai suhu 465º C!</h6>
+                                            <h6 class="text-bold mb-3">3. 1 hari di Venus lebih lambat dari 1 Tahun di
+                                                Venus! Venus hanya butuh 224,7 hari untuk mengelilingi Matahari (1
+                                                tahun) dan 243 hari untuk berputar pada sumbunya (1 hari).</h6>
+                                            <h6 class="text-bold mb-3">4. Semua planet di Tata Surya berotasi berlawanan
+                                                arah jarum jam, yakni terbit dari arah Timur dan terbenam di barat. Hal
+                                                ini terkecuali planet Venus, yang berotasi searah jarum jam, yakni
+                                                terbit dari barat dan tenggelam di timur!</h6>
                                         </div>
 
 
                                         <iframe width="560" height="315"
-                                            src="https://www.youtube.com/embed/lC-qxFGrm5c?si=IR8ep014gDutt2m_"
+                                            src="https://www.youtube.com/embed/irBGbF9aTO4?si=ZudeSa4QZSgbQrbW"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -341,7 +354,7 @@
                                                 (NASA)</h6>
                                             <h6 class="text-bold">3. Kompas</h6>
                                             <h6 class="text-bold">4. Langit Selatan</h6>
-                                            <h6 class="text-bold">5. DW Indonesia</h6>
+                                            <h6 class="text-bold">5. Sisi Terang</h6>
                                             <h6 class="text-bold">6. National Geographic Indonesia</h6>
                                         </div>
 

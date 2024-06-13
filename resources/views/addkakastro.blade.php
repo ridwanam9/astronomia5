@@ -45,13 +45,15 @@
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div> -->
-                    <label for="title">Title:</label>
-                    <select id="title" name="title" required>
-                        @foreach($tanyas as $tanya)
-                        <option value="{{ $tanya->judul }}">{{ $tanya->judul }}</option>
-                        @endforeach
-                    </select>
-                    <br>
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="title" name="title" aria-label="Default select example" required>
+                            <!-- <option selected>Open this select menu</option> -->
+                            @foreach($tanyas as $tanya)
+                            <option value="{{ $tanya->judul }}">{{ $tanya->judul }}</option>
+                            @endforeach
+                        </select>
+                        <label for="title">Judul</label>
+                    </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
                         <input class="form-control rounded @error('gambar') is-invalid @enderror" type="file"

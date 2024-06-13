@@ -85,6 +85,7 @@
 
                     <!-- Submit Button-->
                     <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                    <a href="{{ route('kakastros.index') }}" class="btn btn-secondary">Cancel</a>
                 </form>
             </div>
         </div>

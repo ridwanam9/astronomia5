@@ -73,6 +73,7 @@
                     
                     <!-- Submit Button-->
                     <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                    <a href="{{ route('glosariums.index') }}" class="btn btn-secondary">Cancel</a>
                 </form>
             </div>
         </div>

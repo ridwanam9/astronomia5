@@ -7,7 +7,7 @@
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
 
-    <h1 class="masthead-heading text-uppercase mb-0">Add Kakastro</h1>
+    <h1 class="masthead-heading text-uppercase mb-0">Tambah Kakastro</h1>
     </div>
 
 </section>

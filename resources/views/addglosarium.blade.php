@@ -7,7 +7,7 @@
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
 
-    <h1 class="masthead-heading text-uppercase mb-0">Add Glosarium</h1>
+    <h1 class="masthead-heading text-uppercase mb-0">Tambah Glosarium</h1>
     </div>
 
 </section>

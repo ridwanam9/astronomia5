@@ -4,11 +4,23 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Kakastro;
+use App\Models\Tanya;
 
 class KakastroController extends Controller
 {
     //
     //
+    public function create()
+    {
+        // $tanyas = Tanya::all();
+        // Ambil semua judul yang sudah digunakan di Kakastro
+        $usedTitles = Kakastro::pluck('title')->toArray();
+
+        // Ambil tanyas yang judulnya belum digunakan di Kakastro
+        $tanyas = Tanya::whereNotIn('judul', $usedTitles)->get();
+        return view('addkakastro', compact('tanyas'));
+    }
+
     public function store(Request $request)
     {
         $validatedData = $request->validate([

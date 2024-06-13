@@ -7,7 +7,7 @@
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
 
-    <h1 class="masthead-heading text-uppercase mb-0">Tambah Kakastro</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">Tambah Kakastro</h1>
     </div>
 
 </section>
@@ -37,25 +37,35 @@
                     action="{{ route('kakastro.store') }}">
                     <!-- Name input-->
                     @csrf
-                    <div class="form-floating mb-3">
-                        <input class="form-control rounded @error('title') is-invalid @enderror" type="text" name="title" placeholder="title" value="{{ old('title') }}" />
+                    <!-- <div class="form-floating mb-3">
+                        <input class="form-control rounded @error('title') is-invalid @enderror" type="text"
+                            name="title" placeholder="title" value="{{ old('title') }}" />
                         <label for="title">Judul</label>
                         @error('title')
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
-                    </div>
+                    </div> -->
+                    <label for="title">Title:</label>
+                    <select id="title" name="title" required>
+                        @foreach($tanyas as $tanya)
+                        <option value="{{ $tanya->judul }}">{{ $tanya->judul }}</option>
+                        @endforeach
+                    </select>
+                    <br>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control rounded @error('gambar') is-invalid @enderror" type="file" name="gambar" placeholder="gambar" value="{{ old('gambar') }}" />
+                        <input class="form-control rounded @error('gambar') is-invalid @enderror" type="file"
+                            name="gambar" placeholder="gambar" value="{{ old('gambar') }}" />
                         <label for="gambar">Gambar</label>
                         @error('gambar')
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div>
-                
+
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control rounded @error('body') is-invalid @enderror" name="body" placeholder="body" style="height: 20rem">{{ old('body') }}</textarea>
+                        <textarea class="form-control rounded @error('body') is-invalid @enderror" name="body"
+                            placeholder="body" style="height: 20rem">{{ old('body') }}</textarea>
                         <label for="body">Body</label>
                         @error('body')
                         <div class="invalid-feedback">{{ $message }}</div>
@@ -65,12 +75,12 @@
                     <!---->
                     <!-- This is what your users will see when the form-->
                     <!-- has successfully submitted-->
-                    
+
                     <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form-->
-                    
+
                     <!-- Submit Button-->
                     <button class="btn btn-primary btn-xl" type="submit">Send</button>
                 </form>

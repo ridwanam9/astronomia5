@@ -98,6 +98,7 @@ Route::get('/addkakastro', function () {
     return view('addkakastro');
 });
 
+Route::get('/addkakastro', [KakastroController::class, 'create'])->name('kakastro.create');
 
 Route::get('/kakastro/{kakastro}/edit', [kakastroController::class, 'edit'])->name('kakastros.edit');
 Route::patch('/kakastro/{kakastro}', [kakastroController::class, 'update'])->name('kakastros.update');

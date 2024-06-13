@@ -1,0 +1,38 @@
+<p class="mb-4" style="text-align:justify;">Gerhana matahari terjadi ketika
+                posisi bulan terletak di antara bumi dan
+                matahari sehingga terlihat menutup sebagian atau seluruh cahaya matahari di langit
+                bumi.</p>
+            <div class="text-center">
+                <img class="rounded mb-4" style="max-width:30%;"
+                    src="assets/assets/img/gerhanaM.jpeg" alt="..." />
+                <img class="rounded mb-4" style="max-width:40%;"
+                    src="assets/assets/img/observasi.jpeg" alt="..." />
+            </div>
+            <div class="row">
+                <h6 class="mb-4">Peristiwa Gerhana Matahari di Meksiko, 8 April 2024</h6>
+            </div>
+            <p class="mb-4" style="text-align:justify;">Berdasarkan cara tertutupnya matahari,
+                terdapat empat jenis
+                gerhana matahari: gerhana matahari total, gerhana matahari cincin, gerhana matahari
+                sebagian, dan gerhana matahari hibrida/campuran. Walaupun bulan berukuran sekitar
+                400 kali lebih kecil daripada matahari, bulan terletak sekitar 400 kali lebih dekat
+                ke bumi sehingga kedua benda langit ini tampak hampir sama besar di langit bumi.
+                Karena orbit bulan berbentuk elips, jaraknya dari bumi sedikit berubah-ubah sehingga
+                kadang tampak lebih besar dan mampu menutupi matahari (menyebabkan gerhana total)
+                atau kadang lebih kecil dan hanya dapat menyebabkan gerhana matahari cincin.</p>
+
+
+            <div class="text-center">
+                <img class="rounded mb-4" style="max-width:30%;"
+                    src="assets/assets/img/gerhanaB.jpeg" alt="..." />
+                <img class="rounded mb-4" style="max-width:40%;"
+                    src="assets/assets/img/fasegerhanaB.jpeg" alt="..." />
+            </div>
+            <div class="row">
+                <h6 class="mb-4 text-bold">Peristiwa Gerhana Bulan di Yogyakarta, 15 April 2014</h6>
+            </div>
+            <p class="mb-4" style="text-align:justify;">Gerhana Bulan terjadi ketika Bulan terutup
+                oleh bayangan Bumi. Peristiwa
+                ini hanya dapat terjadi ketika posisi Matahari, Bumi, dan Bulan tepat atau hampir
+                membentuk garis lurus dan Bulan berada dalam fase Bulan purnama. Jenis dan durasi
+                gerhana Bulan bergantung pada jarak Bulan terhadap simpulnya di orbit.</p>

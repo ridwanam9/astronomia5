@@ -2,7 +2,7 @@
 
 @section('container1')
 
-<section class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
+<section class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
     height:cover; overflow:auto; background-repeat: no-repeat;
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
@@ -26,7 +26,7 @@
 
 <!-- Contact Section-->
 <section class="page-section text-white" id="contact" style="
-    height: 90vh;">
+    height: cover; overflow: auto">
     <div class="container">
         <!-- Contact Section Form-->
         <div class="row justify-content-center">

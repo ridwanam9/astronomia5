@@ -38,26 +38,28 @@
                     <!-- Name input-->
                     @csrf
                     <div class="form-floating mb-3">
-                        <input class="form-control rounded" type="text" name="title" placeholder="title"
-                            data-sb-validations="required" />
+                        <input class="form-control rounded @error('title') is-invalid @enderror" type="text" name="title" placeholder="title" value="{{ old('title') }}" />
                         <label for="title">Judul</label>
-                        <!-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div> -->
+                        @error('title')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control rounded" type="file" name="gambar" placeholder="gambar"
-                            data-sb-validations="required" />
+                        <input class="form-control rounded @error('gambar') is-invalid @enderror" type="file" name="gambar" placeholder="gambar" value="{{ old('gambar') }}" />
                         <label for="gambar">Gambar</label>
-                        <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->
+                        @error('gambar')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
                     </div>
                 
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control rounded" type="text" name="body" placeholder="body"
-                            style="height: 20rem" data-sb-validations="required"></textarea>
+                        <textarea class="form-control rounded @error('body') is-invalid @enderror" name="body" placeholder="body" style="height: 20rem">{{ old('body') }}</textarea>
                         <label for="body">Body</label>
-                        <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
+                        @error('body')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
                     </div>
                     <!-- Submit success message-->
                     <!---->

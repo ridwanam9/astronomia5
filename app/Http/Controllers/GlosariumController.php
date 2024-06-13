@@ -15,6 +15,10 @@ class GlosariumController extends Controller
             'gambar' => 'required',
             'body' => 'required',
             
+        ], [
+            'title.required' => 'Judul wajib diisi.',
+            'gambar.required' => 'Gambar wajib diunggah.',
+            'body.required' => 'Konten wajib diisi.',
         ]);
 
         glosarium::create($validatedData);
@@ -67,6 +71,11 @@ class GlosariumController extends Controller
             'title' => 'required|max:255',
             'gambar' => 'required',
             'body' => 'required',
+        ], [
+            'title.required' => 'Judul wajib diisi.',
+            'title.max' => 'Judul tidak boleh lebih dari 255 karakter.',
+            'gambar.required' => 'Gambar wajib diunggah.',
+            'body.required' => 'Konten wajib diisi.',
         ]);
 
         // Practical

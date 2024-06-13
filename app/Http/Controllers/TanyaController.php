@@ -26,6 +26,13 @@ class TanyaController extends Controller
             // 'handphone' => 'required',
             'handphone' => ['required', 'regex:/^(\+62|62|0)8[0-9][0-9]{6,10}$/'],
             'judul' => 'required',
+        ], [
+            'nama.required' => 'Nama lengkap wajib diisi.',
+            'email.required' => 'Email wajib diisi.',
+            'email.email' => 'Email tidak valid.',
+            'handphone.required' => 'Nomor handphone wajib diisi.',
+            'handphone.regex' => 'Format nomor handphone tidak valid.',
+            'judul.required' => 'Pertanyaan wajib diisi.',
         ]);
 
         Tanya::create($validatedData);

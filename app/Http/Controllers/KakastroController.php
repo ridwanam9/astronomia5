@@ -13,31 +13,54 @@ class KakastroController extends Controller
     public function create()
     {
         // $tanyas = Tanya::all();
-        // Ambil semua judul yang sudah digunakan di Kakastro
-        $usedTitles = Kakastro::pluck('title')->toArray();
 
-        // Ambil tanyas yang judulnya belum digunakan di Kakastro
-        $tanyas = Tanya::whereNotIn('judul', $usedTitles)->get();
+        // // Ambil semua judul yang sudah digunakan di Kakastro
+        // $usedTitles = Kakastro::pluck('title')->toArray();
+
+        // // Ambil tanyas yang judulnya belum digunakan di Kakastro
+        // $tanyas = Tanya::whereNotIn('judul', $usedTitles)->get();
+
+        // Ambil semua Tanya yang belum memiliki Kakastro
+        $tanyas = Tanya::doesntHave('kakastro')->get();
+
         return view('addkakastro', compact('tanyas'));
     }
 
-    public function store(Request $request)
+    public function store(Request $request, Kakastro $kakastro)
     {
         $validatedData = $request->validate([
-            'title' => 'required',
+            // 'title' => 'required',
             'gambar' => 'required',
             'body' => 'required',
             
         ], [
-            'title.required' => 'Judul wajib diisi.',
-            'title.max' => 'Judul tidak boleh lebih dari 255 karakter.',
+            // 'title.required' => 'Judul wajib diisi.',
+            // 'title.max' => 'Judul tidak boleh lebih dari 255 karakter.',
             'gambar.required' => 'Gambar wajib diunggah.',
             'gambar.file' => 'Gambar harus berupa file.',
             'gambar.image' => 'Gambar harus berupa gambar.',
             'body.required' => 'Konten wajib diisi.',
         ]);
 
-        Kakastro::create($validatedData);
+        // Tangkap input
+        $tanyaId = $request->input('tanya_id');
+        $gambar = $request->input('gambar');
+        $body = $request->input('body');
+
+        // Ambil data terkait dari tabel Tanya
+        $tanya = Tanya::find($tanyaId);
+
+        if (!$tanya) {
+            return redirect()->back()->with('error', 'Tanya not found');
+        }
+
+        // Simpan data ke tabel Kakastro
+        $kakastro = new Kakastro();
+        $kakastro->tanya_id = $tanya->id;
+        $kakastro->title = $tanya->judul;
+        $kakastro->gambar = $gambar;
+        $kakastro->body = $body;
+        $kakastro->save();
 
         return redirect('/')->with('success', 'Kakastro berhasil disimpan!');
     }

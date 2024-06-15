@@ -111,39 +111,6 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        // Tanya::create(
-        //     [
-        //         'nama' => 'Arif',
-        //         'email' => 'arif@email.com',
-        //         'handphone' => '082353135551',
-        //         'judul' => 'Mengapa Pluto tidak disebut planet?',
-        //     ]
-        // );
-        // Tanya::create(
-        //     [
-        //         'nama' => 'Mulla',
-        //         'email' => 'mulla@email.com',
-        //         'handphone' => '082366135551',
-        //         'judul' => 'Apa Itu Galaksi?',
-        //     ]
-        // );
-
-        // Glosarium::create(
-
-        //     [
-        //         'title' => 'Bintang',
-        //         'gambar' => 'bintang.jpeg', // URL gambar dummy
-        //         'body' => '<p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
-        //         dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
-        //         quo facilis illo voluptatibus sunt.</p>
-        //         <p class="mb-4">Bintang adalah benda langit yang bisa mengeluarkan cahaya Lorem ipsum
-        //         dolor sit amet consectetur adipisicing elit. Modi, a fugiat id quos harum eligendi
-        //         quo facilis illo voluptatibus sunt dolores, aspernatur cumque maxime. Porro itaque
-        //         eaque soluta rem? Consequuntur!</p>',
-        //         'published_at' => now(),
-
-        //     ]
-        // );
         //matahari
         Glosarium::create(
            
@@ -882,7 +849,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?',
                 'gambar' => 'gerhanaM.jpeg', // URL gambar dummy
-                
+                'tanya_id' => 1,
                 'body' => '<p class="mb-4" style="text-align:justify;">Gerhana matahari terjadi ketika
                 posisi bulan terletak di antara bumi dan
                 matahari sehingga terlihat menutup sebagian atau seluruh cahaya matahari di langit
@@ -932,7 +899,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Mengapa Bumi bisa Mengalami Musim?',
                 'gambar' => 'orbitbumi2.jpeg', // URL gambar dummy
-                
+                'tanya_id' => 2,
                 'body' => '<p class="mb-4" style="text-align:justify;">Musim adalah pembagian berdasarkan
                                     perubahan cuaca, ekologi, dan banyaknya waktu cahaya matahari di suatu wilayah. Di
                                     Bumi, musim adalah hasil dari paralelisme aksial orbit Bumi yang miring mengelilingi
@@ -969,7 +936,7 @@ class DatabaseSeeder extends Seeder
             [
                 'title' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi?',
                 'gambar' => 'venus2.jpeg', // URL gambar dummy
-                
+                'tanya_id' => 3,
                 'body' => '<p class="mb-4" style="text-align:justify;">Planet di tata surya memiliki satelit yang
                 mengelilinginya. Seperti bulan yang merupakan satelit alami bumi. Namun di tata
                 surya kita, ada dua planet yang tidak memiliki satelit alami yakni Merkurius dan

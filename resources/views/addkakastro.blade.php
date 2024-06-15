@@ -46,13 +46,13 @@
                         @enderror
                     </div> -->
                     <div class="form-floating mb-3">
-                        <select class="form-select" id="title" name="title" aria-label="Default select example" required>
+                        <select class="form-select" id="tanya_id" name="tanya_id" aria-label="Default select example" required>
                             <!-- <option selected>Open this select menu</option> -->
                             @foreach($tanyas as $tanya)
-                            <option value="{{ $tanya->judul }}">{{ $tanya->judul }}</option>
+                            <option value="{{ $tanya->id }}">{{ $tanya->judul }}</option>
                             @endforeach
                         </select>
-                        <label for="title">Judul</label>
+                        <label for="tanya_id">Judul</label>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">

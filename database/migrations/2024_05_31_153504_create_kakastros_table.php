@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('kakastros', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->foreignId('tanya_id')->nullable()->constrained()->nullOnDelete();
             $table->string('gambar');
             $table->text('body');
             $table->timestamp('published_at')->nullable();

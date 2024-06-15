@@ -22,6 +22,6 @@ class Kakastro extends Model
 
     public function tanya()
     {
-        return $this->belongsTo(Kakastro::class);
+        return $this->belongsTo(Tanya::class);
     }
 }

@@ -49,33 +49,68 @@ class DatabaseSeeder extends Seeder
                 'is_admin' => false
             ]
         );
+        User::create(
+            [
+                'name' => 'Yusuf',
+                'email' => 'yusuf@email.com',
+                'email_verified_at' => now(),
+                'handphone' => '082388593831',
+                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'remember_token' => Str::random(10),
+                'is_admin' => false
+            ]
+        );
+        User::create(
+            [
+                'name' => 'Alif',
+                'email' => 'alif@email.com',
+                'email_verified_at' => now(),
+                'handphone' => '082366593831',
+                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'remember_token' => Str::random(10),
+                'is_admin' => false
+            ]
+        );
 
-        // Tanya::create(
-        //     [
-        //         'nama' => 'Yusuf Johan Kelana',
-        //         'email' => 'yusufjk@email.com',
-        //         'handphone' => '082353133841',
-        //         'judul' => 'Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?',
-        //     ]
-        // );
+        Tanya::create(
+            [
+                // 'nama' => 'Yusuf Johan Kelana',
+                // 'email' => 'yusufjk@email.com',
+                // 'handphone' => '082353133841',
+                'user_id' => 2,
+                'judul' => 'Mengapa Gerhana Matahari dan Bulan Bisa Terjadi?',
+            ]
+        );
 
-        // Tanya::create(
-        //     [
-        //         'nama' => 'Noah Hanis',
-        //         'email' => 'noah@email.com',
-        //         'handphone' => '082359993841',
-        //         'judul' => 'Mengapa Bumi bisa Mengalami Musim?',
-        //     ]
-        // );
+        Tanya::create(
+            [
+                // 'nama' => 'Noah Hanis',
+                // 'email' => 'noah@email.com',
+                // 'handphone' => '082359993841',
+                'user_id' => 2,
+                'judul' => 'Mengapa Bumi bisa Mengalami Musim?',
+            ]
+        );
 
-        // Tanya::create(
-        //     [
-        //         'nama' => 'Alif Azani',
-        //         'email' => 'alif@email.com',
-        //         'handphone' => '082353139941',
-        //         'judul' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi?',
-        //     ]
-        // );
+        Tanya::create(
+            [
+                // 'nama' => 'Alif Azani',
+                // 'email' => 'alif@email.com',
+                // 'handphone' => '082353139941',
+                'user_id' => 3,
+                'judul' => 'Apakah Venus Memiliki Satelit Alami Seperti Bumi?',
+            ]
+        );
+        Tanya::create(
+            [
+                // 'nama' => 'Alif Azani',
+                // 'email' => 'alif@email.com',
+                // 'handphone' => '082353139941',
+                'user_id' => 3,
+                'judul' => 'Apa itu Pluto',
+            ]
+        );
+
         // Tanya::create(
         //     [
         //         'nama' => 'Arif',

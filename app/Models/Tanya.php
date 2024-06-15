@@ -12,14 +12,20 @@ class Tanya extends Model
     protected $table = 'tanyas';
 
     protected $fillable = [
-        'nama',
-        'email',
-        'handphone',
+        // 'nama',
+        // 'email',
+        // 'handphone',
+        'user_id',
         'judul',
     ];
 
     public function kakastro()
     {
         return $this->hasOne(Kakastro::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
     }
 }

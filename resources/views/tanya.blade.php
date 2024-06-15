@@ -38,29 +38,29 @@
                 <form id="contactForm" method="POST" action="{{ route('tanya.store') }}">
                     @csrf
                     <!-- Name input-->
-                    <div class="form-floating mb-3">
+                    <!-- <div class="form-floating mb-3">
                         <input class="form-control rounded @error('nama') is-invalid @enderror" type="text" name="nama" placeholder="Nama" value="{{ old('nama') }}" data-sb-validations="required" />
                         <label for="name">Nama Lengkap</label>
                         @error('nama')
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
-                    </div>
+                    </div> -->
                     <!-- Email address input-->
-                    <div class="form-floating mb-3">
+                    <!-- <div class="form-floating mb-3">
                         <input class="form-control rounded @error('email') is-invalid @enderror" type="text" name="email" placeholder="Email" value="{{ old('email') }}" data-sb-validations="required,email" />
                         <label for="email">Alamat Email</label>
                         @error('email')
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
-                    </div>
+                    </div> -->
                     <!-- Phone number input-->
-                    <div class="form-floating mb-3">
+                    <!-- <div class="form-floating mb-3">
                         <input class="form-control rounded @error('handphone') is-invalid @enderror" type="text" name="handphone" placeholder="Handphone" value="{{ old('handphone') }}" data-sb-validations="required" />
                         <label for="phone">Nomor Handphone</label>
                         @error('handphone')
                         <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
-                    </div>
+                    </div> -->
                     <!-- Message input-->
                     <div class="form-floating mb-3">
                         <textarea class="form-control rounded @error('judul') is-invalid @enderror" name="judul" placeholder="Judul" style="height: 10rem" data-sb-validations="required">{{ old('judul') }}</textarea>

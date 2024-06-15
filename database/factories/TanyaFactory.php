@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\User;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Tanya>
@@ -18,9 +19,10 @@ class TanyaFactory extends Factory
     {
         return [
             //
-            'nama' => fake()->name(),
-            'email' => fake()->unique()->safeEmail(),
-            'handphone' => fake()->phoneNumber,
+            // 'nama' => fake()->name(),
+            // 'email' => fake()->unique()->safeEmail(),
+            // 'handphone' => fake()->phoneNumber,
+            'user_id' => User::inRandomOrder()->first()->id,
             'judul' => fake()->sentence,
         ];
     }

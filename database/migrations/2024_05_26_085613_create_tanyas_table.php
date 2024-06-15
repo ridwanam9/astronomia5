@@ -13,10 +13,11 @@ return new class extends Migration
     {
         Schema::create('tanyas', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('email');
-            $table->string('handphone');
+            // $table->string('nama');
+            // $table->string('email');
+            // $table->string('handphone');
             $table->string('judul');
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }

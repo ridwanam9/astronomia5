@@ -56,9 +56,9 @@
                             </form>
                         <div class="card-body">
                             <h5 class="card-title">{{ $tanya->judul }}</h5>
-                            <p class="card-text">Penanya : {{ $tanya->nama }}</p>
-                            <p class="card-text">Email : {{ $tanya->email }}</p>
-                            <p class="card-text">No Handphone : {{ $tanya->handphone }}</p>
+                            <p class="card-text">Penanya : {{ $tanya->user->name }}</p>
+                            <p class="card-text">Email : {{ $tanya->user->email }}</p>
+                            <p class="card-text">No Handphone : {{ $tanya->user->handphone }}</p>
                         </div>
                     </div>
                 </div>

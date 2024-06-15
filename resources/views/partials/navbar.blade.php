@@ -24,7 +24,7 @@
                         Kami</a></li>
                 @endguest -->
                 @guest
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Hubungi
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded disabled" href="/tanya">Hubungi
                         Kami</a></li>
                 @else
                 @if(!auth()->user()->is_admin)
@@ -40,6 +40,7 @@
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">Hi {{auth()->user()->name}}</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        @if(auth()->user()->is_admin)
                         <li><a class="dropdown-item" href="/listpertanyaan"><i
                                     class="bi bi-layout-text-sidebar-reverse"></i>
                                 Daftar Pertanyaan</a></li>
@@ -52,6 +53,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
+                        @endif
                         <li>
                             <form action="/logout" method="post">
                                 @csrf

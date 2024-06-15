@@ -19,9 +19,18 @@
                         href="/glosarium">Glosarium</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/kakastro">Kak
                         Astro</a></li>
+                <!-- @guest
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Hubungi
+                        Kami</a></li>
+                @endguest -->
                 @guest
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Hubungi
                         Kami</a></li>
+                @else
+                @if(!auth()->user()->is_admin)
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Hubungi
+                        Kami</a></li>
+                @endif
                 @endguest
 
             </ul>
@@ -57,7 +66,7 @@
                 </li>
                 @else
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/login"><i
-                            class="bi bi-box-arrow-in-right"></i> Login Admin</a></li>
+                            class="bi bi-box-arrow-in-right"></i> Login</a></li>
                 @endauth
 
 

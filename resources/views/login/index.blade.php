@@ -10,16 +10,14 @@
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
 
-        <h1 class="masthead-heading text-uppercase mb-0">Login Admin</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">Login</h1>
 
     </div>
 
     @if(session()->has('success'))
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
         {{session('success')}}
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     @endif
 
@@ -42,13 +40,14 @@
                     <!-- <h1 class="h3 mb-3 fw-normal">Please sign in</h1> -->
 
                     <div class="form-floating mb-3">
-                        <input type="email" name="email" class="form-control rounded @error('email') is-invalid @enderror" id="email"
+                        <input type="email" name="email"
+                            class="form-control rounded @error('email') is-invalid @enderror" id="email"
                             placeholder="name@example.com" autofocus required>
                         <label for="email">Email address</label>
                         @error('email')
-                            <div class="invalid-feedback">
-                                {{$message}}
-                            </div>
+                        <div class="invalid-feedback">
+                            {{$message}}
+                        </div>
                         @enderror
                     </div>
                     <div class="form-floating mb-3">
@@ -63,11 +62,11 @@
                             Remember me
                         </label>
                     </div> -->
-                    
+
                     <button class="btn btn-primary w-100 py-2 mt-3" type="submit">Sign in</button>
 
                 </form>
-                <!-- <small class="d-block text-center mt-3">Not Registered? <a href="/register">Register Now!</a></small> -->
+                <small class="d-block text-center mt-3">Not Registered? <a href="/register">Register Now!</a></small>
             </main>
         </div>
     </div>

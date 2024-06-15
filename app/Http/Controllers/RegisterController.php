@@ -22,8 +22,16 @@ class RegisterController extends Controller
         
         $validatedData = $request -> validate([
             'name' => 'required|max:255',
-            'email' => 'required|unique:users|email:dns',
+            'email' => 'required|email',
+            'handphone' => ['required', 'regex:/^(\+62|62|0)8[0-9][0-9]{6,10}$/'],
             'password' => 'required|min:8|max:255'
+        ], [
+            'name.required' => 'Nama lengkap wajib diisi.',
+            'email.required' => 'Email wajib diisi.',
+            'email.email' => 'Email tidak valid.',
+            'handphone.required' => 'Nomor handphone wajib diisi.',
+            'handphone.regex' => 'Format nomor handphone tidak valid.',
+            'password.required' => 'Password wajib diisi.',
         ]);
 
         $validatedData['password'] = bcrypt($validatedData['password']);

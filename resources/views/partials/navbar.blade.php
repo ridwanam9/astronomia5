@@ -24,7 +24,7 @@
                         Kami</a></li>
                 @endguest -->
                 @guest
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded disabled" href="/tanya">Hubungi
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/login">Hubungi
                         Kami</a></li>
                 @else
                 @if(!auth()->user()->is_admin)

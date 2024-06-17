@@ -54,7 +54,10 @@ Route::get('/tanya', function () {
 Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store');
 
 //menampilkan data dari tabel tanya ke dalam post.blade.php
-Route::get('/listpertanyaan', [TanyaController::class, 'index']);
+Route::get('/listpertanyaan', [TanyaController::class, 'index'])->name('tanya.index');
+
+// //menampilkan daftar pertanyaan per user
+// Route::get('/tanyaperuser', [TanyaController::class, 'indexperuser'])->name('tanya.indexperuser');
 
 Route::delete('/tanyas/{tanya}', [TanyaController::class, 'destroy'])->name('tanyas.destroy');
 

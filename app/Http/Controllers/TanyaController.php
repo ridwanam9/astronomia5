@@ -9,15 +9,39 @@ use App\Models\Tanya;
 class TanyaController extends Controller
 {
     //
-    public function index()
+    public function index(Request $request)
     {
         // Ambil semua data dari tabel tanyas
         // $tanyas = Tanya::all();
 
-        $tanyas = Tanya::with('user')->get();
+        // $tanyas = Tanya::with('user')->get();
+
+
+        $search = $request->input('search');
+
+        // Simpan nilai pencarian terakhir di sesi
+        session(['last_search' => $search]);
+
+        // Ambil data glosarium berdasarkan pencarian
+        $tanyas = Tanya::with('user')->where('judul', 'like', '%'.$search.'%')
+        ->orWhereHas('user', function ($q) use ($search) {
+            $q->where('name', 'LIKE', '%' . $search . '%');
+        })->get();
         
         // Kirim data ke view post.blade.php
         return view('listpertanyaan', compact('tanyas'));
+    }
+
+    //function untuk menampilkan pertanyaan setiap user
+    public function indexperuser()
+    {
+        // Ambil semua data dari tabel tanyas
+        // $tanyas = Tanya::all();
+
+        $tanyas = Tanya::where('user_id', auth()->user()->id)->get();
+        
+        // Kirim data ke view post.blade.php
+        return view('user.daftartanya', compact('tanyas'));
     }
 
     public function store(Request $request, Tanya $tanya)

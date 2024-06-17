@@ -64,6 +64,7 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->handphone }}</td>
+                        
                         <td style="text-align : center;">{{ $user->tanyas->count() }}</td>
                         <td style="text-align : center;">
                             <div class="flex space-x-3">

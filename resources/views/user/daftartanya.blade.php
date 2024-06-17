@@ -51,6 +51,7 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Pertanyaan</th>
+                        <th scope="col">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -58,6 +59,18 @@
                     <tr class="px-6 py-4 font-medium text-gray-900 md:whitespace-nowrap dark:text-white">
                         <th scope="row">{{ $tanya->id }}</th>
                         <td>{{ $tanya->judul }}</td>
+                        <td>
+                            <div class="flex space-x-3">
+                                <form action="{{ route('tanyas.destroy', $tanya->id) }}" method="Post">
+                                    @csrf
+                                    @method('delete')
+                                    <button type="submit" class="text-red-600 dark:text-red-400 whitespace-nowrap"
+                                        onclick="return confirm('Apakah anda ingin menghapus pertanyaan ini?')">
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
                     </tr>
                     @empty
                     <tr>

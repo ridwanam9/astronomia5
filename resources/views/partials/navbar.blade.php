@@ -2,7 +2,8 @@
     <div class="container">
         <!-- <a class="navbar-brand" href="/">Astronomia</a> -->
         <a class="navbar-brand" href="/">
-            <img width="120px" height="60px" src="{{ asset('assets/assets/img/removedbg-weblogo.png')}}" style="position:relative;">
+            <img width="120px" height="60px" src="{{ asset('assets/assets/img/removedbg-weblogo.png')}}"
+                style="position:relative;">
 
         </a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
@@ -53,6 +54,11 @@
                         <li><a class="dropdown-item" href="/addkakastro"><i
                                     class="bi bi-layout-text-sidebar-reverse"></i>
                                 Tambah Kakastro</a></li>
+                        @else
+                        <li><a class="dropdown-item" href="{{ route('tanya.indexperuser') }}"><i
+                                    class="bi bi-layout-text-sidebar-reverse"></i>
+                                Pertanyaan Anda</a></li>
+                        
                         <li>
                             <hr class="dropdown-divider">
                         </li>

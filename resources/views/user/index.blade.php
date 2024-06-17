@@ -53,7 +53,8 @@
                         <th scope="col">Nama</th>
                         <th scope="col">Email</th>
                         <th scope="col">No Handphone</th>
-                        <th scope="col">Aksi</th>
+                        <th scope="col" style="text-align : center;">Pertanyaan</th>
+                        <th scope="col" style="text-align : center;">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -63,7 +64,8 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->handphone }}</td>
-                        <td>
+                        <td style="text-align : center;">{{ $user->tanyas->count() }}</td>
+                        <td style="text-align : center;">
                             <div class="flex space-x-3">
                                 <form action="{{ route('user.destroy', $user) }}" method="Post">
                                     @csrf

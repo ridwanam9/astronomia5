@@ -7,6 +7,7 @@ use App\Http\Controllers\TanyaController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\GlosariumController;
 use App\Http\Controllers\KakastroController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +27,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+// User
+Route::get('/users', [UserController::class, 'index'])->name('user.index');
+Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 
 //login
 Route::get('/login', [LoginController::class, 'index'])->middleware('guest');

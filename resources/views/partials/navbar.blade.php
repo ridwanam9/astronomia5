@@ -41,6 +41,9 @@
                         data-bs-toggle="dropdown" aria-expanded="false">Hi {{auth()->user()->name}}</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @if(auth()->user()->is_admin)
+                        <li><a class="dropdown-item" href="{{ route('user.index') }}"><i
+                                    class="bi bi-layout-text-sidebar-reverse"></i>
+                                Daftar Pengguna</a></li>
                         <li><a class="dropdown-item" href="/listpertanyaan"><i
                                     class="bi bi-layout-text-sidebar-reverse"></i>
                                 Daftar Pertanyaan</a></li>

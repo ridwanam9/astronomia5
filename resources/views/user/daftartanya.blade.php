@@ -3,13 +3,9 @@
 @section('container1')
 <!-- Masthead-->
 <header class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
-    height:cover; overflow:auto; background-repeat: no-repeat;
+    height:100vh; overflow:auto; background-repeat: no-repeat;
   background-attachment: fixed;">
     <div class="container d-flex align-items-center flex-column">
-
-
-        
-
 
         <!-- Masthead Heading-->
         <h1 class="masthead-heading text-uppercase mb-0">Pertanyaan Anda</h1>

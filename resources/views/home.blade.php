@@ -3,7 +3,7 @@
 @section('container')
 <!-- Masthead-->
 <header class="masthead text-white text-center" style="background-image: url('assets/assets/img/iss.jpeg');
-    height: cover;  overflow: auto">
+    height: cover;  overflow: auto;">
     <div class="container d-flex align-items-center flex-column">
 
         @if(session()->has('success'))
@@ -13,11 +13,22 @@
         </div>
         @endif
 
-
+        <div class="row justify-content-center text-white">
+            <table style="" class="justify-content-center">
+                <tr>
+                    <td width="600" style="font-size:30px; text-align:center; padding:20px;">
+                        <p class="text-uppercase">Luar Angkasa Tanpa Batas!</p>
+                    </td>
+                    <td width="600" style="border-left: 2px solid white; text-align : center; padding:20px;">
+                        <h3 class="masthead-heading text-uppercase">Astronomia</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
 
         <!-- Masthead Heading-->
-        <h2 class="masthead-heading text-uppercase mb-0"> Selamat Datang di Astronomia</h2>
+        <!-- <h2 class="masthead-heading text-uppercase mb-0"> Selamat Datang di Astronomia</h2> -->
 
 
         <br>
@@ -60,7 +71,7 @@
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula2.jpg');
     height: 110vh; overflow: auto">
     <div class="container">
-        
+
         <!-- Glosarium Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Glosarium</h2>
         <!-- Icon Divider-->
@@ -179,7 +190,7 @@
 
 <!-- Kak Astro Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula3.jpg');
-    height: 110vh; overflow: auto;">
+    height: 120vh; overflow: auto;">
     <div class="container">
         <!-- Kak Astro Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Kak Astro</h2>

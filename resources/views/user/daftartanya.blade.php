@@ -85,7 +85,7 @@
                         </tr>
                         @empty
                         <tr>
-                            <td>Kosong</td>
+                            <td colspan="6" style="text-align: center;">Kosong</td>
                         </tr>
                         @endforelse
                     </tbody>

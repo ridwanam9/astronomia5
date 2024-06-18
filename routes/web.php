@@ -56,6 +56,9 @@ Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store'
 //menampilkan data dari tabel tanya ke dalam post.blade.php
 Route::get('/listpertanyaan', [TanyaController::class, 'index'])->name('tanya.index');
 
+Route::get('/tanya/{tanya}/edit', [tanyaController::class, 'edit'])->name('tanya.edit');
+Route::patch('/tanya/{tanya}', [tanyaController::class, 'update'])->name('tanya.update');
+
 //menampilkan daftar pertanyaan per user
 Route::get('/tanyaperuser', [TanyaController::class, 'indexperuser'])->name('tanya.indexperuser');
 

@@ -69,7 +69,42 @@ class TanyaController extends Controller
             // 'category_id' => $request->category_id
         ]);
 
-        return redirect('/')->with('success', 'Pertanyaan Anda berhasil disimpan. Untuk daftar pertanyaannya hanya bisa dilihat oleh Admin.');
+        return redirect('/')->with('success', 'Pertanyaan Anda berhasil disimpan.');
+    }
+
+    public function edit(Tanya $tanya)
+    {
+        
+        return view('tanya.edit', compact('tanya'));
+       
+    }
+
+    public function update(Request $request, Tanya $tanya)
+    {
+        $validatedData = $request->validate([
+            // 'nama' => 'required',
+            // 'email' => 'required|email',
+            // // 'handphone' => 'required',
+            // 'handphone' => ['required', 'regex:/^(\+62|62|0)8[0-9][0-9]{6,10}$/'],
+            'judul' => 'required',
+        ], [
+            // 'nama.required' => 'Nama lengkap wajib diisi.',
+            // 'email.required' => 'Email wajib diisi.',
+            // 'email.email' => 'Email tidak valid.',
+            // 'handphone.required' => 'Nomor handphone wajib diisi.',
+            // 'handphone.regex' => 'Format nomor handphone tidak valid.',
+            'judul.required' => 'Pertanyaan wajib diisi.',
+        ]);
+
+        // Tanya::create($validatedData);
+
+        $tanya->update([
+            'judul' => ucfirst($request->judul),
+            'user_id' => auth()->user()->id,
+            // 'category_id' => $request->category_id
+        ]);
+
+        return redirect()->route('tanya.indexperuser')->with('success', 'Pertanyaan Anda berhasil diubah.');
     }
 
     public function destroy(Tanya $tanya)

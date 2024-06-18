@@ -71,6 +71,16 @@
                                 </form>
                             </div>
                         </td>
+                        <td>
+
+
+                            <a href="{{ route('tanya.edit', $tanya->id) }}"
+                                class="text-red-600 dark:text-red-400 whitespace-nowrap">
+                                Update
+                            </a>
+
+
+                        </td>
                     </tr>
                     @empty
                     <tr>

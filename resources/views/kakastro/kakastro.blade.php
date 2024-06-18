@@ -17,9 +17,14 @@
             berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
 
             @auth
-            Hubungi Kami.
+                @if(!auth()->user()->is_admin)
+                    <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+                @else
+                    Hubungi Kami.
+                @endelse
+                @endif
             @else
-            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+            <a class="text-warning" href="/login">Hubungi Kami</a></big>.
             @endauth
 
             Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda
@@ -131,6 +136,7 @@
                                     </div>
                                 </div>
                                 @auth
+                                @if(auth()->user()->is_admin)
                                 <form action="{{ route('kakastros.destroy', $kakastro->id) }}" method="POST"
                                     style="display: inline-block;">
                                     @csrf
@@ -144,6 +150,7 @@
                                     class="btn btn-warning btn-sm mt-3">
                                     <i class="fas fa-edit"></i> Update
                                 </a>
+                                @endif
                                 @endauth
                             </div>
                         </div>

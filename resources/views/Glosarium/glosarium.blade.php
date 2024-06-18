@@ -129,6 +129,7 @@
                                 </div>
                             </div>
                             @auth
+                            @if(auth()->user()->is_admin)
                             <form action="{{ route('glosariums.destroy', $glosarium->id) }}" method="POST"
                                 style="display: inline-block;">
                                 @csrf
@@ -142,6 +143,7 @@
                                 class="btn btn-warning btn-sm mt-3">
                                 <i class="fas fa-edit"></i> Update
                             </a>
+                            @endif
                             @endauth
                         </div>
                     </div>

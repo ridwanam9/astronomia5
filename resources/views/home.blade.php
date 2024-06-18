@@ -205,9 +205,14 @@
             berisi artikel dari setiap pertanyaan yang anda ajukan melalui halaman
 
             @auth
-            Hubungi Kami.
+                @if(!auth()->user()->is_admin)
+                    <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+                @else
+                    Hubungi Kami.
+                @endelse
+                @endif
             @else
-            <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+            <a class="text-warning" href="/login">Hubungi Kami</a></big>.
             @endauth
 
             Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda

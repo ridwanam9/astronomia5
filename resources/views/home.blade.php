@@ -70,7 +70,7 @@
 
 <!-- Glosarium Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula2.jpg');
-    height: 110vh; overflow: auto">
+    height: 110vh;">
     <div class="container">
 
         <!-- Glosarium Section Heading-->
@@ -193,7 +193,7 @@
 
 <!-- Kak Astro Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula3.jpg');
-    height: 120vh; overflow: auto;">
+    height: 120vh;">
     <div class="container">
         <!-- Kak Astro Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Kak Astro</h2>

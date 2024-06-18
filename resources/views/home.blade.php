@@ -206,13 +206,13 @@
 
             @auth
                 @if(!auth()->user()->is_admin)
-                    <a class="text-warning" href="/tanya">Hubungi Kami</a></big>.
+                    <a class="text-warning" href="/tanya">Tanya</a></big>.
                 @else
-                    Hubungi Kami.
+                    Tanya.
                 @endelse
                 @endif
             @else
-            <a class="text-warning" href="/login">Hubungi Kami</a></big>.
+            <a class="text-warning" href="/login">Tanya</a></big>.
             @endauth
 
             Adapun beberapa artikel tidak hanya berasal dari pertanyaan anda

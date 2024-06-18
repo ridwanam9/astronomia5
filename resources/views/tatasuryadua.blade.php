@@ -47,8 +47,13 @@
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/kakastro">Kak
                         Astro</a></li>
                 @guest
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Hubungi
-                        Kami</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/login">Tanya</a>
+                </li>
+                @else
+                @if(!auth()->user()->is_admin)
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/tanya">Tanya</a>
+                </li>
+                @endif
                 @endguest
 
             </ul>
@@ -98,6 +103,6 @@
 <br>
 
 <!-- <div class="iframe-container"> -->
-    <iframe src="{{ url('/tatasuryaori') }}" height="800" width="1400" title="Iframe Example"></iframe>
+<iframe src="{{ url('/tatasuryaori') }}" height="800" width="1400" title="Iframe Example"></iframe>
 <!-- </div> -->
 @endsection

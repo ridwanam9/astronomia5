@@ -49,8 +49,9 @@
                     </thead>
                     <tbody>
                         @forelse($users as $user)
+                        @php $loopIndex = $loop->index + 1; @endphp
                         <tr class="px-6 py-4 font-medium text-gray-900 md:whitespace-nowrap dark:text-white">
-                            <th scope="row">{{ $user->id }}</th>
+                            <th scope="row">{{ $loopIndex }}</th>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->email }}</td>
                             <td>{{ $user->handphone }}</td>

@@ -55,8 +55,9 @@
                     </thead>
                     <tbody>
                         @forelse($tanyas as $tanya)
+                        @php $loopIndex = $loop->index + 1; @endphp
                         <tr class="px-6 py-4 font-medium text-gray-900 md:whitespace-nowrap dark:text-white">
-                            <th scope="row">{{ $tanya->id }}</th>
+                            <th scope="row">{{ $loopIndex }}</th>
                             <td>{{ $tanya->judul }}</td>
                             <td>
                                 <div class="flex space-x-3">

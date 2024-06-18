@@ -40,24 +40,25 @@
 
 
 
-<header class="masthead text-white text-center" style="background-image: url('assets/assets/img/nebula.jpg');
-    height: 90vh;  overflow: auto;">
+<header class="page-section portfolio" style="background-image: url('assets/assets/img/nebula.jpg');
+    height: 70vh;  overflow: auto;">
     <div class="container d-flex align-items-center flex-column">
 
 
 
         <!-- Masthead Heading-->
-        <h2 class="masthead-heading text-uppercase mb-0">Tentang Kami</h2>
-
+        <!-- <h2 class="masthead-heading text-uppercase mb-0">Tentang Kami</h2> -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Tentang Kami</h2>
         <br>
         <br>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0" style="text-align:justify;">Selamat datang di Astronomia,
+        <p class="font-weight-light mb-0 text-white" style="font-size:20px; text-align:justify;">Selamat datang di Astronomia,
             aplikasi yang dirancang khusus untuk para pecinta astronomi dan mereka yang ingin menjelajahi keindahan alam
             semesta! Kami adalah tim yang terdiri dari mahasiswa pecinta ilmu pengetahuan dan tentu saja menyukai
             mempelajari luar angkasa, sangat bersemangat untuk membawa pengetahuan astronomi ke ujung jari Anda.
         </p>
-        <p class="masthead-subheading font-weight-light mb-0" style="text-align:justify;">Di Astronomia, misi kami
+        <br>
+        <p class="font-weight-light mb-0 text-white" style="font-size:20px; text-align:justify;">Di Astronomia, misi kami
             adalah mempermudah setiap orang untuk belajar tentang ruang angkasa dan fenomena astronomi. Kami percaya
             bahwa pengetahuan tentang alam semesta seharusnya bisa diakses oleh semua orang, tidak peduli latar belakang
             atau usia.

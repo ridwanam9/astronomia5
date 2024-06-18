@@ -48,7 +48,7 @@
 
         <div class="container mt-5">
             <div class="row">
-                <table class="table" style="color: white; background-color: gray;">
+                <table class="table bg-secondary rounded" style="color: white;">
                     <thead class="thead-dark">
                         <tr>
                             <th scope="col">#</th>

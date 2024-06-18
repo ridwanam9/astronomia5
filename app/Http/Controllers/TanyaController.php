@@ -38,7 +38,8 @@ class TanyaController extends Controller
         // Ambil semua data dari tabel tanyas
         // $tanyas = Tanya::all();
 
-        $tanyas = Tanya::where('user_id', auth()->user()->id)->get();
+        // $tanyas = Tanya::where('user_id', auth()->user()->id)->get();
+        $tanyas = Tanya::with('kakastro')->where('user_id', auth()->user()->id)->get();
         
         // Kirim data ke view post.blade.php
         return view('user.daftartanya', compact('tanyas'));

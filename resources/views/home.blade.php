@@ -122,7 +122,7 @@
 
         <div class="row justify-content-center">
 
-            @foreach($glosariums as $glosarium)
+            @foreach($glosariums->take(3) as $glosarium)
             <div class="card mb-4" style="width: 18rem; background-color: #FFE793; cursor: pointer; text-align: center; overflow:hidden; margin-left: 20px;
     margin-right: 20px;" data-bs-toggle="modal" data-bs-target="#glosarium{{ $glosarium->id }}">
                 <div class="d-inline mt-3" style="max-height:200px; max-width:200px; overflow:hidden; margin-left: auto;
@@ -269,7 +269,7 @@
 
 
         <div class="row justify-content-center">
-            @foreach($kakastros as $kakastro)
+            @foreach($kakastros->take(3) as $kakastro)
             <div class="card mb-4" style="width: 18rem; background-color: #FFE793; cursor: pointer; text-align: center; overflow:hidden; margin-left: 20px;
     margin-right: 20px;" data-bs-toggle="modal" data-bs-target="#kakastro{{ $kakastro->id }}">
                 <div class="d-inline mt-3" style="max-height:200px; max-width:200px; overflow:hidden; margin-left: auto;

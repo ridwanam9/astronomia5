@@ -58,8 +58,9 @@
 
 <!-- Glosarium Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula2.jpg');
-    height: 90vh; overflow: auto">
+    height: 110vh; overflow: auto">
     <div class="container">
+        
         <!-- Glosarium Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Glosarium</h2>
         <!-- Icon Divider-->
@@ -83,28 +84,6 @@
                         </div>
                     </div>
                     <img class="img-fluid" src="assets/assets/img/matahari.jpeg" alt="..." />
-                </div>
-            </div>
-
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium22">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                            <i>Bintang</i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/bintang.jpeg" alt="..." />
-                </div>
-            </div>
-
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#glosarium32">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                            <i>Alam Semesta</i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/nebula-2.jpg" alt="..." />
                 </div>
             </div>
 
@@ -200,7 +179,7 @@
 
 <!-- Kak Astro Section-->
 <section class="page-section portfolio" id="portfolio" style="background-image: url('assets/assets/img/nebula3.jpg');
-    height: 90vh; overflow: auto;">
+    height: 110vh; overflow: auto;">
     <div class="container">
         <!-- Kak Astro Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Kak Astro</h2>
@@ -238,30 +217,6 @@
                         </div>
                     </div>
                     <img class="img-fluid" src="assets/assets/img/gerhanaM.jpeg" alt="..." />
-                </div>
-            </div>
-            
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
-                    data-bs-target="#kakastro22">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                            <i>Mengapa Bumi Bisa Mengalami musim?</i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/orbitbumi2.jpeg" alt="..." />
-                </div>
-            </div>
-            
-            <div class="col-md-5 col-lg-3 mb-4">
-                <div class="portfolio-item mx-auto border border-light" data-bs-toggle="modal"
-                    data-bs-target="#kakastro32">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                            <i>Apakah Venus Memiliki Satelit Alami Seperti Bumi?</i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="assets/assets/img/venus2.jpeg" alt="..." />
                 </div>
             </div>
 

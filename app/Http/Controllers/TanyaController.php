@@ -25,7 +25,9 @@ class TanyaController extends Controller
         // Ambil data glosarium berdasarkan pencarian
         $tanyas = Tanya::with('user', 'kakastro')->where('judul', 'like', '%'.$search.'%')
         ->orWhereHas('user', function ($q) use ($search) {
-            $q->where('name', 'LIKE', '%' . $search . '%');
+            $q->where('name', 'LIKE', '%' . $search . '%')
+            ->orWhere('email', 'LIKE', '%' . $search . '%')
+            ->orWhere('handphone', 'LIKE', '%' . $search . '%');
         })->get();
         
         // Kirim data ke view post.blade.php

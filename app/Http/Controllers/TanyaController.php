@@ -35,15 +35,28 @@ class TanyaController extends Controller
     }
 
     //function untuk menampilkan pertanyaan setiap user
-    public function indexperuser()
+    public function indexperuser(Request $request)
     {
         // Ambil semua data dari tabel tanyas
         // $tanyas = Tanya::all();
 
-        // $tanyas = Tanya::where('user_id', auth()->user()->id)->get();
-        $tanyas = Tanya::with('kakastro')->where('user_id', auth()->user()->id)->get();
         
-        // Kirim data ke view post.blade.php
+        // $tanyas = Tanya::with('kakastro')->where('user_id', auth()->user()->id)->get();
+
+        $search = $request->input('search');
+        $query = Tanya::with('kakastro')->where('user_id', auth()->user()->id);
+
+        if ($search) {
+            $query->where(function ($q) use ($search) {
+                $q->where('judul', 'LIKE', "%{$search}%");
+            });
+            session(['last_search' => $search]);
+        } else {
+            session()->forget('last_search');
+        }
+
+        $tanyas = $query->get();
+
         return view('user.daftartanya', compact('tanyas'));
     }
 

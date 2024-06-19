@@ -23,7 +23,7 @@ class TanyaController extends Controller
         session(['last_search' => $search]);
 
         // Ambil data glosarium berdasarkan pencarian
-        $tanyas = Tanya::with('user')->where('judul', 'like', '%'.$search.'%')
+        $tanyas = Tanya::with('user', 'kakastro')->where('judul', 'like', '%'.$search.'%')
         ->orWhereHas('user', function ($q) use ($search) {
             $q->where('name', 'LIKE', '%' . $search . '%');
         })->get();

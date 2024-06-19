@@ -57,6 +57,7 @@
                             <th scope="col">Nama Pengirim</th>
                             <th scope="col">Email Pengirim</th>
                             <th scope="col">No Handphone</th>
+                            <th scope="col">Status</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -68,6 +69,13 @@
                             <td>{{ $tanya->user->name }}</td>
                             <td>{{ $tanya->user->email }}</td>
                             <td>{{ $tanya->user->handphone }}</td>
+                            <td>
+                                @if($tanya->kakastro)
+                                Terjawab
+                                @else
+                                Belum Terjawab
+                                @endif
+                            </td>
                         </tr>
                         @empty
                         <tr>

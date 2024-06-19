@@ -107,7 +107,7 @@ class DatabaseSeeder extends Seeder
                 // 'email' => 'alif@email.com',
                 // 'handphone' => '082353139941',
                 'user_id' => 4,
-                'judul' => 'Apa itu Pluto',
+                'judul' => 'Apa itu Pluto?',
             ]
         );
 

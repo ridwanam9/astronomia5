@@ -14,7 +14,23 @@ class UserController extends Controller
         
 
         // Ambil semua data dari tabel 
-        $users = User::all()->where('id', '!=', '1')->sortBy('id');
+        // $users = User::all()->where('id', '!=', '1')->sortBy('id');
+
+        $search = $request->input('search');
+
+        // Simpan nilai pencarian terakhir di sesi
+        session(['last_search' => $search]);
+
+        $users = User::where('id', '!=', 1)
+            ->when($search, function ($query, $search) {
+                return $query->where(function ($query) use ($search) {
+                    $query->where('name', 'LIKE', "%{$search}%")
+                          ->orWhere('email', 'LIKE', "%{$search}%")
+                          ->orWhere('handphone', 'LIKE', "%{$search}%");
+                });
+            })
+            ->orderBy('id')
+            ->get();
 
         return view('user.index', compact('users'));
     }

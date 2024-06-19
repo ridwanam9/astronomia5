@@ -34,6 +34,22 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         @endif
+        <br>
+        <div class="container">
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-6">
+                    <form action="{{ route('user.index') }}" method="GET">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary" type="submit">Search</button>
+                            </div>
+                            <input type="text" name="search" placeholder="Cari..." class="form-control" aria-label=""
+                                aria-describedby="basic-addon1" value="{{ session('last_search') }}">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="container mt-5">
             <div class="row">
                 <table class="table bg-secondary rounded" style="color: white;">

@@ -58,6 +58,7 @@
                             <th scope="col">Email Pengirim</th>
                             <th scope="col">No Handphone</th>
                             <th scope="col">Status</th>
+                            <th scope="col">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -75,6 +76,18 @@
                                 @else
                                 Belum Terjawab
                                 @endif
+                            </td>
+                            <td>
+                                <div class="flex space-x-3">
+                                    <form action="{{ route('tanyas.destroy', $tanya->id) }}" method="Post">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="submit" class="text-red-600 dark:text-red-400 whitespace-nowrap"
+                                            onclick="return confirm('Apakah anda ingin menghapus pertanyaan ini?')">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </div>
                             </td>
                         </tr>
                         @empty

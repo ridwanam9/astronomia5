@@ -73,7 +73,7 @@
                                     <div class="col-8">
                                         <input id="password" name="password" placeholder="Password"
                                             class="form-control here @error('password') is-invalid @enderror" type="password">
-                                        @error('password')
+                                        @error('password') 
                                         <div class="invalid-feedback">{{ $message }}</div>
                                         @enderror
                                     </div>

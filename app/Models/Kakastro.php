@@ -16,7 +16,7 @@ class Kakastro extends Model
         'gambar',
         'body',
         'tanya_id',
-        'published_at',
+        // 'published_at',
         
     ];
 

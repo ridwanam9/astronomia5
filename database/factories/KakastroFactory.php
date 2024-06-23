@@ -23,7 +23,7 @@ class KakastroFactory extends Factory
             'body' => $this->faker->paragraph,
             'gambar' => $this->faker->imageUrl(150, 150), // URL gambar acak
             'tanya_id' => Tanya::inRandomOrder()->first()->id,
-            'published_at' => now(),
+            // 'published_at' => now(),
             
         ];
     }

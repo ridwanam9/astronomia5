@@ -251,7 +251,7 @@ class DatabaseSeeder extends Seeder
                                         </div>',
                 
                 
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -441,7 +441,7 @@ class DatabaseSeeder extends Seeder
                                         </div>',
                 
                 
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -644,7 +644,7 @@ class DatabaseSeeder extends Seeder
                                         </div>',
                 
                 
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -839,7 +839,7 @@ class DatabaseSeeder extends Seeder
                                             <h6 class="text-bold">4. DW Indonesia</h6>
                                             <h6 class="text-bold">5. National Geographic Indonesia</h6>
                                         </div>',
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -888,7 +888,7 @@ class DatabaseSeeder extends Seeder
                 ini hanya dapat terjadi ketika posisi Matahari, Bumi, dan Bulan tepat atau hampir
                 membentuk garis lurus dan Bulan berada dalam fase Bulan purnama. Jenis dan durasi
                 gerhana Bulan bergantung pada jarak Bulan terhadap simpulnya di orbit.</p>',
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -925,7 +925,7 @@ class DatabaseSeeder extends Seeder
                                     meningkatkan penyinaran surya. Namun, karena jeda musiman, Juni, Juli, dan Agustus
                                     adalah bulan-bulan terpanas di Belahan Bumi Utara, sedangkan Desember, Januari, dan
                                     Februari adalah bulan-bulan terpanas di belahan Bumi selatan.</p>',
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );
@@ -967,7 +967,7 @@ class DatabaseSeeder extends Seeder
                 benturan lagi yang menyebabkan arah rotasi planet Venus berubah. Hal inilah yang
                 menyebabkan mengapa planet Venus tidak memiliki satelit alami.
             </p>',
-                'published_at' => now(),
+                // 'published_at' => now(),
 
             ]
         );

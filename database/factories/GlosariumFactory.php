@@ -25,7 +25,7 @@ class GlosariumFactory extends Factory
             'title' => $this->faker->sentence,
             'body' => $this->faker->paragraph,
             'gambar' => $this->faker->imageUrl(150, 150), // URL gambar acak
-            'published_at' => now(),
+            // 'published_at' => now(),
             
         ];
     }

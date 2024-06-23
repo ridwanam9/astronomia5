@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('gambar');
             $table->text('body');
-            $table->timestamp('published_at')->nullable();
+            // $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }

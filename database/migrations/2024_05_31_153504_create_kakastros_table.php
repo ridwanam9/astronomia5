@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId('tanya_id')->nullable()->constrained()->nullOnDelete();
             $table->string('gambar');
             $table->text('body');
-            $table->timestamp('published_at')->nullable();
+            // $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }

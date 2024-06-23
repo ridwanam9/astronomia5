@@ -65,19 +65,6 @@ Route::get('/tanyaperuser', [TanyaController::class, 'indexperuser'])->name('tan
 Route::delete('/tanyas/{tanya}', [TanyaController::class, 'destroy'])->name('tanyas.destroy');
 
 
-// // Dropdown Menu
-// Route::get('/pengertian', function () {
-//     return view('dropdown/pengertian');
-// });
-
-// Route::get('/sejarah', function () {
-//     return view('dropdown/sejarah');
-// });
-
-// Route::get('/ruanglingkup', function () {
-//     return view('dropdown/ruanglingkup');
-// });
-
 
 
 
@@ -140,13 +127,8 @@ Route::get('/addglosarium', function () {
 Route::get('/glosarium/{glosarium}/edit', [GlosariumController::class, 'edit'])->name('glosariums.edit');
 Route::patch('/glosarium/{glosarium}', [GlosariumController::class, 'update'])->name('glosariums.update');
 
-// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
-// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy'])->name('glosarium.destroy');
-// Route::delete('/glosarium/{id}', [GlosariumController::class, 'destroy']);
+
 
 Route::delete('/glosariums/{glosarium}', [GlosariumController::class, 'destroy'])->name('glosariums.destroy');
 
 
-// Route::get('/glosarium/asteroid', function () {
-//     return view('glosarium/asteroid');
-// });

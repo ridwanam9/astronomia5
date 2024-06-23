@@ -15,7 +15,7 @@ class Glosarium extends Model
         'title',
         'gambar',
         'body',
-        'published_at',
+        // 'published_at',
         
     ];
 }

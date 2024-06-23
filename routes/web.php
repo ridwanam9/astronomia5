@@ -32,6 +32,10 @@ Route::get('/', function () {
 Route::get('/users', [UserController::class, 'index'])->name('user.index');
 Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 
+//Profile
+Route::get('/profile', [UserController::class, 'profile'])->name('user.profile');
+Route::post('/profile', [UserController::class, 'update'])->name('profile.update');
+
 //login
 Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -53,7 +57,7 @@ Route::get('/tanya', function () {
 
 Route::post('/sendtanya', [TanyaController::class, 'store'])->name('tanya.store');
 
-//menampilkan data dari tabel tanya ke dalam post.blade.php
+//menampilkan data dari tabel tanya ke dalam listpertanyaan.blade.php
 Route::get('/listpertanyaan', [TanyaController::class, 'index'])->name('tanya.index');
 
 Route::get('/tanya/{tanya}/edit', [tanyaController::class, 'edit'])->name('tanya.edit');

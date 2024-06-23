@@ -53,14 +53,16 @@
                                     class="bi bi-layout-text-sidebar-reverse"></i>
                                 Tambah Kakastro</a></li>
                         @else
+                        <li><a class="dropdown-item" href="{{ route('user.profile') }}"><i
+                                    class="bi bi-layout-text-sidebar-reverse"></i>
+                                Profil Anda</a></li>
                         <li><a class="dropdown-item" href="{{ route('tanya.indexperuser') }}"><i
                                     class="bi bi-layout-text-sidebar-reverse"></i>
                                 Pertanyaan Anda</a></li>
-                        
+                        @endif
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        @endif
                         <li>
                             <form action="/logout" method="post">
                                 @csrf

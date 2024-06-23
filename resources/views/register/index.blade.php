@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
-@section('container')
+@section('container1')
 
 
-<section class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
+<section class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
     height:cover; overflow:auto; background-repeat: no-repeat;
-  background-attachment: fixed;">
+  background-attachment: fixed; background: rgba(0, 0, 0, 0.5);">
     <div class="container d-flex align-items-center flex-column">
 
         <h1 class="masthead-heading text-uppercase mb-0">Register</h1>

@@ -2,9 +2,9 @@
 
 @section('container1')
 
-<section class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
+<section class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
     height:cover; overflow:auto; background-repeat: no-repeat;
-  background-attachment: fixed;">
+  background-attachment: fixed; background: rgba(0, 0, 0, 0.5);">
     <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         {{-- <img class="masthead-avatar mb-5" src="assets/assets/img/avataaars.svg" alt="..." /> --}}
@@ -23,35 +23,30 @@
         </div>
         @endif
     </div>
-</section>
 
-<div class="container">
-    <div class="row justify-content-center mb-3">
-        <div class="col-md-6">
-            <form action="{{ route('glosariums.index') }}" method="GET">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-primary" type="submit">Search</button>
+    <div class="container mt-4">
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-6">
+                <form action="{{ route('glosariums.index') }}" method="GET">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                        <input type="text" name="search" placeholder="Cari..." class="form-control" aria-label=""
+                            aria-describedby="basic-addon1" value="{{ session('last_search') }}">
                     </div>
-                    <input type="text" name="search" placeholder="Cari..." class="form-control" aria-label=""
-                        aria-describedby="basic-addon1" value="{{ session('last_search') }}">
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="divider-custom divider-light">
-    <div class="divider-custom-line"></div>
-</div>
+    <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+    </div>
 
-<!-- Portfolio Section-->
-<section class="page-section portfolio" id="portfolio">
     <div class="container">
-
-
         <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center text-black">
             @foreach($glosariums as $glosarium)
             <div class="col-md-3 mb-4">
                 <div class="card"

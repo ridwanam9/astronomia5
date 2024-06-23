@@ -2,9 +2,9 @@
 
 @section('container1')
 
-<section class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
+<section class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
     height:cover; overflow:auto; background-repeat: no-repeat;
-  background-attachment: fixed;">
+  background-attachment: fixed; background: rgba(0, 0, 0, 0.5);">
     <div class="container d-flex align-items-center flex-column">
 
         <h1 class="masthead-heading text-uppercase mb-0">Selamat Datang di Tanya Kak Astro</h1>
@@ -23,17 +23,13 @@
 
     </div>
 
-</section>
+    <div class="divider-custom divider-light mt-4">
+        <div class="divider-custom-line"></div>
+    </div>
 
-<div class="divider-custom divider-light">
-    <div class="divider-custom-line"></div>
-</div>
-
-<!-- Contact Section-->
-<section class="page-section text-white" id="contact" style="height: cover; overflow: auto">
     <div class="container">
         <!-- Contact Section Form-->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
             <div class="col-lg-8 col-xl-7">
                 <form id="contactForm" method="POST" action="{{ route('tanya.store') }}">
                     @csrf
@@ -63,7 +59,9 @@
                     </div> -->
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control rounded @error('judul') is-invalid @enderror" name="judul" placeholder="Judul" style="height: 10rem" data-sb-validations="required">{{ old('judul') }}</textarea>
+                        <textarea class="form-control rounded @error('judul') is-invalid @enderror" name="judul"
+                            placeholder="Judul" style="height: 10rem"
+                            data-sb-validations="required">{{ old('judul') }}</textarea>
                         <label for="message">Tuliskan Pertanyaan Anda</label>
                         @error('judul')
                         <div class="invalid-feedback">{{ $message }}</div>
@@ -75,7 +73,8 @@
                             <div class="fw-bolder">Form submission successful!</div>
                             To activate this form, sign up at
                             <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            <a
+                                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
                     </div>
                     <!-- Submit error message-->
@@ -83,7 +82,9 @@
                         <div class="text-center text-danger mb-3">Error sending message!</div>
                     </div>
                     <!-- Submit Button-->
-                    <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                    <div class="text-start"> <!-- Menambahkan div dengan kelas text-start -->
+                        <button class="btn btn-primary btn-xl align-items-center" type="submit">Send</button>
+                    </div>
                 </form>
             </div>
         </div>

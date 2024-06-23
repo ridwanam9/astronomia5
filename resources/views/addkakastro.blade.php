@@ -2,27 +2,22 @@
 
 @section('container1')
 
-<section class="masthead bg-primary text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
+<section class="masthead text-white text-center" style="background-image: url('assets/assets/img/universe.jpg');
     height:cover; overflow:auto; background-repeat: no-repeat;
-  background-attachment: fixed;">
-    <div class="container d-flex align-items-center flex-column">
+  background-attachment: fixed; background: rgba(0, 0, 0, 0.5);">
+    <div class="container d-flex align-items-center flex-column mb-5">
 
         <h1 class="masthead-heading text-uppercase mb-0">Tambah Kakastro</h1>
     </div>
 
-</section>
-
-
-<div class="divider-custom divider-light">
-    <div class="divider-custom-line"></div>
-    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    
+    <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div> -->
-</div>
+    </div>
 
-<!-- Contact Section-->
-<section class="page-section text-white" id="contact" style="
-    height: cover">
-    <div class="container">
+    <div class="container mt-5">
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
@@ -90,7 +85,7 @@
             </div>
         </div>
     </div>
-</section>
 
+</section>
 
 @endsection
